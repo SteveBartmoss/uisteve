@@ -15,6 +15,14 @@
   flex-direction: column;
 }
 
+.menu-item{
+  text-decoration: none;
+  color: white;
+  font-size: 1.3rem;
+  font-family: "Roboto";
+  padding: .5rem 0;
+}
+
 .nav-bar{
   display: flex;
   flex-direction: column;
