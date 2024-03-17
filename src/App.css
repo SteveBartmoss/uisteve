@@ -29,6 +29,37 @@
   padding-left: 1rem;
 }
 
+/*#region estilos de los texfield*/
+.entry-area{
+  position: relative;
+  height: 80px;
+  line-height: 80px;
+}
+
+.basic{
+  position: absolute;
+  width: 100%;
+  font-size: 1.3rem;
+  padding: 0 30px;
+  line-height: 80px;
+  border-radius: 10px;
+  border: 2px solid white;
+  background-color: transparent;
+  transition: 0.1s ease;
+  z-index: 1111;
+}
+
+.label-line{
+  position: absolute;
+  font-size: 1.3rem;
+  color: white;
+  padding: 0 25px;
+  margin: 0 20px;
+  background-color: transparent;
+  transition: 0.2s ease;
+}
+/*#endregion*/
+
 
 .App {
   text-align: center;
