@@ -15,6 +15,12 @@
   flex-direction: column;
 }
 
+.nav-bar{
+  display: flex;
+  flex-direction: column;
+  padding-left: 1rem;
+}
+
 
 .App {
   text-align: center;
