@@ -66,7 +66,7 @@
   background-color: #282c34;
   width: 30rem;
   border-radius: 1rem;
-  padding: .5rem ;
+  padding: 1rem ;
   margin: 1rem;
   box-shadow: 0px 1px 10px rgba(3, 187, 133, 0.2);
 }
@@ -75,6 +75,12 @@
   color: white;
   font-family: "Poppins";
   font-size: 1.3rem;
+}
+
+.card-text{
+  color: white;
+  font-family: "Poppins";
+  font-size: 1.2;
 }
 
 /*#endregion*/
