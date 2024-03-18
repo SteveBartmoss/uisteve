@@ -1,11 +1,11 @@
-import { Card } from "../componentes/Card";
+import { Card, CardTitle } from "../componentes/Card";
 
 export function BasicCards(){
     return(
         <div>
             <h1>Basic Cards</h1>
             <Card>
-                <h1>Esta es una card de prueba</h1>
+                <CardTitle>Esta es una card de prueba</CardTitle>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
                     Facere pariatur molestiae amet, cupiditate inventore maiores reprehenderit, 
