@@ -83,6 +83,16 @@
   font-size: 1.2;
 }
 
+.card-link{
+  text-decoration: none;
+  color: white;
+  font-family: "Poppins";
+  font-weight: 600;
+  background-color: #024059;
+  padding: 1rem;
+  border-radius: .5rem;
+}
+
 /*#endregion*/
 
 .App {
