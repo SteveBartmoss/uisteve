@@ -20,3 +20,9 @@ export function CardText({children}){
         </div>
     );
 }
+
+export function CardLink({url,text}){
+    return(
+        <a className="card-link" href={url}>{text}</a>
+    );
+}
