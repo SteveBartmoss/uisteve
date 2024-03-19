@@ -13,7 +13,7 @@ export function ExtendPanel({ children, title }) {
         <div className="extend-panel">
             <div className="extend-head">
                 <div className="extend-title">{title}</div>
-                <img src="/Assets/expand.svg" onClick={()=>onChangeCollapse()} />
+                <img className={collapse ? 'down-icon' : 'up-icon'} src="/Assets/expand.svg" onClick={()=>onChangeCollapse()} />
             </div>
             <div className={collapse ? 'extend-content' : 'close-content'}>
                 {children}
