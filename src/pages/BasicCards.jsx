@@ -1,4 +1,4 @@
-import { Card, CardLink, CardText, CardTitle } from "../componentes/Card";
+import { Card, CardAccions, CardLink, CardText, CardTitle } from "../componentes/Card";
 
 export function BasicCards(){
     return(
@@ -21,7 +21,9 @@ export function BasicCards(){
                     blanditiis ex tempora, accusantium atque. Natus aliquam tempora 
                     dolor cumque architecto dignissimos nesciunt debitis.
                 </CardText>
-                <CardLink url={'https://stevechambitas.netlify.app/home'} text={'Saber mas'} />
+                <CardAccions>
+                    <CardLink url={'https://stevechambitas.netlify.app/home'} text={'Saber mas'} />
+                </CardAccions>
             </Card>
         </div>
     );
