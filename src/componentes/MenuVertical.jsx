@@ -8,6 +8,7 @@ export function MenuVertical() {
                 <NavLink className="menu-item" to="/dash">Dashboards</NavLink>
                 <NavLink className="menu-item" to="/dash">Ui Elements</NavLink>
                 <NavLink className="menu-item" to="/cards/basic">Card Basic</NavLink>
+                <NavLink className="menu-item" to="/acordeon">Expansion Panel</NavLink>
                 <NavLink className="menu-item" to="/dash">Fomrs & Tables</NavLink>
                 <NavLink className="menu-item" to="/forms/texfield">Texfield</NavLink>
             </div>
