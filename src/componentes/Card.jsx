@@ -26,3 +26,11 @@ export function CardLink({url,text}){
         <a className="card-link" href={url}>{text}</a>
     );
 }
+
+export function CardAccions({children}){
+    return(
+        <div className="card-actions">
+            {children}
+        </div>
+    );
+}
