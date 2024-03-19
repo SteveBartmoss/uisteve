@@ -93,6 +93,14 @@
   border-radius: .5rem;
 }
 
+.card-actions{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
 /*#endregion*/
 
 .App {
