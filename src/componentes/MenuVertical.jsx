@@ -1,4 +1,5 @@
 import { NavLink } from "react-router-dom";
+import { ExtendPanel } from "./ExtendPanel";
 
 export function MenuVertical() {
     return (
@@ -6,11 +7,15 @@ export function MenuVertical() {
             <div className="nav-bar">
                 <NavLink className="menu-item" to="/">Home</NavLink>
                 <NavLink className="menu-item" to="/dash">Dashboards</NavLink>
-                <NavLink className="menu-item" to="/dash">Ui Elements</NavLink>
-                <NavLink className="menu-item" to="/cards/basic">Card Basic</NavLink>
-                <NavLink className="menu-item" to="/acordeon">Expansion Panel</NavLink>
+                <ExtendPanel title={'Ui Elements'}>
+                    <NavLink className="menu-item" to="/cards/basic">Card Basic</NavLink>
+                    <NavLink className="menu-item" to="/acordeon">Expansion Panel</NavLink>
+                </ExtendPanel>
                 <NavLink className="menu-item" to="/dash">Fomrs & Tables</NavLink>
                 <NavLink className="menu-item" to="/forms/texfield">Texfield</NavLink>
+                <ExtendPanel title={'Components'}>
+                    <NavLink className="menu-item" to="/components/buttons">Buttons</NavLink>
+                </ExtendPanel>
             </div>
         </div>
     );
