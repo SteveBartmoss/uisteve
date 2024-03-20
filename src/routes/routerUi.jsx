@@ -3,6 +3,7 @@ import { MenuVertical } from "../componentes/MenuVertical";
 import { TextField } from "../componentes/TextField";
 import { BasicCards } from "../pages/BasicCards";
 import { Acordeones } from "../pages/ExpansionPanel";
+import { Buttons } from "../pages/Buttons";
 
 
 export function RuoterUi(){
@@ -15,6 +16,7 @@ export function RuoterUi(){
                 <Route path="/forms/texfield" element={<TextField />}  />
                 <Route path="/cards/basic" element={<BasicCards />}  />
                 <Route path="/acordeon" element={<Acordeones />} />
+                <Route path="/components/buttons" element={<Buttons />} />
             </Routes>
         </BrowserRouter>
     );
