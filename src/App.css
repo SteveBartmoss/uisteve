@@ -1,4 +1,5 @@
 
+/*#region estilos dos div*/
 .main-frame{
   background-color: #1f2124;
   width: 100vw;
@@ -6,7 +7,11 @@
   display: flex;
   flex-direction: row;
 }
-
+.div-row{
+  display: flex;
+  flex-direction: row;
+}
+/*#endregion*/
 .menu-vertical{
   width: 15rem;
   height: 100vh;
