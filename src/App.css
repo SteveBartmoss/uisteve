@@ -13,7 +13,7 @@
 
 /*#region estilos dos div*/
 .main-frame{
-  background-color: #1f2124;
+  background-color: var(--azul-1);
   width: 100vw;
   height: 100vh;
   display: flex;
@@ -27,7 +27,7 @@
 .menu-vertical{
   width: 15rem;
   height: 100vh;
-  background-color: #024059;
+  background-color: var(--azul-2);
   display: flex;
   flex-direction: column;
 }
