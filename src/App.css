@@ -1,3 +1,15 @@
+:root{
+  --azul-1: #2e4957;
+  --azul-2: #375261;
+  --azul-3: #415c6b;
+  --azul-4: #4a6675;
+  --azul-5: #54707f;
+  --azul-6: #688391;
+  --azul-7: #87a1ab;
+  --azul-8: #a7bfc7;
+  --azul-9: #c8dfe2;
+  --azul-10: #eaffff;
+}
 
 /*#region estilos dos div*/
 .main-frame{
