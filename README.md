@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Plantilla de estilos UI para implementar en react
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este proyecto esta pensado para poder usarse una vez que se clono el repositorio [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
