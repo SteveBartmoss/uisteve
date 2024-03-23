@@ -162,6 +162,7 @@
 /*#endregion*/
 
 /*#region estilos de los extend panel*/
+
 .extend-panel {
   background-color: #15202B;
   border-radius: .5rem;
@@ -198,6 +199,17 @@
 }
 
 /*#endregion*/
+.btn-basic{
+  font-size: 1.3rem;
+  font-weight: bold;
+  font-family: "Poppins";
+  border-radius: .5rem;
+  border: none;
+  padding: .5rem;
+}
+/*region botones*/
+
+
 .App {
   text-align: center;
 }
