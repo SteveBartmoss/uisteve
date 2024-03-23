@@ -23,6 +23,30 @@
 
 }
 
+/*#region estilos para los colores*/
+.principal{
+  background-color: #D500F9;
+  
+}
+
+.success{
+  background-color: #00C853;
+}
+
+.info{
+  background-color: #2962FF;
+}
+
+.warning{
+  background-color: #FFAB00;
+}
+
+.error{
+  background-color: #D84315;
+}
+
+/*#endregion*/
+
 /*#region estilos dos div*/
 .main-frame {
   background-color: var(--azul-2);
@@ -199,16 +223,18 @@
 }
 
 /*#endregion*/
+
+/*region botones*/
 .btn-basic{
   font-size: 1.3rem;
   font-weight: bold;
+  color: white;
   font-family: "Poppins";
   border-radius: .5rem;
   border: none;
   padding: .5rem;
 }
-/*region botones*/
-
+/*#endregion*/
 
 .App {
   text-align: center;
