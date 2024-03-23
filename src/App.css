@@ -1,19 +1,31 @@
 :root{
-  --azul-1: #2e4957;
-  --azul-2: #375261;
-  --azul-3: #415c6b;
-  --azul-4: #4a6675;
-  --azul-5: #54707f;
-  --azul-6: #688391;
-  --azul-7: #87a1ab;
-  --azul-8: #a7bfc7;
-  --azul-9: #c8dfe2;
-  --azul-10: #eaffff;
+  --verde-1: #2e4957;
+  --verde-2: #375261;
+  --verde-3: #415c6b;
+  --verde-4: #4a6675;
+  --verde-5: #54707f;
+  --verde-6: #688391;
+  --verde-7: #87a1ab;
+  --verde-8: #a7bfc7;
+  --verde-9: #c8dfe2;
+  --verde-10: #eaffff;
+
+  --azul-1: #000a23;
+  --azul-2: #02152b;
+  --azul-3: #021d34;
+  --azul-4: #02253d;
+  --azul-5: #012e46;
+  --azul-6: #153f59;
+  --azul-7: #365b77;
+  --azul-8: #557996;
+  --azul-9: #7498b6;
+  --azul-10: #94b8d7;
+
 }
 
 /*#region estilos dos div*/
 .main-frame{
-  background-color: var(--azul-1);
+  background-color: var(--azul-2);
   width: 100vw;
   height: 100vh;
   display: flex;
@@ -27,7 +39,7 @@
 .menu-vertical{
   width: 15rem;
   height: 100vh;
-  background-color: var(--azul-2);
+  background-color: var(--azul-3);
   display: flex;
   flex-direction: column;
 }
@@ -80,12 +92,12 @@
 
 /*#region estilos de las cards*/
 .card-basic{
-  background-color: #282c34;
+  background-color: var(--azul-3);
   width: 30rem;
   border-radius: 1rem;
   padding: 1rem ;
   margin: 1rem;
-  box-shadow: 0px 1px 10px rgba(3, 187, 133, 0.2);
+  box-shadow: 0px 1px 10px rgba(116, 152, 182, 0.2);
 }
 
 .card-title{
@@ -105,7 +117,7 @@
   color: white;
   font-family: "Poppins";
   font-weight: 600;
-  background-color: #024059;
+  background-color: var(--verde-1);
   padding: 1rem;
   border-radius: .5rem;
 }
