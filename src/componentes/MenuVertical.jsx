@@ -26,10 +26,6 @@ export function MenuVertical() {
                     ]
                 }
                 />
-                <ExtendPanel title={'Ui Elements'}>
-                    <NavLink className="menu-item" to="/cards/basic">Card Basic</NavLink>
-                    <NavLink className="menu-item" to="/acordeon">Expansion Panel</NavLink>
-                </ExtendPanel>
                 <MenuList title={'Forms & Tables'} elements={
                     [
                         {
@@ -39,13 +35,6 @@ export function MenuVertical() {
                     ]
                 }
                 />
-                <NavLink className="menu-item" to="/dash">Fomrs & Tables</NavLink>
-                <NavLink className="menu-item" to="/forms/texfield">Texfield</NavLink>
-                <ExtendPanel title={'Components'}>
-                    <NavLink className="menu-item" to="/components/buttons">Buttons</NavLink>
-                    <NavLink className="menu-item" to="/components/tabs">Tabs</NavLink>
-                    <NavLink className="menu-item" to="/components/popup">PopUp</NavLink>
-                </ExtendPanel>
                 <MenuList title={'Components'} elements={
                     [
                         {
