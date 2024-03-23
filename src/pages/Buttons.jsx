@@ -12,7 +12,10 @@ export function Buttons() {
                         Un Boton que tiene un diseno simple pero funcional
                     </CardText>
                     <CardAccions>
-                        <Boton variant='basic'>Seguir</Boton>
+                        <Boton variant='' color={'success'}>success</Boton>
+                        <Boton variant='' color={'info'}>info</Boton>
+                        <Boton variant='' color={'warning'}>warning</Boton>
+                        <Boton variant='' color={'error'}>error</Boton>
                     </CardAccions>
                 </Card>
             </DivRow>
