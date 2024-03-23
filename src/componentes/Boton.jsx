@@ -1,7 +1,7 @@
 
 
-export function Boton({children,variant}){
+export function Boton({children,variant,color}){
     return(
-        <button className="btn-basic" >{children}</button>
+        <button className={`btn-basic ${variant} ${color}`} >{children}</button>
     );
 }
