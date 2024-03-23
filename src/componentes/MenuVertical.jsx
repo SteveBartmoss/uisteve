@@ -15,6 +15,8 @@ export function MenuVertical() {
                 <NavLink className="menu-item" to="/forms/texfield">Texfield</NavLink>
                 <ExtendPanel title={'Components'}>
                     <NavLink className="menu-item" to="/components/buttons">Buttons</NavLink>
+                    <NavLink className="menu-item" to="/components/tabs">Tabs</NavLink>
+                    <NavLink className="menu-item" to="/components/popup">PopUp</NavLink>
                 </ExtendPanel>
             </div>
         </div>
