@@ -1,12 +1,17 @@
+import { NavLink } from "react-router-dom";
 
 
-export function MenuList({children,title}){
+export function MenuList({title,elements}){
     <div className="menu-list">
         <div className="menu-list-head">
             <div className="menu-list-title">{title}</div>
         </div>
         <div>
-            {children}
+            {
+                elements.map(item=>
+                        <NavLink className="menu-item" to={item.route} >{item.title}</NavLink>
+                    )
+            }
         </div>
     </div>
 }
