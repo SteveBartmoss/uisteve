@@ -1,4 +1,4 @@
-:root{
+:root {
   --verde-1: #2e4957;
   --verde-2: #375261;
   --verde-3: #415c6b;
@@ -24,19 +24,21 @@
 }
 
 /*#region estilos dos div*/
-.main-frame{
+.main-frame {
   background-color: var(--azul-2);
   width: 100vw;
   height: 100vh;
   display: flex;
   flex-direction: row;
 }
-.div-row{
+
+.div-row {
   display: flex;
   flex-direction: row;
 }
+
 /*#endregion*/
-.menu-vertical{
+.menu-vertical {
   width: 15rem;
   height: 100vh;
   background-color: var(--azul-3);
@@ -44,7 +46,7 @@
   flex-direction: column;
 }
 
-.menu-item{
+.menu-item {
   text-decoration: none;
   color: white;
   font-size: 1.3rem;
@@ -52,20 +54,46 @@
   padding: .5rem 0;
 }
 
-.nav-bar{
+.nav-bar {
   display: flex;
   flex-direction: column;
   padding-left: 1rem;
 }
 
+/*#region estilos menu list*/
+.menu-list-head {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: .5rem;
+}
+
+.menu-list-title {
+  color: white;
+  font-size: 1.3rem;
+  font-family: "Poppins";
+}
+
+.menu-list-open {
+  display: flex;
+  flex-direction: column;
+  margin-left: 1rem;
+}
+
+.menu-list-close {
+  display: none;
+}
+
+/*#endregion*/
+
 /*#region estilos de los texfield*/
-.entry-area{
+.entry-area {
   position: relative;
   height: 80px;
   line-height: 80px;
 }
 
-.basic{
+.basic {
   position: absolute;
   width: 100%;
   font-size: 1.3rem;
@@ -78,7 +106,7 @@
   z-index: 1111;
 }
 
-.label-line{
+.label-line {
   position: absolute;
   font-size: 1.3rem;
   color: white;
@@ -87,32 +115,33 @@
   background-color: transparent;
   transition: 0.2s ease;
 }
+
 /*#endregion*/
 
 
 /*#region estilos de las cards*/
-.card-basic{
+.card-basic {
   background-color: var(--azul-3);
   width: 30rem;
   border-radius: 1rem;
-  padding: 1rem ;
+  padding: 1rem;
   margin: 1rem;
   box-shadow: 0px 1px 10px rgba(116, 152, 182, 0.2);
 }
 
-.card-title{
+.card-title {
   color: white;
   font-family: "Poppins";
   font-size: 1.3rem;
 }
 
-.card-text{
+.card-text {
   color: white;
   font-family: "Poppins";
   font-size: 1.2;
 }
 
-.card-link{
+.card-link {
   text-decoration: none;
   color: white;
   font-family: "Poppins";
@@ -122,7 +151,7 @@
   border-radius: .5rem;
 }
 
-.card-actions{
+.card-actions {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -133,13 +162,13 @@
 /*#endregion*/
 
 /*#region estilos de los extend panel*/
-.extend-panel{
+.extend-panel {
   background-color: #15202B;
   border-radius: .5rem;
   margin-top: .5rem;
 }
 
-.extend-head{
+.extend-head {
   color: white;
   font-family: "Poppins";
   font-size: 1.3rem;
@@ -149,22 +178,22 @@
   padding: .5rem;
 }
 
-.extend-content{
+.extend-content {
   color: white;
   font-family: "Poppins";
   font-size: 1.2rem;
   padding: .5rem;
 }
 
-.close-content{
+.close-content {
   display: none;
 }
 
-.down-icon{
+.down-icon {
   transform: rotate(180deg);
 }
 
-.up-icon{
+.up-icon {
   transform: rotate(360deg);
 }
 
@@ -203,6 +232,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
