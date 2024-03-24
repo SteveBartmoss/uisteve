@@ -1,19 +1,19 @@
 
-export function Card({children}){
-    return(
+export function Card({ children }) {
+    return (
         <div className="card-basic">{children}</div>
     );
 }
 
-export function CardTitle({children}){
-    return(
+export function CardTitle({ children }) {
+    return (
         <div className="card-title">
             {children}
         </div>
     );
 }
 
-export function CardText({children}){
+export function CardText({ children }) {
     return (
         <div className="card-text">
             {children}
@@ -21,15 +21,37 @@ export function CardText({children}){
     );
 }
 
-export function CardLink({url,text}){
-    return(
+export function CardLink({ url, text }) {
+    return (
         <a className="card-link" href={url}>{text}</a>
     );
 }
 
-export function CardAccions({children}){
-    return(
+export function CardAccions({ children }) {
+    return (
         <div className="card-actions">
+            {children}
+        </div>
+    );
+}
+
+export function CardImg({ children, urlImg }) {
+    return (
+        <div className="card" style={
+            {
+                backgroundSize: 'cover',
+                backgroundImage: `url(/Assets/${urlImg})`,
+            }
+        }>
+            {children}
+        </div>
+
+    );
+}
+
+export function CardImgContent({ children }) {
+    return (
+        <div className="card-content">
             {children}
         </div>
     );
