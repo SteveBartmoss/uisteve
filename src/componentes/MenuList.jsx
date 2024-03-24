@@ -14,7 +14,7 @@ export function MenuList({ title, elements }) {
         <div className="menu-list">
             <div className="menu-list-head">
                 <div className="menu-list-title">{title}</div>
-                <img className={collapse ? 'down-icon' : 'up-icon'} src="/Assets/expand.svg" onClick={() => onChangeCollapse()} />
+                <img className={collapse ? 'down-icon' : 'up-icon'} alt="arrow" src="/Assets/expand.svg" onClick={() => onChangeCollapse()} />
             </div>
             <div className={collapse ? 'menu-list-open' : 'menu-list-close'} >
                 {
