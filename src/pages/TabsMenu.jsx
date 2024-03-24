@@ -23,12 +23,12 @@ export function TabsMenu() {
                                 },
                                 {
                                     id: 2,
-                                    title: "Tab1",
+                                    title: "Tab2",
                                     content: <p className="tab">Hola kevin</p>,
                                 },
                                 {
                                     id: 3,
-                                    title: "Tab1",
+                                    title: "Tab3",
                                     content: <p className="tab">Hola irachoki</p>,
                                 },
                             ]
