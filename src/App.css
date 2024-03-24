@@ -261,6 +261,7 @@
 
 .tab-actibe{
   color: #00C853;
+  border-bottom: solid #00C853;
 }
 
 .tab-close{
