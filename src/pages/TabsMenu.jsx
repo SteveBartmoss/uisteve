@@ -1,4 +1,3 @@
-import { NavLink } from "react-router-dom";
 import { Card, CardAccions, CardText, CardTitle } from "../componentes/Card";
 import { Tabs } from "../componentes/Tabs";
 import { DivRow } from "../componentes/contenedores";
