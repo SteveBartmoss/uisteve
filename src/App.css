@@ -24,24 +24,24 @@
 }
 
 /*#region estilos para los colores*/
-.principal{
+.principal {
   background-color: #D500F9;
-  
+
 }
 
-.success{
+.success {
   background-color: #00C853;
 }
 
-.info{
+.info {
   background-color: #2962FF;
 }
 
-.warning{
+.warning {
   background-color: #FFAB00;
 }
 
-.error{
+.error {
   background-color: #D84315;
 }
 
@@ -61,21 +61,22 @@
   flex-direction: row;
 }
 
-.div-col{
+.div-col {
   display: flex;
   flex-direction: column;
 }
 
-.div-full{
+.div-full {
   width: 100%;
   height: 100%;
 }
 
-.div-footer{
-  background-color: var(--azul-4) ;
+.div-footer {
+  background-color: var(--azul-4);
 }
 
 /*#endregion*/
+
 .menu-vertical {
   width: 15rem;
   height: 100vh;
@@ -167,6 +168,24 @@
   box-shadow: 0px 1px 10px rgba(116, 152, 182, 0.2);
 }
 
+.card{
+  width: 30rem;
+  height: 25rem;
+  border-radius: 1rem;
+  margin: 1rem;
+  box-shadow: 0px 1px 10px rgba(116, 152, 182, 0.2);
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+
+.card-content {
+  background-color: var(--azul-3);
+  padding: 1rem;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+}
+
 .card-title {
   color: white;
   font-family: "Poppins";
@@ -239,7 +258,7 @@
 /*#endregion*/
 
 /*#region botones*/
-.btn-basic{
+.btn-basic {
   font-size: 1.2rem;
   font-weight: 400;
   color: white;
@@ -250,30 +269,31 @@
   margin: .5rem;
 }
 
-.btn-basic:hover{
+.btn-basic:hover {
   cursor: pointer;
 }
+
 /*#endregion*/
 
 /*#region tabs/*/
-.header-tabs{
+.header-tabs {
   display: flex;
   flex-direction: row;
 }
 
-.tab{
+.tab {
   color: white;
   font-size: 1.3rem;
   font-family: "Poppins";
   margin: 0 .5rem;
 }
 
-.tab-actibe{
+.tab-actibe {
   color: #00C853;
   border-bottom: solid #00C853;
 }
 
-.tab-close{
+.tab-close {
   display: none;
 }
 
