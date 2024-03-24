@@ -1,5 +1,4 @@
 import { NavLink } from "react-router-dom";
-import { ExtendPanel } from "./ExtendPanel";
 import { MenuList } from "./MenuList";
 
 export function MenuVertical() {
