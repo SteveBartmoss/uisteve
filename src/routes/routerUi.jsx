@@ -7,6 +7,7 @@ import { Buttons } from "../pages/Buttons";
 import { TabsMenu } from "../pages/TabsMenu";
 import { Foter } from "../pages/Foter";
 import { DivFull } from "../componentes/contenedores";
+import { TopBar } from "../componentes/TopBar";
 
 
 export function RuoterUi() {
@@ -14,6 +15,7 @@ export function RuoterUi() {
         <BrowserRouter>
             <MenuVertical />
             <DivFull>
+                <TopBar />
                 <Routes>
                     <Route path="/" element={<h1>Home</h1>} />
                     <Route path="/dash" element={<h1>Dash</h1>} />
