@@ -1,7 +1,12 @@
 
 
-export function Boton({children,variant,color}){
+export function Boton({children,variant,color,evento}){
+
+    const clickHandler=()=>{
+        evento()
+    }
+
     return(
-        <button className={`btn-basic ${variant} ${color}`} >{children}</button>
+        <button onClick={clickHandler} className={`btn-basic ${variant} ${color}`} >{children}</button>
     );
 }
