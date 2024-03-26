@@ -77,6 +77,11 @@
   background-color: var(--azul-4);
 }
 
+.div-90{
+  height: 90%;
+  overflow-y: scroll;
+}
+
 /*#endregion*/
 
 .menu-vertical {
