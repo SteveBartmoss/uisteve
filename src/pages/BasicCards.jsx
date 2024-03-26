@@ -3,7 +3,7 @@ import { DivCol, DivFull, DivRow } from "../componentes/contenedores";
 
 export function BasicCards() {
     return (
-        <div>
+        <div className="div-90">
             <h1>Basic Cards</h1>
             <DivRow>
                 <DivCol>
