@@ -31,3 +31,11 @@ export function DivFull({children}){
         </div>
     );
 }
+
+export function Panel({children}){
+    return(
+        <div className="div-90">
+            {children}
+        </div>
+    )
+}
