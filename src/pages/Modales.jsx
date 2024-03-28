@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Card, CardAccions, CardText, CardTitle } from "../componentes/Card";
 import { Modal } from "../componentes/Modal";
-import { DivRow } from "../componentes/contenedores";
+import { DivRow, Panel } from "../componentes/contenedores";
 import { Boton } from "../componentes/Boton";
 
 
@@ -19,7 +19,7 @@ export function Modales(){
 
     return(
 
-        <div className="div-90">
+        <Panel>
             <h1>Modales simples</h1>
             <DivRow>
                 <Card>
@@ -33,8 +33,7 @@ export function Modales(){
                     </CardAccions>
                 </Card>
             </DivRow>
-            
             <Modal estado={open} close={closeModal}/>
-        </div>
+        </Panel>
     );
 } 
