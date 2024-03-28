@@ -13,6 +13,10 @@ export function Modales(){
         setOpen(true)
     }
 
+    const closeModal=()=>{
+        setOpen(false)
+    }
+
     return(
 
         <div className="div-90">
@@ -30,7 +34,7 @@ export function Modales(){
                 </Card>
             </DivRow>
             
-            <Modal estado={open} />
+            <Modal estado={open} close={closeModal}/>
         </div>
     );
 } 
