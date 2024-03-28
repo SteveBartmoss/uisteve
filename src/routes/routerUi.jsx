@@ -17,8 +17,8 @@ export function RuoterUi() {
             <DivFull>
                 <TopBar />
                 <Routes>
-                    <Route path="/" element={<h1>Home</h1>} />
-                    <Route path="/dash" element={<h1>Dash</h1>} />
+                    <Route path="/" element={<BasicCards />} />
+                    <Route path="/dash" element={<BasicCards />}/>
                     <Route path="/forms/texfield" element={<TextField />} />
                     <Route path="/cards/basic" element={<BasicCards />} />
                     <Route path="/acordeon" element={<Acordeones />} />
