@@ -316,7 +316,7 @@
   right: 0;
   bottom: 0;
   position: fixed;
-  background: rgba(49, 49, 49, 0.8);
+  background: rgba(49, 49, 49, 0.5);
 }
 
 .modal-content{
@@ -328,6 +328,10 @@
   background: var(--azul-3);
   padding: 14px 28px;
   border-radius: .5rem;
+}
+
+.modal-close{
+  display: none;
 }
 
 /*#endregion*/
