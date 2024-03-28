@@ -8,6 +8,7 @@ import { TabsMenu } from "../pages/TabsMenu";
 import { Foter } from "../pages/Foter";
 import { DivFull } from "../componentes/contenedores";
 import { TopBar } from "../componentes/TopBar";
+import { Modales } from "../pages/Modales";
 
 
 export function RuoterUi() {
@@ -24,6 +25,7 @@ export function RuoterUi() {
                     <Route path="/acordeon" element={<Acordeones />} />
                     <Route path="/components/buttons" element={<Buttons />} />
                     <Route path="/components/tabs" element={<TabsMenu />} />
+                    <Route path="/components/modales" element={<Modales />} />
                 </Routes>
                 <Foter />
             </DivFull>
