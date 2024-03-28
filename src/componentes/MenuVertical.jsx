@@ -44,8 +44,8 @@ export function MenuVertical() {
                             route: '/components/tabs',
                         },
                         {
-                            title: 'PopUp',
-                            route: '/components/popup',
+                            title: 'Modales',
+                            route: '/components/modales',
                         }
                     ]
                 } />
