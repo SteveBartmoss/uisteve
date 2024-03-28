@@ -1,12 +1,25 @@
+import { useEffect, useState } from "react";
+
  
 
- export function Modal(){
-    return(
-        <div>
-            <h1>Un simple modal</h1>
-            <div>
-                <h1>Este sera el modal para mostrar informacion</h1>
+ export function Modal({children,estado}){
+
+    
+    if(estado){
+        return(
+            <div className="overlay">
+                <h1>Un simple modal</h1>
+                <div className="modal-content">
+                    <h1>Este sera el modal para mostrar informacion</h1>
+                </div>
             </div>
-        </div>
-    );
+        )
+    }
+    else{
+        return(
+            <>
+            </>
+        )
+    }
+
  }
