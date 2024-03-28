@@ -1,11 +1,12 @@
 import { Card, CardAccions, CardContent, CardImg, CardImgContent, CardLink, CardText, CardTitle } from "../componentes/Card";
-import { DivCol, DivFull, DivRow } from "../componentes/contenedores";
+import { DivCol, DivFull, DivRow, Panel } from "../componentes/contenedores";
 
 export function BasicCards() {
     return (
-        <div className="div-90">
+        <Panel>
             <h1>Basic Cards</h1>
             <DivRow>
+
                 <DivCol>
                     <Card>
                         <CardTitle>Esta es una card de prueba</CardTitle>
@@ -43,7 +44,9 @@ export function BasicCards() {
                         </CardImgContent>
                     </CardImg>
                 </DivCol>
+
             </DivRow>
-        </div>
+        </Panel>
+        
     );
 }
