@@ -6,7 +6,6 @@ export function MenuVertical() {
         <div className="menu-vertical">
             <div className="nav-bar">
                 <NavLink className="menu-item" to="/">Home</NavLink>
-                <NavLink className="menu-item" to="/dash">Dashboards</NavLink>
                 <MenuList title={'Cards'} elements={
                     [
                         {
