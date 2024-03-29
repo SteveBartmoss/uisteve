@@ -23,13 +23,15 @@ export function Tabs({ headers, elements }) {
                     )
                 }
             </DivRow>
-            {
-                headers.map(head =>
-                    <div key={head.id}>
-                        <div className={currentTab === head.id ? '' : 'tab-close'}>{head.content}</div>
-                    </div>
-                )
-            }
+            <DivRow>
+                {
+                    headers.map(head =>
+                        <div key={head.id} className={currentTab === head.id ? '' : 'tab-close'}>
+                            {head.content}
+                        </div>
+                    )
+                }
+            </DivRow>
         </DivCol>
     )
 }
