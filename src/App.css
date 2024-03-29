@@ -20,7 +20,11 @@
   --azul-8: #557996;
   --azul-9: #7498b6;
   --azul-10: #94b8d7;
+  --azul-11: #149eca;
 
+  --gris-1: #1f2124;
+  --gris-2: #171718;
+  --gris-3: #23272f;
 }
 
 /*#region estilos para los colores*/
@@ -49,7 +53,7 @@
 
 /*#region estilos dos div*/
 .main-frame {
-  background-color: var(--azul-2);
+  background-color: var(--gris-1);
   width: 100vw;
   height: 100vh;
   display: flex;
@@ -74,7 +78,7 @@
 }
 
 .div-footer {
-  background-color: var(--azul-4);
+  background-color: var(--gris-2);
 }
 
 .div-90{
@@ -87,7 +91,7 @@
 .menu-vertical {
   width: 15rem;
   height: 100vh;
-  background-color: var(--azul-3);
+  background-color: var(--gris-3);
   display: flex;
   flex-direction: column;
 }
@@ -167,7 +171,7 @@
 
 /*#region estilos de las cards*/
 .card-basic {
-  background-color: var(--azul-3);
+  background-color: var(--gris-3);
   width: 30rem;
   border-radius: 1rem;
   padding: 1rem;
