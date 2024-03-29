@@ -9,6 +9,7 @@ import { Foter } from "../pages/Foter";
 import { DivFull } from "../componentes/contenedores";
 import { TopBar } from "../componentes/TopBar";
 import { Modales } from "../pages/Modales";
+import { InputsPage } from "../pages/InputsPage";
 
 
 export function RuoterUi() {
@@ -20,7 +21,7 @@ export function RuoterUi() {
                 <Routes>
                     <Route path="/" element={<BasicCards />} />
                     <Route path="/dash" element={<BasicCards />}/>
-                    <Route path="/forms/texfield" element={<TextField />} />
+                    <Route path="/forms/texfield" element={<InputsPage />} />
                     <Route path="/cards/basic" element={<BasicCards />} />
                     <Route path="/acordeon" element={<Acordeones />} />
                     <Route path="/components/buttons" element={<Buttons />} />
