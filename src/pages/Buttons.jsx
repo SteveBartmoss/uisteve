@@ -1,18 +1,18 @@
 import { useState } from "react";
 import { Boton } from "../componentes/Boton";
 import { Card, CardAccions, CardText, CardTitle } from "../componentes/Card";
-import { DivRow } from "../componentes/contenedores";
+import { DivRow, Panel } from "../componentes/contenedores";
 
 export function Buttons() {
 
-    const [evento,setEvento]=useState('');
+    const [evento, setEvento] = useState('');
 
-    const onHandleClick=(tipo)=>{
+    const onHandleClick = (tipo) => {
         setEvento(tipo)
     }
 
     return (
-        <div>
+        <Panel>
             <DivRow>
                 <Card>
                     <CardTitle>Basico</CardTitle>
@@ -23,13 +23,13 @@ export function Buttons() {
                         Se presiono un boton tipo {evento}
                     </CardText>
                     <CardAccions>
-                        <Boton evento={()=>onHandleClick('succes')} variant='' color={'success'}>success</Boton>
-                        <Boton evento={()=>onHandleClick('info')} variant='' color={'info'}>info</Boton>
-                        <Boton evento={()=>onHandleClick('warning')} variant='' color={'warning'}>warning</Boton>
-                        <Boton evento={()=>onHandleClick('error')} variant='' color={'error'}>error</Boton>
+                        <Boton evento={() => onHandleClick('succes')} variant='' color={'success'}>success</Boton>
+                        <Boton evento={() => onHandleClick('info')} variant='' color={'info'}>info</Boton>
+                        <Boton evento={() => onHandleClick('warning')} variant='' color={'warning'}>warning</Boton>
+                        <Boton evento={() => onHandleClick('error')} variant='' color={'error'}>error</Boton>
                     </CardAccions>
                 </Card>
             </DivRow>
-        </div>
+        </Panel>
     );
 }
