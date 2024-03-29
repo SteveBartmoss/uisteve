@@ -18,17 +18,29 @@ export function TabsMenu() {
                                 {
                                     id: 1,
                                     title: "Tab1",
-                                    content: <p className="tab">Hola marco</p>,
+                                    content:
+                                        <Panel>
+                                            <h1>La primera tab</h1>
+                                            <p>Este es el contenido de la primera tab</p>
+                                        </Panel>,
                                 },
                                 {
                                     id: 2,
                                     title: "Tab2",
-                                    content: <p className="tab">Hola kevin</p>,
+                                    content:
+                                        <Panel>
+                                            <h1>La segunda tab</h1>
+                                            <p>Este es el contenido de la segunda tab</p>
+                                        </Panel>,
                                 },
                                 {
                                     id: 3,
                                     title: "Tab3",
-                                    content: <p className="tab">Hola irachoki</p>,
+                                    content:
+                                        <Panel>
+                                            <h1>La tercera tab</h1>
+                                            <p>Este es el contenido de la tercera tab</p>
+                                        </Panel>,
                                 },
                             ]
                         }
