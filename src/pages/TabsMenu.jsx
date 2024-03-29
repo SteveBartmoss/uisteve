@@ -1,4 +1,4 @@
-import { Card, CardAccions, CardText, CardTitle } from "../componentes/Card";
+import { Card, CardAccions, CardContent, CardText, CardTitle } from "../componentes/Card";
 import { Tabs } from "../componentes/Tabs";
 import { DivRow, Panel } from "../componentes/contenedores";
 
@@ -12,7 +12,7 @@ export function TabsMenu() {
                     <CardText>
                         Unas simples tabs que permiten cambiar elementos
                     </CardText>
-                    <CardAccions>
+                    <CardContent>
                         <Tabs headers={
                             [
                                 {
@@ -34,7 +34,7 @@ export function TabsMenu() {
                         }
 
                         />
-                    </CardAccions>
+                    </CardContent>
                 </Card>
             </DivRow>
         </Panel>
