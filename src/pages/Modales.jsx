@@ -33,7 +33,20 @@ export function Modales(){
                     </CardAccions>
                 </Card>
             </DivRow>
-            <Modal estado={open} close={closeModal}/>
+            <Modal estado={open} close={closeModal}>
+                <Card>
+                    <CardTitle>Hola a todos</CardTitle>
+                    <CardText>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Ducimus cumque sapiente quaerat dolores excepturi beatae 
+                        maxime rerum dolorem sed aperiam. Veniam modi, expedita 
+                        repellat optio accusamus placeat sint tenetur cumque.
+                    </CardText>
+                    <CardAccions>
+                        <Boton evento={()=>closeModal()} variant='' color={'success'}>Cerrar</Boton>
+                    </CardAccions>
+                </Card>
+            </Modal>
         </Panel>
     );
 } 
