@@ -1,10 +1,11 @@
 import { Card, CardText, CardTitle } from "../componentes/Card";
 import { ExtendPanel } from "../componentes/ExtendPanel";
+import { Panel } from "../componentes/contenedores";
 
 
 export function Acordeones() {
     return (
-        <div>
+        <Panel>
             <h1>Expansion Panel</h1>
             <Card>
                 <CardTitle>Basico</CardTitle>
@@ -22,6 +23,6 @@ export function Acordeones() {
                     suscipit nemo quos amet nam quo quam possimus deserunt provident quibusdam?
                 </ExtendPanel>
             </Card>
-        </div>
+        </Panel>
     );
 }
