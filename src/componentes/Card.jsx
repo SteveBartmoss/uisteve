@@ -51,6 +51,14 @@ export function CardImg({ children, urlImg }) {
 
 export function CardImgContent({ children }) {
     return (
+        <div className="card-img-content">
+            {children}
+        </div>
+    );
+}
+
+export function CardContent({children}){
+    return(
         <div className="card-content">
             {children}
         </div>
