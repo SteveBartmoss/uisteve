@@ -1,5 +1,5 @@
-import { Card, CardAccions, CardContent, CardImg, CardImgContent, CardLink, CardText, CardTitle } from "../componentes/Card";
-import { DivCol, DivFull, DivRow, Panel } from "../componentes/contenedores";
+import { Card, CardAccions, CardImg, CardImgContent, CardLink, CardText, CardTitle } from "../componentes/Card";
+import { DivCol, DivRow, Panel } from "../componentes/contenedores";
 
 export function BasicCards() {
     return (
@@ -47,6 +47,6 @@ export function BasicCards() {
 
             </DivRow>
         </Panel>
-        
+
     );
 }
