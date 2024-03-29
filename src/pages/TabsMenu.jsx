@@ -1,10 +1,10 @@
 import { Card, CardAccions, CardText, CardTitle } from "../componentes/Card";
 import { Tabs } from "../componentes/Tabs";
-import { DivRow } from "../componentes/contenedores";
+import { DivRow, Panel } from "../componentes/contenedores";
 
 export function TabsMenu() {
     return (
-        <div>
+        <Panel>
             <h1>Tabs menu</h1>
             <DivRow>
                 <Card>
@@ -37,6 +37,6 @@ export function TabsMenu() {
                     </CardAccions>
                 </Card>
             </DivRow>
-        </div>
+        </Panel>
     );
 }
