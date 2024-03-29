@@ -186,7 +186,7 @@
   justify-content: flex-end;
 }
 
-.card-content {
+.card-img-content {
   background-color: var(--azul-3);
   padding: 1rem;
   border-bottom-left-radius: 1rem;
@@ -221,6 +221,11 @@
   align-items: center;
   justify-content: center;
   margin-top: 1rem;
+}
+
+.card-content{
+  display: flex;
+  flex-direction: column;
 }
 
 /*#endregion*/
