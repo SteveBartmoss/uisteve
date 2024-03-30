@@ -1,4 +1,4 @@
-import { Card, CardAccions, CardContent, CardText, CardTitle } from "../componentes/Card";
+import { Card, CardContent, CardText, CardTitle } from "../componentes/Card";
 import { Tabs } from "../componentes/Tabs";
 import { DivRow, Panel } from "../componentes/contenedores";
 
