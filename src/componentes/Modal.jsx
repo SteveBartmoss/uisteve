@@ -1,5 +1,3 @@
-import { Boton } from "./Boton";
-
 
 
 export function Modal({ children, estado, close }) {
