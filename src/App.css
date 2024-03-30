@@ -138,6 +138,13 @@
   display: none;
 }
 
+.div-main-content{
+  width: 70%;
+  margin: auto;
+  padding: 0 1rem;
+}
+
+
 /*#endregion*/
 
 /*#region estilos de los texfield*/
@@ -373,6 +380,12 @@
   color: white;
   font-family: "Poppins";
   font-size: 6rem;
+}
+
+.main-subtitle{
+  color: white;
+  font-family: "Poppins";
+  font-size: 3rem;
 }
 
 .main-content{
