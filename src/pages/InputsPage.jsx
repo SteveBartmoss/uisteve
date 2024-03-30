@@ -8,11 +8,13 @@ export function InputsPage() {
         <Panel>
             <h1>Textfield</h1>
             <DivRow>
-                
+
                 <Card>
                     <CardTitle>Un simple textfield</CardTitle>
                     <CardContent>
-                        <TextField />
+                        <DivRow>
+                            <TextField />
+                        </DivRow>
                     </CardContent>
                 </Card>
             </DivRow>
