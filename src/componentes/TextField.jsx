@@ -4,12 +4,10 @@ import { Card } from "./Card";
 export function TextField() {
     return (
         <>
-            <Card>
-                <div className="entry-area">
-                    <input className="basic" type="text" />
-                    <div className="label-line">Ingresa tu nombre</div>
-                </div>
-            </Card>
+            <div className="form">
+                <input type="text" id="field" className="text-field" placeholder=" " />
+                <label for="field" className="text-field-label">Nombre</label>
+            </div>
         </>
     );
 }
