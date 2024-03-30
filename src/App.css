@@ -53,6 +53,7 @@
 /*#endregion*/
 
 /*#region estilos dos div*/
+
 .main-frame {
   background-color: var(--gris-1);
   width: 100vw;
@@ -87,6 +88,8 @@
   overflow-y: scroll;
 }
 
+
+
 /*#endregion*/
 
 .menu-vertical {
@@ -101,7 +104,7 @@
   text-decoration: none;
   color: white;
   font-size: 1.3rem;
-  font-family: "Roboto";
+  font-family: "Poppins";
   padding: .5rem 0;
 }
 
@@ -364,6 +367,21 @@
 
 /*#endregion*/
 
+/*#region estilos de los titulos*/
+
+.main-title{
+  color: white;
+  font-family: "Poppins";
+  font-size: 6rem;
+}
+
+.main-content{
+  color: white;
+  font-family: "Poppins";
+  font-size: 1.3rem;
+}
+
+/*#endregion*/
 .App {
   text-align: center;
 }
