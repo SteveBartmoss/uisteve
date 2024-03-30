@@ -39,3 +39,11 @@ export function Panel({children}){
         </div>
     )
 }
+
+export function DivMainContent({children}){
+    return(
+        <div className="div-main-content">
+            {children}
+        </div>
+    )
+}
