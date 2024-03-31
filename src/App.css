@@ -85,7 +85,23 @@
 .div-90{
   height: 90%;
   overflow-y: scroll;
+  scrollbar-color: var(--azul-12) rgba(49, 49, 49, 0.2);
+  scrollbar-width: thin;
 }
+
+.div-90::-webkit-scrollbar{
+  width: 5px;
+}
+
+.div-90::-webkit-scrollbar-track{
+  background-color: rgba(49, 49, 49, 0.2);
+}
+
+.div-90::-webkit-scrollbar-thumb{
+  background-color:  var(--azul-12);
+  border-radius: 20px;
+}
+
 
 .div-footer-content{
   display: flex;
