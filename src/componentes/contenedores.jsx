@@ -47,3 +47,11 @@ export function DivMainContent({children}){
         </div>
     )
 }
+
+export function DivFooterContent({children}){
+    return(
+        <div className="div-footer-content">
+            {children}
+        </div>
+    )
+}
