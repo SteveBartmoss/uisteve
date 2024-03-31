@@ -55,6 +55,8 @@ export function HomePage() {
                         de front end.
                     </p>
 
+                    <hr className="divider" />
+
                     <h1 className="main-subtitle">Cards</h1>
 
                     <p className="main-content">
@@ -87,6 +89,8 @@ export function HomePage() {
                             </CardAccions>
                         </Card>
                     </DivRow>
+
+                    <hr className="divider" />
 
                     <h1 className="main-subtitle">Paneles expandibles</h1>
 
@@ -140,6 +144,8 @@ export function HomePage() {
 
                     </DivRow>
 
+                    <hr className="divider" />
+
                     <h1 className="main-subtitle">Text Field</h1>
 
                     <p className="main-content">
@@ -175,6 +181,8 @@ export function HomePage() {
                         </DivCol>
 
                     </DivRow>
+
+                    <hr className="divider" />
 
                     <h1 className="main-subtitle">Botones</h1>
 
@@ -213,6 +221,8 @@ export function HomePage() {
                         </DivCol>
 
                     </DivRow>
+
+                    <hr className="divider" />
 
                     <h1 className="main-subtitle">Modales</h1>
 
