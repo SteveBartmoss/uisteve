@@ -30,8 +30,7 @@
 
 /*#region estilos para los colores*/
 .principal {
-  background-color: #D500F9;
-
+  background-color: #149eca;
 }
 
 .success {
@@ -395,6 +394,18 @@
 }
 
 /*#endregion*/
+
+/*#region estilos de los divider*/
+
+.divider{
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  background-color: var(--azul-12);
+  border-color: var(--azul-12);
+}
+
+/*endregion*/
+
 .App {
   text-align: center;
 }
