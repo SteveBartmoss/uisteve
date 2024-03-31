@@ -1,11 +1,43 @@
+import { useState } from "react";
 import { Boton } from "../componentes/Boton";
 import { Card, CardAccions, CardContent, CardLink, CardText, CardTitle } from "../componentes/Card";
 import { ExtendPanel } from "../componentes/ExtendPanel";
 import { TextField } from "../componentes/TextField";
 import { DivCol, DivFull, DivMainContent, DivRow, Panel } from "../componentes/contenedores";
+import { Modal } from "../componentes/Modal";
 
 
 export function HomePage() {
+
+    const [evento, setEvento] = useState('')
+    const [hola, setHola] = useState('')
+    const [open, setOpen] = useState(false)
+    const [openForm, setOpenForm] = useState(false)
+
+    const onHandleClick = (tipo) => {
+        setEvento(tipo)
+    }
+
+    const onHandleHello = () => {
+        setHola('Hi Stalker')
+    }
+
+    const openModal = () => {
+        setOpen(true)
+    }
+
+    const closeModal = () => {
+        setOpen(false)
+    }
+
+    const onOpenForm = () => {
+        setOpenForm(true)
+    }
+
+    const onCloseForm = () => {
+        setOpenForm(false)
+    }
+
     return (
         <Panel>
             <DivRow>
@@ -23,7 +55,7 @@ export function HomePage() {
                         de front end.
                     </p>
 
-                    <h1>Cards</h1>
+                    <h1 className="main-subtitle">Cards</h1>
 
                     <p className="main-content">
                         Un elemento comun en una aplicacion web y da un toque
@@ -56,7 +88,7 @@ export function HomePage() {
                         </Card>
                     </DivRow>
 
-                    <h1>Paneles colapsables</h1>
+                    <h1 className="main-subtitle">Paneles expandibles</h1>
 
                     <p className="main-content">
                         Una forma de organizar la informacion sin tener que
@@ -108,7 +140,7 @@ export function HomePage() {
 
                     </DivRow>
 
-                    <h1>Text Field</h1>
+                    <h1 className="main-subtitle">Text Field</h1>
 
                     <p className="main-content">
                         Un elemento que no puede faltar una aplicacion
@@ -144,7 +176,7 @@ export function HomePage() {
 
                     </DivRow>
 
-                    <h1>Botones</h1>
+                    <h1 className="main-subtitle">Botones</h1>
 
                     <p className="main-content">
                         Otro elemento que no puede faltar en el front end
@@ -156,8 +188,11 @@ export function HomePage() {
                         <DivCol>
                             <Card>
                                 <CardTitle>Un simple boton</CardTitle>
+                                <CardText>
+                                    Este es un simple evento de click {hola}
+                                </CardText>
                                 <CardAccions>
-                                    <Boton variant='' color={'success'}>success</Boton>
+                                    <Boton evento={onHandleHello} variant='' color={'principal'}>try me</Boton>
                                 </CardAccions>
                             </Card>
                         </DivCol>
@@ -165,18 +200,21 @@ export function HomePage() {
                         <DivCol>
                             <Card>
                                 <CardTitle>Una variedad de botones</CardTitle>
+                                <CardText>
+                                    Se presion boton de tipo {evento}
+                                </CardText>
                                 <CardAccions>
-                                    <Boton variant='' color={'success'}>success</Boton>
-                                    <Boton variant='' color={'info'}>info</Boton>
-                                    <Boton variant='' color={'warning'}>warning</Boton>
-                                    <Boton variant='' color={'error'}>error</Boton>
+                                    <Boton evento={() => onHandleClick('success')} variant='' color={'success'}>success</Boton>
+                                    <Boton evento={() => onHandleClick('info')} variant='' color={'info'}>info</Boton>
+                                    <Boton evento={() => onHandleClick('warning')} variant='' color={'warning'}>warning</Boton>
+                                    <Boton evento={() => onHandleClick('error')} variant='' color={'error'}>error</Boton>
                                 </CardAccions>
                             </Card>
                         </DivCol>
 
                     </DivRow>
 
-                    <h1>Modales</h1>
+                    <h1 className="main-subtitle">Modales</h1>
 
                     <p className="main-content">
                         Una forma de permitir a los usuarios tener
@@ -189,15 +227,57 @@ export function HomePage() {
                         <DivCol>
                             <Card>
                                 <CardTitle>Un modal basico</CardTitle>
+                                <CardText>
+                                    Un forma de ahorrar en redirecciones
+                                </CardText>
+                                <CardAccions>
+                                    <Boton evento={openModal} variant={''} color={'principal'}>Abrir</Boton>
+                                </CardAccions>
                             </Card>
                         </DivCol>
 
                         <DivCol>
                             <Card>
                                 <CardTitle>Un formulario</CardTitle>
+                                <CardText>
+                                    Mejora tus formulario con este modal
+                                </CardText>
+                                <CardAccions>
+                                    <Boton evento={onOpenForm} variant={''} color={'principal'}>Abrir</Boton>
+                                </CardAccions>
                             </Card>
                         </DivCol>
                     </DivRow>
+
+                    <Modal estado={open} close={closeModal}>
+                        <Card>
+                            <CardTitle>Ejemplo de modal</CardTitle>
+                            <CardText>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Nisi fugit quaerat mollitia et error, recusandae, eligendi
+                                esse harum veritatis commodi nemo optio nobis corporis ad distinctio
+                                eaque aliquid impedit voluptates!
+                            </CardText>
+                            <CardAccions>
+                                <Boton evento={closeModal} variant={''} color={'error'}>Cerrar</Boton>
+                            </CardAccions>
+                        </Card>
+                    </Modal>
+
+                    <Modal estado={openForm} close={onCloseForm}>
+                        <Card>
+                            <CardTitle>Ejemplo de formulario</CardTitle>
+                            <CardText>
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                Labore ea nostrum dolore vel unde veritatis aperiam! Voluptates,
+                                sunt earum. Voluptatum voluptates cumque soluta dicta eius aliquid
+                                ullam rerum asperiores accusamus.
+                            </CardText>
+                            <CardAccions>
+                                <Boton evento={onCloseForm} variant={''} color={'error'}>Cerrar</Boton>
+                            </CardAccions>
+                        </Card>
+                    </Modal>
 
                 </DivMainContent>
             </DivRow>
