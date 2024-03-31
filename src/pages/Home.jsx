@@ -159,6 +159,11 @@ export function HomePage() {
                         <DivCol>
                             <Card>
                                 <CardTitle>Un simple campo de texto</CardTitle>
+
+                                <CardText>
+                                    Un input con estilo mas llamativo
+                                </CardText>
+
                                 <CardContent>
                                     <TextField />
                                 </CardContent>
@@ -168,6 +173,10 @@ export function HomePage() {
                         <DivCol>
                             <Card>
                                 <CardTitle>Un simple formulario</CardTitle>
+
+                                <CardText>
+                                    Una forma de crear formularios llamativos
+                                </CardText>
 
                                 <CardContent>
                                     <TextField />
