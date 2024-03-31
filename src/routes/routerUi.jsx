@@ -17,7 +17,6 @@ export function RuoterUi() {
         <BrowserRouter>
             <MenuVertical />
             <DivFull>
-                <TopBar />
                 <Routes>
                     <Route path="/" element={<HomePage />} />
                     <Route path="/dash" element={<BasicCards />}/>
