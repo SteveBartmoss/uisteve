@@ -79,7 +79,7 @@
 }
 
 .div-footer {
-  background-color: var(--gris-2);
+  background-color: var(--gris-1);
 }
 
 .div-90{
@@ -87,7 +87,11 @@
   overflow-y: scroll;
 }
 
-
+.div-footer-content{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
 
 /*#endregion*/
 
@@ -392,6 +396,14 @@
   color: white;
   font-family: "Poppins";
   font-size: 1.3rem;
+}
+
+.footer-link{
+  color: var(--azul-12);
+  font-family: "Poppins";
+  font-size: 1.3rem;
+  text-decoration: none;
+  margin: 0 .5rem;
 }
 
 /*#endregion*/
