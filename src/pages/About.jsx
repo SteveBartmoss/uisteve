@@ -1,17 +1,24 @@
 import { DivMainContent, DivRow } from "../componentes/contenedores";
 
 
-export function About(){
-    return(
+export function About() {
+    return (
         <Panel>
             <DivRow>
                 <DivMainContent>
                     <h1>Acerda de Ui Steve</h1>
-                    <p>Este proyecto tiene como objetivo presentar una 
-                        plantilla de elementos ui para que los usuarios puedan usarlos 
-                        o aprender como crearlos, al igual que si alguien 
-                        requiere solamente usar una plantilla de front end 
+                    <p>Este proyecto tiene como objetivo presentar una
+                        plantilla de elementos ui para que los usuarios puedan usarlos
+                        o aprender como crearlos, al igual que si alguien
+                        requiere solamente usar una plantilla de front end
                         dispones de recursos
+                    </p>s
+                    <p>
+                        Esta plantilla es desarrollada de manera independiente y sin fines de obtener un
+                        lucro, esto puede hacer que el desarrollo se vea lento o que no se busque mejorar
+                        tan frecuentemente como cualquier otro proyecto que tiene una gran empresa detras.
+
+                        Otro de los objetivos es mejorar mis habilidades a la hora de desarrollar aplicaciones web
                     </p>
                 </DivMainContent>
             </DivRow>
