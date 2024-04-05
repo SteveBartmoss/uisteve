@@ -1,6 +1,6 @@
 import "../App.css"
 
-export function TextField() {
+export function TextField({label,placeholder}) {
     return (
         <>
             <div className="form">
