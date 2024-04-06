@@ -23,7 +23,7 @@ export function CardText({ children }) {
 
 export function CardLink({ url, text }) {
     return (
-        <a className="card-link" href={url}>{text}</a>
+        <a className="card-link" rel="noopener noreferrer" target="_blank" href={url}>{text}</a>
     );
 }
 
