@@ -10,6 +10,7 @@ import { TopBar } from "../componentes/TopBar";
 import { Modales } from "../pages/Modales";
 import { InputsPage } from "../pages/InputsPage";
 import { HomePage } from "../pages/Home";
+import { About } from "../pages/About";
 
 
 export function RuoterUi() {
@@ -19,6 +20,7 @@ export function RuoterUi() {
             <DivFull>
                 <Routes>
                     <Route path="/" element={<HomePage />} />
+                    <Route path="/about" element={<About />} />
                     <Route path="/dash" element={<BasicCards />}/>
                     <Route path="/forms/texfield" element={<InputsPage />} />
                     <Route path="/cards/basic" element={<BasicCards />} />
