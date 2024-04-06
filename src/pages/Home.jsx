@@ -3,7 +3,7 @@ import { Boton } from "../componentes/Boton";
 import { Card, CardAccions, CardContent, CardLink, CardText, CardTitle } from "../componentes/Card";
 import { ExtendPanel } from "../componentes/ExtendPanel";
 import { TextField } from "../componentes/TextField";
-import { DivCol, DivFull, DivMainContent, DivRow, Panel } from "../componentes/contenedores";
+import { DivCol, DivMainContent, DivRow, Panel } from "../componentes/contenedores";
 import { Modal } from "../componentes/Modal";
 
 
