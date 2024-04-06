@@ -165,7 +165,7 @@ export function HomePage() {
                                 </CardText>
 
                                 <CardContent>
-                                    <TextField />
+                                    <TextField label={"correo"} />
                                 </CardContent>
                             </Card>
                         </DivCol>
@@ -179,11 +179,11 @@ export function HomePage() {
                                 </CardText>
 
                                 <CardContent>
-                                    <TextField />
+                                    <TextField label={"usuario"} />
                                 </CardContent>
 
                                 <CardContent>
-                                    <TextField />
+                                    <TextField label={"password"} />
                                 </CardContent>
 
                             </Card>
