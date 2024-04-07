@@ -3,8 +3,9 @@ import { Boton } from "../componentes/Boton";
 import { Card, CardAccions, CardContent, CardLink, CardText, CardTitle } from "../componentes/Card";
 import { ExtendPanel } from "../componentes/ExtendPanel";
 import { TextField } from "../componentes/TextField";
-import { DivCol, DivMainContent, DivRow, Panel } from "../componentes/contenedores";
+import { DivCol, DivMainContent, DivRow, Panel, Ventana } from "../componentes/contenedores";
 import { Modal } from "../componentes/Modal";
+import { Tabs } from "../componentes/Tabs";
 
 
 export function HomePage() {
@@ -266,6 +267,92 @@ export function HomePage() {
                                 </CardAccions>
                             </Card>
                         </DivCol>
+                    </DivRow>
+
+                    <hr className="divider" />
+
+                    <h1 className="main-subtitle">Tabs</h1>
+
+                    <p className="main-content">
+                        Una forma de acomodar los formularios para que el
+                        usuario pueda navegar entre diferentes ventanas sin que
+                        se tenga que mover continuamente hacia otros formualarios
+                        o tener que dar pasos continuos
+                    </p>
+
+                    <DivRow>
+                        <Card>
+                            <CardTitle>Crea una cuenta</CardTitle>
+                            <CardText>
+                                Ingresa tus datos para registrarte
+                            </CardText>
+                            <CardContent>
+                                <Tabs
+                                    headers={
+                                        [
+                                            {
+                                                id: 1,
+                                                title: "Datos personales",
+                                                content:
+                                                    <Ventana>
+                                                        <p className="main-content">Datos personales</p>
+                                                        <DivRow>
+                                                            <DivCol>
+                                                                <TextField label={"Nombre"} />
+                                                                <TextField label={"Apellidos"} />
+                                                            </DivCol>
+                                                            <DivCol>
+                                                                <TextField label={"Correo"} />
+                                                                <TextField label={"Password"} />
+                                                            </DivCol>
+                                                        </DivRow>
+                                                    </Ventana>,
+                                            },
+                                            {
+                                                id: 2,
+                                                title: "Contacto",
+                                                content:
+                                                    <Ventana>
+                                                        <p className="main-content">Datos de contacto</p>
+                                                        <DivRow>
+                                                            <DivCol>
+                                                                <TextField label={"Telefono"} />
+                                                                <TextField label={"Celular"} />
+                                                            </DivCol>
+                                                            <DivCol>
+                                                                <TextField label={"Curp"} />
+                                                                <TextField label={"Github"} />
+                                                            </DivCol>
+                                                        </DivRow>
+                                                    </Ventana>,
+                                            },
+                                            {
+                                                id: 3,
+                                                title: "Direccion",
+                                                content:
+                                                    <Ventana>
+                                                        <p className="main-content">Datos de domicilio</p>
+                                                        <DivRow>
+                                                            <DivCol>
+                                                                <TextField label={"Calle"} />
+                                                                <TextField label={"Fracc"} />
+                                                            </DivCol>
+                                                            <DivCol>
+                                                                <TextField label={"Codigo"} />
+                                                                <TextField label={"Estado"} />
+                                                            </DivCol>
+                                                        </DivRow>
+                                                    </Ventana>,
+                                            },
+                                        ]
+                                    }
+                                />
+                            </CardContent>
+                        </Card>
+                    </DivRow>
+
+                    <DivRow>
+
                     </DivRow>
 
                     <Modal estado={open} close={closeModal}>
