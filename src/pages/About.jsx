@@ -47,7 +47,7 @@ export function About() {
 
                     <hr className="divider" />
 
-                    <h1 className="main-subtitle">Ui Steve 0.2.0 Gemmel</h1>
+                    <h1 className="main-subtitle">Ui Steve 0.3.0 Gemmel</h1>
 
                     <p className="main-content">
                         La plantialla cuenta actualmente con los siguientes elementos:
