@@ -25,7 +25,7 @@ export function InputsPage() {
                                 Una manera de darle un buen estilo a tus formularios
                             </CardText>
                             <CardContent>
-                                <TextField />
+                                <TextField label={"Usuario"} />
                             </CardContent>
                         </Card>
                     </DivCol>
@@ -37,10 +37,10 @@ export function InputsPage() {
                                 Registre sus datos
                             </CardText>
                             <CardContent>
-                                <TextField />
+                                <TextField label={"Correo"} />
                             </CardContent>
                             <CardContent>
-                                <TextField />
+                                <TextField label={"Password"} />
                             </CardContent>
                         </Card>
                     </DivCol>
