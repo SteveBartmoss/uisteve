@@ -10,7 +10,7 @@ export function Foter() {
                         <p className="footer-link">Power by DevFarming</p>
                     </DivRow>
                     <DivRow>
-                        <p className="footer-link">About</p>
+                        <a className="footer-link" href="/about">About</a>
                         <p className="footer-link">Licencia</p>
                         <p className="footer-link">Documentacion</p>
                     </DivRow>
