@@ -55,3 +55,11 @@ export function DivFooterContent({children}){
         </div>
     )
 }
+
+export function Ventana({children}){
+    return(
+        <div className="div-window">
+            {children}
+        </div>
+    )
+}
