@@ -85,7 +85,9 @@ export function About() {
                         search
                     </span>
                     <span class="material-icons md-light">face</span>
-
+                    <span class="material-icons md-light">
+                        account_circle
+                    </span>
                 </DivMainContent>
             </DivRow>
         </Panel>
