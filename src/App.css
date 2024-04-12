@@ -52,7 +52,7 @@
 }
 
 /*#region estilos de google icons*/
-/* Rules for sizing the icon. */
+/* Rules for sizing the icon. */   
 .material-icons.md-18 { font-size: 18px; }
 .material-icons.md-24 { font-size: 24px; }
 .material-icons.md-36 { font-size: 36px; }
@@ -63,8 +63,12 @@
 .material-icons.md-dark.md-inactive { color: rgba(0, 0, 0, 0.26); }
 
 /* Rules for using icons as white on a dark background. */
-.material-icons.md-light { color: rgba(255, 255, 255, 1); }
-.material-icons.md-light.md-inactive { color: rgba(255, 255, 255, 0.3); }
+.material-icons-Round.md-light { color: rgba(255, 255, 255, 1); }
+.material-icons-Round.md-light.md-inactive { color: rgba(255, 255, 255, 0.3); }
+.material-icons-Sharp.md-light { color: rgba(255, 255, 255, 1); }
+.material-icons-Sharp.md-light.md-inactive { color: rgba(255, 255, 255, 0.3); }
+.material-icons-Two-Tone.md-light { color: rgba(255, 255, 255, 1); }
+.material-icons-Two-Tones.md-light.md-inactive { color: rgba(255, 255, 255, 0.3); }
 /*#endregion*/
 
 
