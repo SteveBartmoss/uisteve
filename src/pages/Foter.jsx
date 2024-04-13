@@ -12,7 +12,7 @@ export function Foter() {
                     <DivRow>
                         <a className="footer-link" href="/about">About</a>
                         <p className="footer-link">Licencia</p>
-                        <p className="footer-link">Documentacion</p>
+                        <a className="footer-link" href="/documentation">Documentacion</a>
                     </DivRow>
                 </DivFooterContent>
             </DivMainContent>
