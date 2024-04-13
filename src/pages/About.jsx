@@ -1,5 +1,7 @@
+import { Card, CardContent, CardTitle } from "../componentes/Card";
 import { Icon } from "../componentes/Icon";
 import { Lista } from "../componentes/Lista";
+import { Loader } from "../componentes/Loader";
 import { DivMainContent, DivRow, Panel } from "../componentes/contenedores";
 
 
@@ -48,7 +50,7 @@ export function About() {
 
                     <hr className="divider" />
 
-                    <h1 className="main-subtitle">Ui Steve 0.3.0 Gemmel</h1>
+                    <h1 className="main-subtitle">Ui Steve 0.5.0 Gemmel</h1>
 
                     <p className="main-content">
                         La plantilla cuenta actualmente con los siguientes elementos:
