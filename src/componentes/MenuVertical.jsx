@@ -50,6 +50,10 @@ export function MenuVertical() {
                         {
                             title: 'Iconos',
                             route: '/components/icons',
+                        },
+                        {
+                            title: 'Loader',
+                            route: '/components/loader',
                         }
                     ]
                 } />
