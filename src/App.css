@@ -509,6 +509,32 @@
 
 /*#endregion*/
 
+/*#region estilos de spiner loader*/
+
+.loader{
+  width: 15rem;
+  height: 15rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.loader::after{
+  content: "";
+  width: 75px;
+  height: 75px;
+  border: 15px solid #dddddd;
+  border-top-color: var(--azul-12);
+  border-radius: 50%;
+  animation: loading 0.75s ease infinite;
+}
+
+@keyframes loading {
+  from {transform: rotate(0turn);}
+  to {transform: rotate(1turn);}
+}
+
+/*#endregion*/
 
 .App {
   text-align: center;
