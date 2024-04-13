@@ -11,6 +11,7 @@ import { Modales } from "../pages/Modales";
 import { InputsPage } from "../pages/InputsPage";
 import { HomePage } from "../pages/Home";
 import { About } from "../pages/About";
+import { IconsPage } from "../pages/IconsPage";
 
 
 export function RuoterUi() {
@@ -28,6 +29,7 @@ export function RuoterUi() {
                     <Route path="/components/buttons" element={<Buttons />} />
                     <Route path="/components/tabs" element={<TabsMenu />} />
                     <Route path="/components/modales" element={<Modales />} />
+                    <Route path="/components/icons" element={<IconsPage />} />
                 </Routes>
                 <Foter />
             </DivFull>
