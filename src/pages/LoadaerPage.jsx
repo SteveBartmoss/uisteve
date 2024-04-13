@@ -1,4 +1,5 @@
-import { CardText } from "../componentes/Card";
+import { Card, CardContent, CardText, CardTitle } from "../componentes/Card";
+import { Loader } from "../componentes/Loader";
 import { DivCol, DivMainContent, DivRow, Panel } from "../componentes/contenedores";
 
 
@@ -13,7 +14,7 @@ export function LoaderPage() {
                     los usuarios pero pueden ver esta simple
                     animacion cuando carga su contenido
                 </p>
-
+                
                 <DivRow>
                     <DivCol>
                         <Card>
