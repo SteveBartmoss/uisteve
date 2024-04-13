@@ -46,6 +46,10 @@ export function MenuVertical() {
                         {
                             title: 'Modales',
                             route: '/components/modales',
+                        },
+                        {
+                            title: 'Iconos',
+                            route: '/components/icons',
                         }
                     ]
                 } />
