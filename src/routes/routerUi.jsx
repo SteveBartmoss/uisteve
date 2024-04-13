@@ -12,6 +12,7 @@ import { InputsPage } from "../pages/InputsPage";
 import { HomePage } from "../pages/Home";
 import { About } from "../pages/About";
 import { IconsPage } from "../pages/IconsPage";
+import { Documentacion } from "../pages/Documentacion";
 
 
 export function RuoterUi() {
@@ -22,6 +23,7 @@ export function RuoterUi() {
                 <Routes>
                     <Route path="/" element={<HomePage />} />
                     <Route path="/about" element={<About />} />
+                    <Route path="/documentation" element={<Documentacion />} />
                     <Route path="/dash" element={<BasicCards />}/>
                     <Route path="/forms/texfield" element={<InputsPage />} />
                     <Route path="/cards/basic" element={<BasicCards />} />
