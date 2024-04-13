@@ -1,3 +1,4 @@
+import { Icon } from "../componentes/Icon";
 import { Lista } from "../componentes/Lista";
 import { DivMainContent, DivRow, Panel } from "../componentes/contenedores";
 
@@ -78,16 +79,6 @@ export function About() {
                         versiones las novedades de la plantilla.
                     </p>
 
-                    <p>Ejemplo de integracin con google icons</p>
-
-                    <span class="material-icons md-light">home</span>
-                    <span class="material-icons-outlined md-light">
-                        search
-                    </span>
-                    <span class="material-icons md-light">face</span>
-                    <span class="material-icons md-light">
-                        account_circle
-                    </span>
                 </DivMainContent>
             </DivRow>
         </Panel>
