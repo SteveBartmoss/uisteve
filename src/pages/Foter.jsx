@@ -1,3 +1,4 @@
+import { NavLink } from "react-router-dom";
 import { DivCol, DivFooterContent, DivMainContent, DivRow } from "../componentes/contenedores";
 
 
@@ -10,9 +11,9 @@ export function Foter() {
                         <p className="footer-link">Power by DevFarming</p>
                     </DivRow>
                     <DivRow>
-                        <a className="footer-link" href="/about">About</a>
+                        <NavLink className="footer-link" to="/about">About</NavLink>
                         <p className="footer-link">Licencia</p>
-                        <a className="footer-link" href="/documentation">Documentacion</a>
+                        <NavLink className="footer-link" to="/documentation">Documentacion</NavLink>
                     </DivRow>
                 </DivFooterContent>
             </DivMainContent>
