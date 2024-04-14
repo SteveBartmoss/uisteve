@@ -156,6 +156,7 @@
 
 /*#endregion*/
 
+/*#region estilos del menu*/
 .menu-vertical {
   width: 15rem;
   height: 100vh;
@@ -177,6 +178,11 @@
   flex-direction: column;
   padding-left: 1rem;
 }
+
+.item-active{
+  color: var(--azul-11);
+}
+/*#endregion*/
 
 /*#region estilos menu list*/
 .menu-list-head {
