@@ -19,7 +19,7 @@ export function MenuList({ title, elements }) {
             <div className={collapse ? 'menu-list-open' : 'menu-list-close'} >
                 {
                     elements.map(item =>
-                        <NavLink key={item.route} className="menu-item" to={item.route} >{item.title}</NavLink>
+                        <NavLink key={item.route} className={({isActive})=> `menu-item ${isActive ? 'item-active':''}`} to={item.route} >{item.title}</NavLink>
                     )
                 }
             </div>
