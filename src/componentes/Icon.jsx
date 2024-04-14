@@ -1,7 +1,7 @@
 
 
-export function Icon({icono}){
+export function Icon({icono,color,size}){
     return(
-        <span className="material-icons">{icono}</span>
+        <span style={{ fontSize: size }} className={`material-icons ${color}`}>{icono}</span>
     )
 }
