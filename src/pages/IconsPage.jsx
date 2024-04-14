@@ -43,11 +43,11 @@ export function IconsPage() {
                                 o de colores ocuros
                             </CardText>
                             <CardAccions>
-                                <Icon icono="lock" />
-                                <Icon icono="delete" />
-                                <Icon icono="check_circle" />
-                                <Icon icono="dashboard" />
-                                <Icon icono="article" />
+                                <Icon icono="lock" color="md-light" />
+                                <Icon icono="delete" color="md-light" />
+                                <Icon icono="check_circle" color="md-light" />
+                                <Icon icono="dashboard" color="md-light" />
+                                <Icon icono="article" color="md-light" />
                             </CardAccions>
                         </Card>
                     </DivCol>
