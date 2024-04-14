@@ -11,6 +11,7 @@ export function Foter() {
                         <p className="footer-link">Power by DevFarming</p>
                     </DivRow>
                     <DivRow>
+                        <NavLink className="footer-link" to="/news">Que hay de nuevo</NavLink>
                         <NavLink className="footer-link" to="/about">About</NavLink>
                         <p className="footer-link">Licencia</p>
                         <NavLink className="footer-link" to="/documentation">Documentacion</NavLink>
