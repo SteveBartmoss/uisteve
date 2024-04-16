@@ -12,7 +12,7 @@ export function LoaderPage() {
                 <p className="main-content">
                     No siempre la velocidad es el aliado de
                     los usuarios pero pueden ver esta simple
-                    animacion cuando carga su contenido
+                    animacion mientras carga su contenido
                 </p>
                 
                 <DivRow>
