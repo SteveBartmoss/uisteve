@@ -14,6 +14,7 @@ import { About } from "../pages/About";
 import { IconsPage } from "../pages/IconsPage";
 import { Documentacion } from "../pages/Documentacion";
 import { LoaderPage } from "../pages/LoadaerPage";
+import { News } from "../pages/news";
 
 
 export function RuoterUi() {
@@ -25,6 +26,7 @@ export function RuoterUi() {
                     <Route path="/" element={<HomePage />} />
                     <Route path="/about" element={<About />} />
                     <Route path="/documentation" element={<Documentacion />} />
+                    <Route path="/news" element={<News />} />
                     <Route path="/dash" element={<BasicCards />}/>
                     <Route path="/forms/texfield" element={<InputsPage />} />
                     <Route path="/cards/basic" element={<BasicCards />} />
