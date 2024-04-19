@@ -19,6 +19,10 @@ export function News(){
                 proximas mejoras pero por el momento es una buen comienzo
             </p>
             <h1>Iconos</h1>
+            <p>
+                Gracias a las herramientas de google ahora puedes tener 
+                llamtivos iconos en la plantilla
+            </p>
         </Panel>
     )
 }
