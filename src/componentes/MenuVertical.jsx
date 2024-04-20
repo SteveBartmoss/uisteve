@@ -54,6 +54,10 @@ export function MenuVertical() {
                         {
                             title: 'Loader',
                             route: '/components/loader',
+                        },
+                        {
+                            title: 'Slider',
+                            route: '/components/slider',
                         }
                     ]
                 } />
