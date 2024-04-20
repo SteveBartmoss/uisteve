@@ -6,6 +6,7 @@ import { TextField } from "../componentes/TextField";
 import { DivCol, DivMainContent, DivRow, Panel, Ventana } from "../componentes/contenedores";
 import { Modal } from "../componentes/Modal";
 import { Tabs } from "../componentes/Tabs";
+import { Loader } from "../componentes/Loader";
 
 
 export function HomePage() {
@@ -351,8 +352,46 @@ export function HomePage() {
                         </Card>
                     </DivRow>
 
-                    <DivRow>
+                    <hr className="divider" />
 
+                    <h1 className="main-subtitle">Loader</h1>
+
+                    <p className="main-content">
+                        No siempre tenemos la suerte de tener gran velocidad 
+                        en nuestros datos que provienen del  backend pero podemos 
+                        mostrar este loader para que el usuario sepa que debe 
+                        esperar la respuesta
+                    </p>
+
+                    <DivRow>
+                        <DivCol>
+                            <Card>
+                                <CardTitle>Infinite Loader</CardTitle>
+                                <CardText>
+                                    No importa cuanto tiempo necesites puedes 
+                                    estar seguro de que este loader no se detendra 
+                                    mientras cargas los datos de la api
+                                </CardText>
+                                <CardContent>
+                                    <Loader />
+                                </CardContent>
+                            </Card>
+                        </DivCol>
+
+                        <DivCol>
+                            <Card>
+                                <CardTitle>Infinite Loader</CardTitle>
+                                <CardText>
+                                    No importa cuanto tiempo necesites puedes 
+                                    estar seguro de que este loader no se detendra 
+                                    mientras cargas los datos de la api
+                                </CardText>
+                                <CardContent>
+                                    <Loader />
+                                </CardContent>
+                            </Card>
+                        </DivCol>
+                        
                     </DivRow>
 
                     <Modal estado={open} close={closeModal}>
