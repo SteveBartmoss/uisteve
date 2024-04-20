@@ -21,7 +21,9 @@ export function News(){
             <h1>Iconos</h1>
             <p>
                 Gracias a las herramientas de google ahora puedes tener 
-                llamtivos iconos en la plantilla
+                llamtivos iconos en la plantilla, por el momento la implementacion 
+                es mediante su propio elemento pero se espera poder agregarlos 
+                a otros elementos mediante una prop
             </p>
         </Panel>
     )
