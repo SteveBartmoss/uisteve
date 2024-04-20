@@ -1,5 +1,5 @@
 import { Card, CardContent, CardText, CardTitle } from "../componentes/Card";
-import { Loader } from "../componentes/Loader";
+import { Loader, LoaderBar } from "../componentes/Loader";
 import { DivCol, DivMainContent, DivRow, Panel } from "../componentes/contenedores";
 
 
@@ -28,7 +28,22 @@ export function LoaderPage() {
                             </CardContent>
                         </Card>
                     </DivCol>
+
+                    <DivCol>
+                        <Card>
+                            <CardTitle>LoaderBar</CardTitle>
+                            <CardText>
+                                Puedes estar seguro que este loader 
+                                nunca terminara
+                            </CardText>
+                            <CardContent>
+                                <LoaderBar />
+                            </CardContent>
+                        </Card>
+                    </DivCol>
+
                 </DivRow>
+
             </DivMainContent>
         </Panel>
     )
