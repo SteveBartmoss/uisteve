@@ -15,6 +15,7 @@ import { IconsPage } from "../pages/IconsPage";
 import { Documentacion } from "../pages/Documentacion";
 import { LoaderPage } from "../pages/LoadaerPage";
 import { News } from "../pages/news";
+import { SliderPage } from "../pages/SliderPage";
 
 
 export function RuoterUi() {
@@ -36,6 +37,7 @@ export function RuoterUi() {
                     <Route path="/components/modales" element={<Modales />} />
                     <Route path="/components/icons" element={<IconsPage />} />
                     <Route path="/components/loader" element={<LoaderPage />} />
+                    <Route path="/components/slider" element={<SliderPage />} />
                 </Routes>
                 <Foter />
             </DivFull>
