@@ -6,7 +6,7 @@ import { TextField } from "../componentes/TextField";
 import { DivCol, DivMainContent, DivRow, Panel, Ventana } from "../componentes/contenedores";
 import { Modal } from "../componentes/Modal";
 import { Tabs } from "../componentes/Tabs";
-import { Loader } from "../componentes/Loader";
+import { Loader, LoaderBar } from "../componentes/Loader";
 import { Icon } from "../componentes/Icon";
 
 
@@ -46,7 +46,7 @@ export function HomePage() {
             <DivRow>
                 <DivMainContent>
                     <h1 className="main-title">Ui Steve</h1>
-                    
+
                     <p className="main-content">
                         Una plantilla de elemento ui para poder implementar,
                         mejorar o utilizar como ejemplo.
@@ -390,7 +390,7 @@ export function HomePage() {
                                     mientras cargas los datos de la api
                                 </CardText>
                                 <CardContent>
-                                    <Loader />
+                                    <LoaderBar />
                                 </CardContent>
                             </Card>
                         </DivCol>
