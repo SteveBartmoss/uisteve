@@ -7,6 +7,7 @@ import { DivCol, DivMainContent, DivRow, Panel, Ventana } from "../componentes/c
 import { Modal } from "../componentes/Modal";
 import { Tabs } from "../componentes/Tabs";
 import { Loader } from "../componentes/Loader";
+import { Icon } from "../componentes/Icon";
 
 
 export function HomePage() {
@@ -45,10 +46,12 @@ export function HomePage() {
             <DivRow>
                 <DivMainContent>
                     <h1 className="main-title">Ui Steve</h1>
+                    
                     <p className="main-content">
                         Una plantilla de elemento ui para poder implementar,
                         mejorar o utilizar como ejemplo.
                     </p>
+
                     <p className="main-content">
                         Algunos de los elementos aun no resultan sumamente
                         interesantes pero aun esta en desarrollo y esta siendo
@@ -391,7 +394,56 @@ export function HomePage() {
                                 </CardContent>
                             </Card>
                         </DivCol>
-                        
+
+                    </DivRow>
+
+                    <hr className="divider" />
+
+                    <h1 className="main-subtitle">Google Icons</h1>
+
+                    <p className="main-content">
+                        Gracias a google icons ahora podemos tener acceso 
+                        a iconos en la plantilla para darle un estilo mas 
+                        atractivo a nuesta aplacion
+                    </p>
+
+                    <DivRow>
+                        <DivCol>
+                            <Card>
+                                <CardTitle>Iconos oscuros</CardTitle>
+                                <CardText>
+                                    Si el tema de la aplicacion son colores 
+                                    claros, estos iconos oscuros seran 
+                                    bastantes utiles 
+                                </CardText>
+                                <CardAccions>
+                                    <Icon icono="account_circle" />
+                                    <Icon icono="settings" />
+                                    <Icon icono="schedule" />
+                                    <Icon icono="favorite_border" />
+                                    <Icon icono="thumb_up" />
+                                </CardAccions>
+                            </Card>
+                        </DivCol>
+
+                        <DivCol>
+                            <Card>
+                                <CardTitle>Iconos claros</CardTitle>
+                                <CardText>
+                                    Si el tema de la aplicacion son colores 
+                                    oscuros, estos iconos claros seran bastantes 
+                                    utiles
+                                </CardText>
+                                <CardAccions>
+                                    <Icon icono="lock" color="md-light" />
+                                    <Icon icono="delete" color="md-light" />
+                                    <Icon icono="check_circle" color="md-light" />
+                                    <Icon icono="dashboard" color="md-light" />
+                                    <Icon icono="article" color="md-light" />
+                                </CardAccions>
+                            </Card>
+                        </DivCol>
+
                     </DivRow>
 
                     <Modal estado={open} close={closeModal}>
