@@ -8,6 +8,7 @@ import { Modal } from "../componentes/Modal";
 import { Tabs } from "../componentes/Tabs";
 import { Loader, LoaderBar } from "../componentes/Loader";
 import { Icon } from "../componentes/Icon";
+import useScreen from "../helpers/useScreen";
 
 
 export function HomePage() {
@@ -40,6 +41,10 @@ export function HomePage() {
     const onCloseForm = () => {
         setOpenForm(false)
     }
+
+    const {width, height} = useScreen();
+
+    console.log(`width: ${width}, height: ${height}`)
 
     return (
         <Panel>
