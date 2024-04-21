@@ -616,6 +616,33 @@
 }
 /*#endregion*/
 
+/* #region estilos del tool tip*/
+
+.tool-tip-div{
+  position: relative;
+  display: flex;
+  overflow: visible;
+  align-items: center;
+  flex-direction: column;
+}
+
+.tool-tip {
+  display: block;
+  position: absolute;
+  color: white;
+  background: var(--gris-2);
+  position: relative;
+  padding: 5px;
+  border-radius: 5px;
+  z-index: 9999;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 1;
+}
+
+/*#endregion*/
+
 .App {
   text-align: center;
 }
