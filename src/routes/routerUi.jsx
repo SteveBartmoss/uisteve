@@ -16,6 +16,7 @@ import { Documentacion } from "../pages/Documentacion";
 import { LoaderPage } from "../pages/LoadaerPage";
 import { News } from "../pages/news";
 import { SliderPage } from "../pages/SliderPage";
+import { ToolTipPage } from "../pages/ToolTipPage";
 
 
 export function RuoterUi() {
@@ -38,6 +39,7 @@ export function RuoterUi() {
                     <Route path="/components/icons" element={<IconsPage />} />
                     <Route path="/components/loader" element={<LoaderPage />} />
                     <Route path="/components/slider" element={<SliderPage />} />
+                    <Route path="/components/tooltip" element={<ToolTipPage />} />
                 </Routes>
                 <Foter />
             </DivFull>
