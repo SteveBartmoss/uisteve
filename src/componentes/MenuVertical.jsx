@@ -58,6 +58,10 @@ export function MenuVertical() {
                         {
                             title: 'Slider',
                             route: '/components/slider',
+                        },
+                        {
+                            title: 'Tool Tip',
+                            route: '/components/tooltip',
                         }
                     ]
                 } />
