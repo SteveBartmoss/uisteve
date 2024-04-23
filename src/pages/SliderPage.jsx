@@ -11,8 +11,8 @@ export function SliderPage() {
                 <h1 className="main-subtitle">Slider</h1>
 
                 <p className="main-content">
-                    Los usuarios pueder aburrirse a la hora de
-                    usar los controles de te aplicacion pero con
+                    Los usuarios pueden aburrirse a la hora de
+                    usar los controles de tu aplicacion pero con
                     este slider encontraran algo llamativo
                 </p>
 
