@@ -12,6 +12,14 @@ export function News() {
 
                     <h1 className="main-subtitle">Change Log</h1>
 
+                    <h1>Nuevos TextArea</h1>
+
+                    <h1>Nuevo tool tip</h1>
+
+                    <h1>Nuevo slide</h1>
+
+                    <h1>Nuevo Swtich</h1>
+
                     <h1 className="alter-subtitle">Nuevos loader</h1>
 
                     <p className="main-content">
