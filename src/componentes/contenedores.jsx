@@ -63,3 +63,11 @@ export function Ventana({children}){
         </div>
     )
 }
+
+export function DivCode({children}){
+    return(
+        <div className="div-code">
+            {children}
+        </div>
+    )
+}
