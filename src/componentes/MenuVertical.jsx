@@ -58,6 +58,10 @@ export function MenuVertical() {
                             title: 'Texfield',
                             route: '/forms/texfield',
                         },
+                        {
+                            title: 'Switch',
+                            route: '/forms/switch'
+                        }
                     ]
                 }
                 />
