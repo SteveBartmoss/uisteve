@@ -60,7 +60,11 @@ export function MenuVertical() {
                         },
                         {
                             title: 'Switch',
-                            route: '/forms/switch'
+                            route: '/forms/switch',
+                        },
+                        {
+                            title: 'Slider',
+                            route: '/forms/slider',
                         }
                     ]
                 }
