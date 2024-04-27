@@ -793,6 +793,18 @@
 }
 /*#endregion*/
 
+/*#region estilos del snackbar*/
+.snackbar{
+  display: none;
+}
+
+.snack-open{
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+/*#endregion*/
 
 .App {
   text-align: center;
