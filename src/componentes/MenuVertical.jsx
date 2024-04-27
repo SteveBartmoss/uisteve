@@ -48,6 +48,10 @@ export function MenuVertical() {
                         {
                             title: 'Tool Tip',
                             route: '/components/tooltip',
+                        },
+                        {
+                            title: 'Chip',
+                            route: '/components/chip',
                         }
                     ]
                 }
