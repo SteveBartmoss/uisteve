@@ -5,7 +5,7 @@ export function Lista({elementos}){
         <div className="div-list">
             {
                 elementos.map(item => 
-                    <p className="element-list">{item}</p>
+                    <p className="element-list" key={item}>{item}</p>
                 )
             }
         </div>
