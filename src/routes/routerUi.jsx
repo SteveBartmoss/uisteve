@@ -21,6 +21,7 @@ import { Licencia } from "../pages/Licencia";
 import { TooglePage } from "../pages/TooglePage";
 import { TextLongPage } from "../pages/TextLongPage";
 import { ChipPage } from "../pages/ChipPage";
+import { SnackBarPage } from "../pages/SnackBarPage";
 
 
 export function RuoterUi() {
@@ -49,6 +50,7 @@ export function RuoterUi() {
                     <Route path="/components/slider" element={<SliderPage />} />
                     <Route path="/components/tooltip" element={<ToolTipPage />} />
                     <Route path="/components/chip" element={<ChipPage />} />
+                    <Route path="/components/snackbar" element={<SnackBarPage />} />
                 </Routes>
                 <Foter />
             </DivFull>
