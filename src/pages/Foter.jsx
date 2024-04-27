@@ -13,7 +13,7 @@ export function Foter() {
                     <DivRow>
                         <NavLink className="footer-link" to="/news">News</NavLink>
                         <NavLink className="footer-link" to="/about">About</NavLink>
-                        <p className="footer-link">Licencia</p>
+                        <NavLink className="footer-link" to="/licence">Licencia</NavLink>
                         <NavLink className="footer-link" to="/documentation">Documentacion</NavLink>
                     </DivRow>
                 </DivFooterContent>
