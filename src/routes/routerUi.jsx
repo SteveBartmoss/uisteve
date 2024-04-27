@@ -35,6 +35,7 @@ export function RuoterUi() {
                     <Route path="/dash" element={<BasicCards />}/>
                     <Route path="/forms/texfield" element={<InputsPage />} />
                     <Route path="/forms/switch" element={<TooglePage />} />
+                    <Route path="/forms/slider" element={<SliderPage />} />
                     <Route path="/cards/basic" element={<BasicCards />} />
                     <Route path="/acordeon" element={<Acordeones />} />
                     <Route path="/components/buttons" element={<Buttons />} />
