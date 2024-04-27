@@ -154,6 +154,12 @@
   min-width: 70rem;
 }
 
+.div-code{
+  background-color: var(--ever-bg-2);
+  padding: 1rem;
+  border-radius: .3rem;
+}
+
 /*#endregion*/
 
 /*#region estilos del menu*/
@@ -549,6 +555,27 @@
   font-size: 1.3rem;
   text-decoration: none;
   margin: 0 .5rem;
+}
+
+.title-gpl{
+  color: var(--ever-orange);
+  font-family: "Poppins";
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.subtitle-gpl{
+  color: var(--ever-purple);
+  font-family: "Poppins";
+  font-size: 1.3rem;
+  text-align: center;
+}
+
+.text-gpl{
+  color: var(--ever-green);
+  font-family: "Poppins";
+  font-size: 1rem;
+  text-align: justify;
 }
 
 /*#endregion*/
