@@ -6,7 +6,7 @@ import { DivMainContent, DivRow, Panel } from "../componentes/contenedores";
 
 
 const listaComponentes = ["Botones", "Tabs", "Modales", "TextField", "Panel Colapsable", "Cards"];
-const listaNuevos = ["Plantillas (login,404,landing, etc)", "Alertas", "Listas", "Menus", "Paginaciones", "Snackbar", "Tooltips", "Elementos de formularios", "Tema oscuro/claro"]
+const listaNuevos = ["Plantillas (login,404,landing, etc)", "Alertas", "Listas", "Menus", "Paginaciones", "Snackbar", "Tooltips", "Elementos de formularios", "Tema oscuro/claro", "Diseno en mobil"]
 
 export function About() {
     return (
@@ -50,7 +50,7 @@ export function About() {
 
                     <hr className="divider" />
 
-                    <h1 className="main-subtitle">Ui Steve 0.9.2 Gemmel</h1>
+                    <h1 className="main-subtitle">Ui Steve 0.9.3 Gemmel</h1>
 
                     <p className="main-content">
                         La plantilla cuenta actualmente con los siguientes elementos:
