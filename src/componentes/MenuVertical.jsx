@@ -21,20 +21,6 @@ export function MenuVertical() {
                             title: 'Expansion Panel',
                             route: '/acordeon',
                         },
-                    ]
-                }
-                />
-                <MenuList title={'Forms & Tables'} elements={
-                    [
-                        {
-                            title: 'Texfield',
-                            route: '/forms/texfield',
-                        },
-                    ]
-                }
-                />
-                <MenuList title={'Components'} elements={
-                    [
                         {
                             title: 'Buttons',
                             route: '/components/buttons',
@@ -64,7 +50,17 @@ export function MenuVertical() {
                             route: '/components/tooltip',
                         }
                     ]
-                } />
+                }
+                />
+                <MenuList title={'Forms & Tables'} elements={
+                    [
+                        {
+                            title: 'Texfield',
+                            route: '/forms/texfield',
+                        },
+                    ]
+                }
+                />
             </div>
         </div>
     );
