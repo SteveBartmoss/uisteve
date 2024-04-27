@@ -19,6 +19,7 @@ import { SliderPage } from "../pages/SliderPage";
 import { ToolTipPage } from "../pages/ToolTipPage";
 import { Licencia } from "../pages/Licencia";
 import { TooglePage } from "../pages/TooglePage";
+import { TextLongPage } from "../pages/TextLongPage";
 
 
 export function RuoterUi() {
@@ -36,6 +37,7 @@ export function RuoterUi() {
                     <Route path="/forms/texfield" element={<InputsPage />} />
                     <Route path="/forms/switch" element={<TooglePage />} />
                     <Route path="/forms/slider" element={<SliderPage />} />
+                    <Route path="/forms/textlong" element={<TextLongPage />} />
                     <Route path="/cards/basic" element={<BasicCards />} />
                     <Route path="/acordeon" element={<Acordeones />} />
                     <Route path="/components/buttons" element={<Buttons />} />
