@@ -65,6 +65,10 @@ export function MenuVertical() {
                         {
                             title: 'Slider',
                             route: '/forms/slider',
+                        },
+                        {
+                            title: 'Text Long',
+                            route: '/forms/textlong',
                         }
                     ]
                 }
