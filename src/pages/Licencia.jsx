@@ -12,8 +12,8 @@ export function Licencia() {
                 en el repositorio de github
             </p>
             <p>
-                {{ project }}
-                Copyright (C) {{ year }}  {{ organization }}
+                Ui Steve
+                Copyright (C) 2024 DevFarming
 
                 This program is free software: you can redistribute it and/or modify
                 it under the terms of the GNU Affero General Public License as published by
@@ -28,6 +28,11 @@ export function Licencia() {
                 You should have received a copy of the GNU Affero General Public License
                 along with this program.  If not, see shttp://www.gnu.org/licenses/
             </p>
+
+            <p>
+                Repositorio del proyecto
+            </p>
+            
         </div>
     )
 }
