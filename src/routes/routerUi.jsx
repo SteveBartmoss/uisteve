@@ -18,6 +18,7 @@ import { News } from "../pages/news";
 import { SliderPage } from "../pages/SliderPage";
 import { ToolTipPage } from "../pages/ToolTipPage";
 import { Licencia } from "../pages/Licencia";
+import { TooglePage } from "../pages/TooglePage";
 
 
 export function RuoterUi() {
@@ -33,6 +34,7 @@ export function RuoterUi() {
                     <Route path="/licence" element={<Licencia />} />
                     <Route path="/dash" element={<BasicCards />}/>
                     <Route path="/forms/texfield" element={<InputsPage />} />
+                    <Route path="/forms/switch" element={<TooglePage />} />
                     <Route path="/cards/basic" element={<BasicCards />} />
                     <Route path="/acordeon" element={<Acordeones />} />
                     <Route path="/components/buttons" element={<Buttons />} />
