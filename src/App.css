@@ -708,14 +708,15 @@
 }
 
 .tool-tip {
-  display: block;
+  width: max-content;
+  display: flex;
+  flex-direction: row;
   position: absolute;
   color: white;
   background: var(--gris-2);
-  position: relative;
   padding: 5px;
   border-radius: 5px;
-  z-index: 9999;
+  z-index: 2;
   top: 100%;
   left: 50%;
   transform: translateX(-50%);
@@ -833,8 +834,16 @@
 
 /*#endregion*/
 
-/*#region estilos del snackbar*/
+/*#region estilos del componente menu*/
+.display-menu{
+  color: white;
+  font-family: "Poppins";
+  font-size: 1rem;
+}
+
 .menu-list{
+  position: absolute;
+  z-index: 2;
   display: flex;
   flex-direction: column;
 }
