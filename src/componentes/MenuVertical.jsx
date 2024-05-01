@@ -56,6 +56,10 @@ export function MenuVertical() {
                         {
                             title: 'SnackBar',
                             route: '/components/snackbar',
+                        },
+                        {
+                            title: 'Menu',
+                            route: '/components/menu',
                         }
                     ]
                 }
