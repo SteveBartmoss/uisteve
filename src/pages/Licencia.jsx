@@ -99,13 +99,19 @@ export function Licencia() {
                                 incorporate.
                             </p>
 
+                            <p className="text-gpl">
+                                Many developers of free software are heartened and
+                                encouraged by the resulting cooperation.  However, in the case of
+                                software used on network servers, this result may fail to come about.
+                            </p>
 
-                             Many developers of free software are heartened and
-                            encouraged by the resulting cooperation.  However, in the case of
-                            software used on network servers, this result may fail to come about.
-                            The GNU General Public License permits making a modified version and
-                            letting the public access it on a server without ever releasing its
-                            source code to the public.
+                            <p className="text-gpl">
+                                The GNU General Public License permits making a modified version and
+                                letting the public access it on a server without ever releasing its
+                                source code to the public.
+                            </p>
+
+
 
                             The GNU Affero General Public License is designed specifically to
                             ensure that, in such cases, the modified source code becomes available
