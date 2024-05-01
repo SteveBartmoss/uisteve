@@ -1,12 +1,22 @@
+import { useState } from "react"
 
 
 export function Menu({elementos,titulo}){
+
+    const [abrir, setAbrir]=useState(false)
+    
+    const handleOpen=()=>{
+        setAbrir(true)
+    }
+
+    const handleClose=()=>{
+        setAbrir(false)
+    }
+
     return(
         <div className="display-menu">
-            <div>{titulo}</div>
-            <div>
-                {elementos}
-            </div>
+            <div onMouseEnter={handleOpen} onMouseLeave={handleClose} >{titulo}</div>
+            <div className={abrir ? 'menu-list' : 'menu-none'}>{elementos}</div>
         </div>
     )
 }
