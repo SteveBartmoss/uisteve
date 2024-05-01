@@ -833,6 +833,18 @@
 
 /*#endregion*/
 
+/*#region estilos del snackbar*/
+.menu-list{
+  display: flex;
+  flex-direction: column;
+}
+
+.menu-none{
+  display: none;
+}
+
+/*#endregion*/
+
 .App {
   text-align: center;
 }
