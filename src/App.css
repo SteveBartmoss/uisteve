@@ -841,14 +841,14 @@
   font-size: 1rem;
 }
 
-.menu-list{
+.display-menu-list{
   position: absolute;
   z-index: 2;
   display: flex;
   flex-direction: column;
 }
 
-.menu-none{
+.display-menu-none{
   display: none;
 }
 
