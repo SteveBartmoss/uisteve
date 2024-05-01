@@ -1,9 +1,13 @@
 import { Boton } from "../componentes/Boton";
 import { Card, CardAccions, CardContent, CardText, CardTitle } from "../componentes/Card";
+import { ExtendPanel } from "../componentes/ExtendPanel";
+import { Menu } from "../componentes/Menu";
 import { ToolTip } from "../componentes/ToolTip";
 import { DivCol, DivMainContent, DivRow, Panel } from "../componentes/contenedores";
 
 export function ToolTipPage() {
+
+    
     return (
         <Panel>
             <DivMainContent>
@@ -31,6 +35,7 @@ export function ToolTipPage() {
                             </CardAccions>
                         </Card>
                     </DivCol>
+                    
                 </DivRow>
             </DivMainContent>
         </Panel>
