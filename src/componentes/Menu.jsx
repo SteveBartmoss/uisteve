@@ -14,9 +14,9 @@ export function Menu({elementos,titulo}){
     }
 
     return(
-        <div className="display-menu">
-            <div onMouseEnter={handleOpen} onMouseLeave={handleClose} >{titulo}</div>
-            <div className={abrir ? 'display-menu-list' : 'display-menu-none'}>
+        <div className="display-menu" onMouseEnter={handleOpen}>
+            <div>{titulo}</div>
+            <div onMouseLeave={handleClose}  className={abrir ? 'display-menu-list' : 'display-menu-none'}>
                 {
                     elementos.map(item =>
                         <div>{item}</div>
