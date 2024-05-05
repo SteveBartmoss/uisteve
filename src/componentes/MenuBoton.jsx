@@ -8,7 +8,7 @@ export function MenuBoton({evento,isOpen}) {
                 <Icon icono="menu" color="md-light" />
             </div>
             {
-                isOpen ? <div><NavLink className="menu-item" to='/'>Ui Steve</NavLink></div> : <></>
+                isOpen ? <div><NavLink className="menu-item" to='#'>Ui Steve</NavLink></div> : <></>
             }
         </div>
     )
