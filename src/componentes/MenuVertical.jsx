@@ -1,11 +1,23 @@
 import { NavLink } from "react-router-dom";
 import { MenuList } from "./MenuList";
+import { useState } from "react";
+import { Icon } from "./Icon";
+import { MenuBoton } from "./MenuBoton";
 
 export function MenuVertical() {
+
+    const [abrir, setAbrir] = useState(true)
+
+    const closeMenu = () => {
+        setAbrir(!abrir)
+    }
+
     return (
-        <div className="menu-vertical">
-            <div className="nav-bar">
-                <NavLink className="menu-item" to="/">Home</NavLink>
+        <div className={abrir ? 'menu-vertical' : 'menu-vertical-close'}>
+            <MenuBoton evento={closeMenu} isOpen={abrir} />
+            <div className={abrir ? 'nav-bar' : 'nav-bar-close'}>
+
+                <NavLink className="menu-item" to='/'>Home</NavLink>
                 <MenuList title={'Cards'} elements={
                     [
                         {
