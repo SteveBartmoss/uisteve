@@ -260,6 +260,19 @@
 
 /*#endregion*/
 
+/*#region estilos menu mobil*/
+.menu-mobil{
+  
+}
+
+.menu-mobil-open{
+
+}
+
+.menu-mobil-close{
+  display: none;
+}
+/*#endregion*/
 .div-list{
   margin: 1rem;
   padding-left: 3rem;
