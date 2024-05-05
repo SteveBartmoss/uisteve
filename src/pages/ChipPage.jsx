@@ -33,9 +33,9 @@ export function ChipPage() {
                         </CardText>
                         <CardAccions>
                             <Chip color={"success"}>success</Chip>
-                            <Chip color={"info"}>success</Chip>
-                            <Chip color={"warning"}>success</Chip>
-                            <Chip color={"error"}>success</Chip>
+                            <Chip color={"info"}>info</Chip>
+                            <Chip color={"warning"}>warning</Chip>
+                            <Chip color={"error"}>error</Chip>
                         </CardAccions>
                     </Card>
                 </DivRow>
