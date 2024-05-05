@@ -23,12 +23,22 @@ import { TextLongPage } from "../pages/TextLongPage";
 import { ChipPage } from "../pages/ChipPage";
 import { SnackBarPage } from "../pages/SnackBarPage";
 import { PageMenu } from "../pages/PageMenu";
+import useScreen from "../helpers/useScreen";
+import { MenuBoton } from "../componentes/MenuBoton";
+import { MenuMobil } from "../componentes/MenuMobil";
 
 
 export function RuoterUi() {
+
+    const {width, height} = useScreen()
+
+    console.log(`width: ${width}, height: ${height}`)
+
     return (
         <BrowserRouter>
-            <MenuVertical />
+        
+            { width <= 480 ? <MenuMobil /> : <MenuVertical /> }
+            
             <DivFull>
                 <Routes>
                     <Route path="/" element={<HomePage />} />
