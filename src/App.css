@@ -163,6 +163,13 @@
 /*#endregion*/
 
 /*#region estilos del menu*/
+
+.menu-vertical-close{
+  width: 3rem;
+  height: 100vh;
+  background-color: var(--azul-11);
+}
+
 .menu-vertical {
   width: 15rem;
   height: 100vh;
@@ -193,6 +200,10 @@
   font-size: 1.3rem;
   font-family: "Poppins";
   padding: .5rem 0;
+}
+
+.nav-bar-close{
+  display: none;
 }
 
 .nav-bar {
