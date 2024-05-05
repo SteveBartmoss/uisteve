@@ -5,7 +5,7 @@ import { MenuList } from "./MenuList";
 
 export function MenuMobil() {
 
-    const [abrir, setAbrir] = useState(true)
+    const [abrir, setAbrir] = useState(false)
 
     const onHandleClick=()=>{
         setAbrir(!abrir)
@@ -16,7 +16,7 @@ export function MenuMobil() {
             <div onClick={onHandleClick}>
                 <Icon icono="menu" color="md-light" />
             </div>
-            <div className="" >
+            <div className={abrir ? 'menu-mobil-open' : 'menu-mobil-close'} >
                 <MenuList title={'Cards'} elements={
                     [
                         {
