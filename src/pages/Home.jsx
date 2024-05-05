@@ -485,6 +485,16 @@ export function HomePage() {
                         </DivCol>
                     </DivRow>
 
+                    <hr className="divider" />
+
+                    <h1 className="main-subtitle">Chips</h1>
+
+                    <p className="main-content">
+                        Ahora puedes mostrar algo de ayuda para los 
+                        usuarios con estos tooltip que seran de utilidad
+                        a la hora de mostrar ayudar para los usuarios. 
+                    </p>
+
                     <Modal estado={open} close={closeModal}>
                         <Card>
                             <CardTitle>Ejemplo de modal</CardTitle>
