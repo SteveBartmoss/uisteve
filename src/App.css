@@ -164,10 +164,20 @@
 
 /*#region estilos del menu*/
 
+.div-menu-btn{
+  display: flex;
+  flex-direction: row;
+}
+
+.element-menu-btn{
+  padding-top: .2rem;
+  margin: 0 .5rem;
+}
+
 .menu-vertical-close{
   width: 3rem;
   height: 100vh;
-  background-color: var(--azul-11);
+  background-color: var(--gris-3);
 }
 
 .menu-vertical {
