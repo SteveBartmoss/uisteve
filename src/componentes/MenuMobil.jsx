@@ -53,10 +53,6 @@ export function MenuMobil() {
                             route: '/components/loader',
                         },
                         {
-                            title: 'Slider',
-                            route: '/components/slider',
-                        },
-                        {
                             title: 'Tool Tip',
                             route: '/components/tooltip',
                         },
