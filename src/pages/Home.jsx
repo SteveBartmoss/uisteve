@@ -9,6 +9,7 @@ import { Tabs } from "../componentes/Tabs";
 import { Loader, LoaderBar } from "../componentes/Loader";
 import { Icon } from "../componentes/Icon";
 import useScreen from "../helpers/useScreen";
+import { ToolTip } from "../componentes/ToolTip";
 
 
 export function HomePage() {
@@ -24,6 +25,10 @@ export function HomePage() {
 
     const onHandleHello = () => {
         setHola('Hi Stalker')
+    }
+
+    const onHandleTryme = () => {
+        console.log('Hi Stalker')
     }
 
     const openModal = () => {
@@ -42,7 +47,7 @@ export function HomePage() {
         setOpenForm(false)
     }
 
-    const {width, height} = useScreen();
+    const { width, height } = useScreen();
 
     console.log(`width: ${width}, height: ${height}`)
 
@@ -365,9 +370,9 @@ export function HomePage() {
                     <h1 className="main-subtitle">Loader</h1>
 
                     <p className="main-content">
-                        No siempre tenemos la suerte de tener gran velocidad 
-                        en nuestros datos que provienen del  backend pero podemos 
-                        mostrar este loader para que el usuario sepa que debe 
+                        No siempre tenemos la suerte de tener gran velocidad
+                        en nuestros datos que provienen del  backend pero podemos
+                        mostrar este loader para que el usuario sepa que debe
                         esperar la respuesta
                     </p>
 
@@ -376,8 +381,8 @@ export function HomePage() {
                             <Card>
                                 <CardTitle>Infinite Loader</CardTitle>
                                 <CardText>
-                                    No importa cuanto tiempo necesites puedes 
-                                    estar seguro de que este loader no se detendra 
+                                    No importa cuanto tiempo necesites puedes
+                                    estar seguro de que este loader no se detendra
                                     mientras cargas los datos de la api
                                 </CardText>
                                 <CardContent>
@@ -390,8 +395,8 @@ export function HomePage() {
                             <Card>
                                 <CardTitle>Infinite Loader</CardTitle>
                                 <CardText>
-                                    No importa cuanto tiempo necesites puedes 
-                                    estar seguro de que este loader no se detendra 
+                                    No importa cuanto tiempo necesites puedes
+                                    estar seguro de que este loader no se detendra
                                     mientras cargas los datos de la api
                                 </CardText>
                                 <CardContent>
@@ -407,8 +412,8 @@ export function HomePage() {
                     <h1 className="main-subtitle">Google Icons</h1>
 
                     <p className="main-content">
-                        Gracias a google icons ahora podemos tener acceso 
-                        a iconos en la plantilla para darle un estilo mas 
+                        Gracias a google icons ahora podemos tener acceso
+                        a iconos en la plantilla para darle un estilo mas
                         atractivo a nuesta aplacion
                     </p>
 
@@ -417,9 +422,9 @@ export function HomePage() {
                             <Card>
                                 <CardTitle>Iconos oscuros</CardTitle>
                                 <CardText>
-                                    Si el tema de la aplicacion son colores 
-                                    claros, estos iconos oscuros seran 
-                                    bastantes utiles 
+                                    Si el tema de la aplicacion son colores
+                                    claros, estos iconos oscuros seran
+                                    bastantes utiles
                                 </CardText>
                                 <CardAccions>
                                     <Icon icono="account_circle" />
@@ -435,8 +440,8 @@ export function HomePage() {
                             <Card>
                                 <CardTitle>Iconos claros</CardTitle>
                                 <CardText>
-                                    Si el tema de la aplicacion son colores 
-                                    oscuros, estos iconos claros seran bastantes 
+                                    Si el tema de la aplicacion son colores
+                                    oscuros, estos iconos claros seran bastantes
                                     utiles
                                 </CardText>
                                 <CardAccions>
@@ -449,6 +454,35 @@ export function HomePage() {
                             </Card>
                         </DivCol>
 
+                    </DivRow>
+
+                    <hr className="divider" />
+
+                    <h1 className="main-subtitle">Tool Tips</h1>
+
+                    <p className="main-content">
+                        Ahora puedes mostrar algo de ayuda para los 
+                        usuarios con estos tooltip que seran de utilidad
+                        a la hora de mostrar ayudar para los usuarios. 
+                    </p>
+
+                    <DivRow>
+                        <DivCol>
+                            <Card>
+                                <CardTitle>Tool tip</CardTitle>
+                                <CardText>
+                                    Los usuarios pueden perderse en ocaciones
+                                    o simplemente pueden no saber que hace algun
+                                    elemento de la aplicacion, este tool tip les
+                                    ayudara a saber que hacer
+                                </CardText>
+                                <CardAccions>
+                                    <ToolTip text={"presiona para continuar"}>
+                                        <Boton evento={onHandleTryme} color={"principal"}>Try me</Boton>
+                                    </ToolTip>
+                                </CardAccions>
+                            </Card>
+                        </DivCol>
                     </DivRow>
 
                     <Modal estado={open} close={closeModal}>
