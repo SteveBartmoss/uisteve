@@ -117,9 +117,13 @@ export function Licencia() {
                                 to the community.
                             </p>
 
-                            It requires the operator of a network server to
-                            provide the source code of the modified version running there to the
-                            users of that server.  Therefore, public use of a modified version, on
+                            <p className="text-gpl">
+                                It requires the operator of a network server to
+                                provide the source code of the modified version running there to the
+                                users of that server.
+                            </p>
+
+                            Therefore, public use of a modified version, on
                             a publicly accessible server, gives the public access to the source
                             code of the modified version.
 
