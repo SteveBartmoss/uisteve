@@ -26,6 +26,7 @@ import { PageMenu } from "../pages/PageMenu";
 import useScreen from "../helpers/useScreen";
 import { MenuBoton } from "../componentes/MenuBoton";
 import { MenuMobil } from "../componentes/MenuMobil";
+import { TablePage } from "../pages/TablePage";
 
 
 export function RuoterUi() {
@@ -63,6 +64,7 @@ export function RuoterUi() {
                     <Route path="/components/chip" element={<ChipPage />} />
                     <Route path="/components/snackbar" element={<SnackBarPage />} />
                     <Route path="/components/menu" element={<PageMenu />} />
+                    <Route path="/tables/table" element={<TablePage />} />
                 </Routes>
                 <Foter />
             </DivFull>
