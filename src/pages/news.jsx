@@ -12,11 +12,19 @@ export function News() {
 
                     <h1 className="main-subtitle">Change Log</h1>
 
+                    <h1>Nueva Tabla</h1>
+
+                    <h1>Nuevo Menu</h1>
+
+                    <h1>Nuevo SnackBar</h1>
+
+                    <h1>Nuevo Chips</h1>
+                    
                     <h1>Nuevos TextArea</h1>
 
                     <h1>Nuevo tool tip</h1>
 
-                    <h1>Nuevo slide</h1>
+                    <h1>Nuevo slider</h1>
 
                     <h1>Nuevo Swtich</h1>
 
