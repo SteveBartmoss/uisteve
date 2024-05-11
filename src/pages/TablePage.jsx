@@ -1,6 +1,6 @@
 import { Card, CardContent, CardText, CardTitle } from "../componentes/Card";
 import { DataTable } from "../componentes/DataTable";
-import { DivCol, DivMainContent, DivRow } from "../componentes/contenedores";
+import { DivCol, DivMainContent, DivRow, Panel } from "../componentes/contenedores";
 
 
 export function TablePage() {
