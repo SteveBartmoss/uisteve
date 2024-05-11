@@ -72,7 +72,7 @@ export function MenuVertical() {
                     ]
                 }
                 />
-                <MenuList title={'Forms & Tables'} elements={
+                <MenuList title={'Forms'} elements={
                     [
                         {
                             title: 'Texfield',
@@ -90,6 +90,15 @@ export function MenuVertical() {
                             title: 'Text Long',
                             route: '/forms/textlong',
                         }
+                    ]
+                }
+                />
+                <MenuList title={'Tables'} elements={
+                    [
+                        {
+                            title: 'Table',
+                            route: '/tables/table',
+                        },
                     ]
                 }
                 />
