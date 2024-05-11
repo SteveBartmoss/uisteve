@@ -123,9 +123,11 @@ export function Licencia() {
                                 users of that server.
                             </p>
 
-                            Therefore, public use of a modified version, on
-                            a publicly accessible server, gives the public access to the source
-                            code of the modified version.
+                            <p className="text-gpl">
+                                Therefore, public use of a modified version, on
+                                a publicly accessible server, gives the public access to the source
+                                code of the modified version.
+                            </p>
 
                             An older license, called the Affero General Public License and
                             published by Affero, was designed to accomplish similar goals.  This is
