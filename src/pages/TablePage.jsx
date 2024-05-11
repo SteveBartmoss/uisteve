@@ -1,4 +1,5 @@
 import { Card, CardContent, CardText, CardTitle } from "../componentes/Card";
+import { Carrusel } from "../componentes/Carrusel";
 import { DataTable } from "../componentes/DataTable";
 import { DivCol, DivMainContent, DivRow, Panel } from "../componentes/contenedores";
 
@@ -64,6 +65,7 @@ export function TablePage() {
                             </CardContent>
                         </Card>
                     </DivCol>
+
                 </DivRow>
             </DivMainContent>
         </Panel>
