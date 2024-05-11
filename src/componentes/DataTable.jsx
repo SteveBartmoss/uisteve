@@ -16,7 +16,7 @@ export function DataTable({ headers, elements }) {
                     elements.map(item=>
                         <tr>
                             {
-                                head.map(head =>
+                                headers.map(head =>
                                     <td>{item[head.key]}</td>
                                 )
                             }
