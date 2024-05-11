@@ -8,7 +8,7 @@ export function Foter() {
             <DivMainContent>
                 <DivFooterContent>
                     <DivRow>
-                        <p className="footer-link">Power by DevFarming</p>
+                        <p className="footer-link">Power by Makeer Studios</p>
                     </DivRow>
                     <DivRow>
                         <NavLink className="footer-link" to="/news">News</NavLink>
