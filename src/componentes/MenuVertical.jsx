@@ -68,6 +68,10 @@ export function MenuVertical() {
                         {
                             title: 'Menu',
                             route: '/components/menu',
+                        },
+                        {
+                            title: 'Carrusel',
+                            route: '/components/carrusel',
                         }
                     ]
                 }
