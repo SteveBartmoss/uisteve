@@ -6,7 +6,7 @@ export function DataTable({ headers, elements }) {
                 <tr>
                     {
                         headers.map(head =>
-                            <th>{head.title}</th>
+                            <th className="table-titles">{head.title}</th>
                         )
                     }
                 </tr>
@@ -17,7 +17,7 @@ export function DataTable({ headers, elements }) {
                         <tr>
                             {
                                 headers.map(head =>
-                                    <td>{item[head.key]}</td>
+                                    <td className="table-content">{item[head.key]}</td>
                                 )
                             }
                         </tr>
