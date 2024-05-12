@@ -10,6 +10,7 @@ import { Loader, LoaderBar } from "../componentes/Loader";
 import { Icon } from "../componentes/Icon";
 import useScreen from "../helpers/useScreen";
 import { ToolTip } from "../componentes/ToolTip";
+import { Chip } from "../componentes/Chip";
 
 
 export function HomePage() {
@@ -461,9 +462,9 @@ export function HomePage() {
                     <h1 className="main-subtitle">Tool Tips</h1>
 
                     <p className="main-content">
-                        Ahora puedes mostrar algo de ayuda para los 
+                        Ahora puedes mostrar algo de ayuda para los
                         usuarios con estos tooltip que seran de utilidad
-                        a la hora de mostrar ayudar para los usuarios. 
+                        a la hora de mostrar ayudar para los usuarios.
                     </p>
 
                     <DivRow>
@@ -490,10 +491,43 @@ export function HomePage() {
                     <h1 className="main-subtitle">Chips</h1>
 
                     <p className="main-content">
-                        Ahora puedes mostrar algo de ayuda para los 
+                        Ahora puedes mostrar algo de ayuda para los
                         usuarios con estos tooltip que seran de utilidad
-                        a la hora de mostrar ayudar para los usuarios. 
+                        a la hora de mostrar ayudar para los usuarios.
                     </p>
+
+                    <DivRow>
+                        <DivCol>
+                            <Card>
+                                <CardTitle>Color principal</CardTitle>
+                                <CardText>
+                                    Las aplicaciones llamativas atraer a
+                                    muchos usuarios asi que estos estilos
+                                    haran que tus usuarios disfruten de estos
+                                    textos
+                                </CardText>
+                                <CardAccions>
+                                    <Chip color={"principal"}>Principal</Chip>
+                                </CardAccions>
+                            </Card>
+                        </DivCol>
+
+                        <DivCol>
+                            <Card>
+                                <CardTitle>Diferentes colores</CardTitle>
+                                <CardText>
+                                    Los colores principales estan disponibles para
+                                    que tus textos se van mejor que nunca
+                                </CardText>
+                                <CardAccions>
+                                    <Chip color={"success"}>success</Chip>
+                                    <Chip color={"info"}>info</Chip>
+                                    <Chip color={"warning"}>warning</Chip>
+                                    <Chip color={"error"}>error</Chip>
+                                </CardAccions>
+                            </Card>
+                        </DivCol>
+                    </DivRow>
 
                     <Modal estado={open} close={closeModal}>
                         <Card>
