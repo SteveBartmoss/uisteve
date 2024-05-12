@@ -11,6 +11,7 @@ import { Icon } from "../componentes/Icon";
 import useScreen from "../helpers/useScreen";
 import { ToolTip } from "../componentes/ToolTip";
 import { Chip } from "../componentes/Chip";
+import { SnackBar } from "../componentes/SnackBar";
 
 
 export function HomePage() {
@@ -19,6 +20,7 @@ export function HomePage() {
     const [hola, setHola] = useState('')
     const [open, setOpen] = useState(false)
     const [openForm, setOpenForm] = useState(false)
+    const [abrir,setAbrir]=useState(false)
 
     const onHandleClick = (tipo) => {
         setEvento(tipo)
@@ -46,6 +48,10 @@ export function HomePage() {
 
     const onCloseForm = () => {
         setOpenForm(false)
+    }
+
+    const handleShow=()=>{
+        setAbrir(true)
     }
 
     const { width, height } = useScreen();
@@ -528,6 +534,40 @@ export function HomePage() {
                             </Card>
                         </DivCol>
                     </DivRow>
+
+                    <hr className="divider" />
+
+                    <h1 className="main-subtitle">Snackbar</h1>
+
+                    <p className="main-content">
+                        Los modales pueden ser algo agresivos para los 
+                        usuarios pero con este snackbar puedes mostrar 
+                        informacion para los usuarios sin tener que 
+                        abarcaer toda su atencion
+                    </p>
+
+                    <DivRow>
+                        <DivCol>
+                            <Card>
+                                <CardTitle>Snackbar</CardTitle>
+                                <CardText>
+                                    Pruebo el nuevo snackbar para poder 
+                                    mostrar informacion simple sin tener 
+                                    que abrir todo un modal para un mensaje 
+                                    simple
+                                </CardText>
+                                <CardAccions>
+                                    <Boton evento={handleShow} color={"principal"}>Try me</Boton>
+                                </CardAccions>
+                            </Card>
+                        </DivCol>
+                    </DivRow>
+
+                    <SnackBar open={abrir} setOpen={setAbrir}>
+                        <Card>
+                            <CardTitle>Hi stalker!</CardTitle>
+                        </Card>
+                    </SnackBar>
 
                     <Modal estado={open} close={closeModal}>
                         <Card>
