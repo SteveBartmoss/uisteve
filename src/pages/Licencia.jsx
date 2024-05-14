@@ -129,11 +129,15 @@ export function Licencia() {
                                 code of the modified version.
                             </p>
 
-                            An older license, called the Affero General Public License and
-                            published by Affero, was designed to accomplish similar goals.  This is
-                            a different license, not a version of the Affero GPL, but Affero has
-                            released a new version of the Affero GPL which permits relicensing under
-                            this license.
+                            <p className="text-gpl">
+                                An older license, called the Affero General Public License and
+                                published by Affero, was designed to accomplish similar goals.  This is
+                                a different license, not a version of the Affero GPL, but Affero has
+                                released a new version of the Affero GPL which permits relicensing under
+                                this license.
+                            </p>
+
+
 
                             The precise terms and conditions for copying, distribution and
                             modification follow.
