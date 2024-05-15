@@ -137,10 +137,10 @@ export function Licencia() {
                                 this license.
                             </p>
 
-
-
-                            The precise terms and conditions for copying, distribution and
-                            modification follow.
+                            <p className="text-gpl">
+                                The precise terms and conditions for copying, distribution and
+                                modification follow.
+                            </p>
 
                             TERMS AND CONDITIONS
 
