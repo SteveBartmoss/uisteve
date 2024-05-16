@@ -146,7 +146,11 @@ export function Licencia() {
 
                             0. Definitions.
 
-                            "This License" refers to version 3 of the GNU Affero General Public License.
+                            <p className="text-gpl">
+                                "This License" refers to version 3 of the GNU Affero General Public License.
+                            </p>
+
+                            
 
                             "Copyright" also means copyright-like laws that apply to other kinds of
                             works, such as semiconductor masks.
