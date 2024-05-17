@@ -150,10 +150,10 @@ export function Licencia() {
                                 "This License" refers to version 3 of the GNU Affero General Public License.
                             </p>
 
-                            
-
-                            "Copyright" also means copyright-like laws that apply to other kinds of
-                            works, such as semiconductor masks.
+                            <p className="text-gpl">
+                                "Copyright" also means copyright-like laws that apply to other kinds of
+                                works, such as semiconductor masks.
+                            </p>
 
                             "The Program" refers to any copyrightable work licensed under this
                             License.  Each licensee is addressed as "you".  "Licensees" and
