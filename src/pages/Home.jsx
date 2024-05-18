@@ -14,6 +14,7 @@ import { Chip } from "../componentes/Chip";
 import { SnackBar } from "../componentes/SnackBar";
 import { Menu } from "../componentes/Menu";
 import { Carrusel } from "../componentes/Carrusel";
+import { Toogle } from "../componentes/Toogle";
 
 
 export function HomePage() {
@@ -610,8 +611,8 @@ export function HomePage() {
                     <h1 className="main-subtitle">Carusel</h1>
 
                     <p className="main-content">
-                        Una buena forma de mostrar una gran cantidad 
-                        de contenido es una lista que parece no tener fin 
+                        Una buena forma de mostrar una gran cantidad
+                        de contenido es una lista que parece no tener fin
                         este carrusel puede darte este efecto
                     </p>
 
@@ -622,6 +623,30 @@ export function HomePage() {
                                 <CardContent>
                                     <Carrusel elements={items} />
                                 </CardContent>
+                            </Card>
+                        </DivCol>
+                    </DivRow>
+
+                    <hr className="divider" />
+
+                    <h1 className="main-subtitle">Switch</h1>
+
+                    <p className="main-content">
+                        A los usuarios les gusta interactuar con las
+                        cosas y este switch les permite exactamente eso
+                    </p>
+
+                    <DivRow>
+                        <DivCol>
+                            <Card>
+                                <CardTitle>Switch</CardTitle>
+                                <CardText>
+                                    Un simple interruptor para mostrar
+                                    a tus usuarios
+                                </CardText>
+                                <CardAccions>
+                                    <Toogle />
+                                </CardAccions>
                             </Card>
                         </DivCol>
                     </DivRow>
