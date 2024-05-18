@@ -610,10 +610,9 @@ export function HomePage() {
                     <h1 className="main-subtitle">Carusel</h1>
 
                     <p className="main-content">
-                        Los modales pueden ser algo agresivos para los
-                        usuarios pero con este snackbar puedes mostrar
-                        informacion para los usuarios sin tener que
-                        abarcaer toda su atencion
+                        Una buena forma de mostrar una gran cantidad 
+                        de contenido es una lista que parece no tener fin 
+                        este carrusel puede darte este efecto
                     </p>
 
                     <DivRow>
