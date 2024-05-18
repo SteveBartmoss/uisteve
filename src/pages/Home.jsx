@@ -15,6 +15,7 @@ import { SnackBar } from "../componentes/SnackBar";
 import { Menu } from "../componentes/Menu";
 import { Carrusel } from "../componentes/Carrusel";
 import { Toogle } from "../componentes/Toogle";
+import { RangeSlider } from "../componentes/RangeSlider";
 
 
 export function HomePage() {
@@ -649,6 +650,32 @@ export function HomePage() {
                                 </CardAccions>
                             </Card>
                         </DivCol>
+                    </DivRow>
+
+                    <hr className="divider" />
+
+                    <h1 className="main-subtitle">Slider</h1>
+
+                    <p className="main-content">
+                        Otra forma de hacer que los usuarios
+                        interactuen con tu aplicacion es usar esta
+                        barra tipica de volumen
+                    </p>
+
+                    <DivRow>
+
+                        <DivCol>
+                            <Card>
+                                <CardTitle>Un simple slider</CardTitle>
+                                <CardText>
+                                    Un elemento llamativo paras tu aplicacion
+                                </CardText>
+                                <CardAccions>
+                                    <RangeSlider />
+                                </CardAccions>
+                            </Card>
+                        </DivCol>
+
                     </DivRow>
 
                     <SnackBar open={abrir} setOpen={setAbrir}>
