@@ -13,6 +13,7 @@ import { ToolTip } from "../componentes/ToolTip";
 import { Chip } from "../componentes/Chip";
 import { SnackBar } from "../componentes/SnackBar";
 import { Menu } from "../componentes/Menu";
+import { Carrusel } from "../componentes/Carrusel";
 
 
 export function HomePage() {
@@ -21,7 +22,7 @@ export function HomePage() {
     const [hola, setHola] = useState('')
     const [open, setOpen] = useState(false)
     const [openForm, setOpenForm] = useState(false)
-    const [abrir,setAbrir]=useState(false)
+    const [abrir, setAbrir] = useState(false)
     const opciones = ["Botones", "Tabs", "Modales"];
 
     const onHandleClick = (tipo) => {
@@ -52,9 +53,48 @@ export function HomePage() {
         setOpenForm(false)
     }
 
-    const handleShow=()=>{
+    const handleShow = () => {
         setAbrir(true)
     }
+
+    const items = [
+        {
+            content:
+                <Card>
+                    <CardTitle>Pagina 1</CardTitle>
+                    <CardText>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                        Officia aliquam pariatur amet itaque aut voluptate nemo
+                        doloremque consectetur, atque est accusamus? Libero ipsum
+                        fugiat esse praesentium quod harum aliquam soluta!
+                    </CardText>
+                </Card>,
+        },
+        {
+            content:
+                <Card>
+                    <CardTitle>Pagina 2</CardTitle>
+                    <CardText>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                        Culpa possimus, error vel eaque aut quod expedita voluptas asperiores.
+                        Ratione laborum amet hic reiciendis voluptatibus obcaecati
+                        fuga dolor maiores placeat numquam.
+                    </CardText>
+                </Card>,
+        },
+        {
+            content:
+                <Card>
+                    <CardTitle>Pagina 3</CardTitle>
+                    <CardText>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Dolor officiis asperiores consequatur possimus. Ex sint,
+                        corporis eum voluptatibus magni, sapiente odit magnam ullam
+                        amet, atque minus optio alias accusamus officiis?
+                    </CardText>
+                </Card>
+        }
+    ]
 
     const { width, height } = useScreen();
 
@@ -542,9 +582,9 @@ export function HomePage() {
                     <h1 className="main-subtitle">Snackbar</h1>
 
                     <p className="main-content">
-                        Los modales pueden ser algo agresivos para los 
-                        usuarios pero con este snackbar puedes mostrar 
-                        informacion para los usuarios sin tener que 
+                        Los modales pueden ser algo agresivos para los
+                        usuarios pero con este snackbar puedes mostrar
+                        informacion para los usuarios sin tener que
                         abarcaer toda su atencion
                     </p>
 
@@ -553,9 +593,9 @@ export function HomePage() {
                             <Card>
                                 <CardTitle>Snackbar</CardTitle>
                                 <CardText>
-                                    Pruebo el nuevo snackbar para poder 
-                                    mostrar informacion simple sin tener 
-                                    que abrir todo un modal para un mensaje 
+                                    Pruebo el nuevo snackbar para poder
+                                    mostrar informacion simple sin tener
+                                    que abrir todo un modal para un mensaje
                                     simple
                                 </CardText>
                                 <CardAccions>
@@ -567,12 +607,12 @@ export function HomePage() {
 
                     <hr className="divider" />
 
-                    <h1 className="main-subtitle">Snackbar</h1>
+                    <h1 className="main-subtitle">Menu Desplegable</h1>
 
                     <p className="main-content">
-                        Los modales pueden ser algo agresivos para los 
-                        usuarios pero con este snackbar puedes mostrar 
-                        informacion para los usuarios sin tener que 
+                        Los modales pueden ser algo agresivos para los
+                        usuarios pero con este snackbar puedes mostrar
+                        informacion para los usuarios sin tener que
                         abarcaer toda su atencion
                     </p>
 
@@ -581,9 +621,9 @@ export function HomePage() {
                             <Card>
                                 <CardTitle>Menu</CardTitle>
                                 <CardText>
-                                    Los menus fijos pueden no ser tan practicos 
-                                    este menu desplegable te recordara a las 
-                                    aplicaciones antiguas que no han cambiado de menu 
+                                    Los menus fijos pueden no ser tan practicos
+                                    este menu desplegable te recordara a las
+                                    aplicaciones antiguas que no han cambiado de menu
                                 </CardText>
                                 <CardAccions>
                                     <Menu titulo={'Menu'} elementos={opciones} />
@@ -595,16 +635,38 @@ export function HomePage() {
                             <Card>
                                 <CardTitle>Menu</CardTitle>
                                 <CardText>
-                                    Los menus fijos pueden no ser tan practicos 
-                                    este menu desplegable te recordara a las 
-                                    aplicaciones antiguas que no han cambiado de menu 
+                                    Los menus fijos pueden no ser tan practicos
+                                    este menu desplegable te recordara a las
+                                    aplicaciones antiguas que no han cambiado de menu
                                 </CardText>
                                 <CardAccions>
                                     <Menu titulo={'Menu'} elementos={opciones} />
                                 </CardAccions>
                             </Card>
                         </DivCol>
-                        
+
+                    </DivRow>
+
+                    <hr className="divider" />
+
+                    <h1 className="main-subtitle">Carusel</h1>
+
+                    <p className="main-content">
+                        Los modales pueden ser algo agresivos para los
+                        usuarios pero con este snackbar puedes mostrar
+                        informacion para los usuarios sin tener que
+                        abarcaer toda su atencion
+                    </p>
+
+                    <DivRow>
+                        <DivCol>
+                            <Card>
+                                <CardTitle>Seccion de noticias</CardTitle>
+                                <CardContent>
+                                    <Carrusel elements={items} />
+                                </CardContent>
+                            </Card>
+                        </DivCol>
                     </DivRow>
 
                     <SnackBar open={abrir} setOpen={setAbrir}>
