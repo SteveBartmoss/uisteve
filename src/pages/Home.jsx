@@ -12,6 +12,7 @@ import useScreen from "../helpers/useScreen";
 import { ToolTip } from "../componentes/ToolTip";
 import { Chip } from "../componentes/Chip";
 import { SnackBar } from "../componentes/SnackBar";
+import { Menu } from "../componentes/Menu";
 
 
 export function HomePage() {
@@ -21,6 +22,7 @@ export function HomePage() {
     const [open, setOpen] = useState(false)
     const [openForm, setOpenForm] = useState(false)
     const [abrir,setAbrir]=useState(false)
+    const opciones = ["Botones", "Tabs", "Modales"];
 
     const onHandleClick = (tipo) => {
         setEvento(tipo)
@@ -561,6 +563,48 @@ export function HomePage() {
                                 </CardAccions>
                             </Card>
                         </DivCol>
+                    </DivRow>
+
+                    <hr className="divider" />
+
+                    <h1 className="main-subtitle">Snackbar</h1>
+
+                    <p className="main-content">
+                        Los modales pueden ser algo agresivos para los 
+                        usuarios pero con este snackbar puedes mostrar 
+                        informacion para los usuarios sin tener que 
+                        abarcaer toda su atencion
+                    </p>
+
+                    <DivRow>
+                        <DivCol>
+                            <Card>
+                                <CardTitle>Menu</CardTitle>
+                                <CardText>
+                                    Los menus fijos pueden no ser tan practicos 
+                                    este menu desplegable te recordara a las 
+                                    aplicaciones antiguas que no han cambiado de menu 
+                                </CardText>
+                                <CardAccions>
+                                    <Menu titulo={'Menu'} elementos={opciones} />
+                                </CardAccions>
+                            </Card>
+                        </DivCol>
+
+                        <DivCol>
+                            <Card>
+                                <CardTitle>Menu</CardTitle>
+                                <CardText>
+                                    Los menus fijos pueden no ser tan practicos 
+                                    este menu desplegable te recordara a las 
+                                    aplicaciones antiguas que no han cambiado de menu 
+                                </CardText>
+                                <CardAccions>
+                                    <Menu titulo={'Menu'} elementos={opciones} />
+                                </CardAccions>
+                            </Card>
+                        </DivCol>
+                        
                     </DivRow>
 
                     <SnackBar open={abrir} setOpen={setAbrir}>
