@@ -33,6 +33,15 @@ export function Carrusel({ elements }) {
             <DivRow>
                 <div className="carrusel-buttons">
                     <Boton color={'principal'} evento={anterior}>Anterior</Boton>
+
+                    <DivRow>
+                        {
+                            elements.map((element,index)=>{
+                                return <div className={index === item ? 'dot-selected':'dot-carrusel'}></div>
+                            })
+                        }
+                    </DivRow>
+
                     <Boton color={'principal'} evento={siguiente}>Siguiente</Boton>
                 </div>
             </DivRow>
