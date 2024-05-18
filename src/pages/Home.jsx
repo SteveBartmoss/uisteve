@@ -17,6 +17,7 @@ import { Carrusel } from "../componentes/Carrusel";
 import { Toogle } from "../componentes/Toogle";
 import { RangeSlider } from "../componentes/RangeSlider";
 import { TextLongField } from "../componentes/TextLongField";
+import { DataTable } from "../componentes/DataTable";
 
 
 export function HomePage() {
@@ -96,6 +97,39 @@ export function HomePage() {
                         amet, atque minus optio alias accusamus officiis?
                     </CardText>
                 </Card>
+        }
+    ]
+
+    const encabezados = [
+        {
+            title: 'Nombre',
+            key: 'name'
+        },
+        {
+            title: 'Apodo',
+            key: 'alias'
+        },
+        {
+            title: 'Telefono',
+            key: 'telefono'
+        }
+    ]
+
+    const elementos = [
+        {
+            name: 'Marco',
+            alias: 'Steve',
+            telefono: '3311892077'
+        },
+        {
+            name: 'Antonio',
+            alias: 'Tony',
+            telefono: '3311892077'
+        },
+        {
+            name: 'Pedro',
+            alias: 'Peter',
+            telefono: '3311892077'
         }
     ]
 
@@ -700,6 +734,32 @@ export function HomePage() {
                                 <TextLongField />
                             </CardContent>
                         </Card>
+                    </DivRow>
+
+                    <hr className="divider" />
+
+                    <h1 className="main-subtitle">Data table</h1>
+
+                    <p className="main-content">
+                        Los datos pueden ser dificiles de organizar
+                        pero esta tabla puede organizar la informacion
+                        de manera simple
+                    </p>
+
+                    <DivRow>
+                        <DivCol>
+                            <Card>
+                                <CardTitle>Tabla simple</CardTitle>
+                                <CardText>
+                                    Una tabla para dar orden a tus datos
+                                    y que los usuarios sepan  que es lo que
+                                    estan viendo
+                                </CardText>
+                                <CardContent>
+                                    <DataTable headers={encabezados} elements={elementos} />
+                                </CardContent>
+                            </Card>
+                        </DivCol>
                     </DivRow>
 
                     <SnackBar open={abrir} setOpen={setAbrir}>
