@@ -155,9 +155,11 @@ export function Licencia() {
                                 works, such as semiconductor masks.
                             </p>
 
-                            "The Program" refers to any copyrightable work licensed under this
-                            License.  Each licensee is addressed as "you".  "Licensees" and
-                            "recipients" may be individuals or organizations.
+                            <p className="text-gpl">
+                                "The Program" refers to any copyrightable work licensed under this
+                                License.  Each licensee is addressed as "you".  "Licensees" and
+                                "recipients" may be individuals or organizations.
+                            </p>
 
                             To "modify" a work means to copy from or adapt all or part of the work
                             in a fashion requiring copyright permission, other than the making of an
