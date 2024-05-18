@@ -607,48 +607,6 @@ export function HomePage() {
 
                     <hr className="divider" />
 
-                    <h1 className="main-subtitle">Menu Desplegable</h1>
-
-                    <p className="main-content">
-                        Los modales pueden ser algo agresivos para los
-                        usuarios pero con este snackbar puedes mostrar
-                        informacion para los usuarios sin tener que
-                        abarcaer toda su atencion
-                    </p>
-
-                    <DivRow>
-                        <DivCol>
-                            <Card>
-                                <CardTitle>Menu</CardTitle>
-                                <CardText>
-                                    Los menus fijos pueden no ser tan practicos
-                                    este menu desplegable te recordara a las
-                                    aplicaciones antiguas que no han cambiado de menu
-                                </CardText>
-                                <CardAccions>
-                                    <Menu titulo={'Menu'} elementos={opciones} />
-                                </CardAccions>
-                            </Card>
-                        </DivCol>
-
-                        <DivCol>
-                            <Card>
-                                <CardTitle>Menu</CardTitle>
-                                <CardText>
-                                    Los menus fijos pueden no ser tan practicos
-                                    este menu desplegable te recordara a las
-                                    aplicaciones antiguas que no han cambiado de menu
-                                </CardText>
-                                <CardAccions>
-                                    <Menu titulo={'Menu'} elementos={opciones} />
-                                </CardAccions>
-                            </Card>
-                        </DivCol>
-
-                    </DivRow>
-
-                    <hr className="divider" />
-
                     <h1 className="main-subtitle">Carusel</h1>
 
                     <p className="main-content">
