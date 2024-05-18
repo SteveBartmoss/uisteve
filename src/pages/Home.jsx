@@ -16,6 +16,7 @@ import { Menu } from "../componentes/Menu";
 import { Carrusel } from "../componentes/Carrusel";
 import { Toogle } from "../componentes/Toogle";
 import { RangeSlider } from "../componentes/RangeSlider";
+import { TextLongField } from "../componentes/TextLongField";
 
 
 export function HomePage() {
@@ -676,6 +677,29 @@ export function HomePage() {
                             </Card>
                         </DivCol>
 
+                    </DivRow>
+
+                    <hr className="divider" />
+
+                    <h1 className="main-subtitle">TextArea</h1>
+
+                    <p className="main-content">
+                        No siempre es facil escribir con pocas
+                        palabras pero este texare te permitira
+                        expresar lo que quieras
+                    </p>
+
+                    <DivRow>
+                        <Card>
+                            <CardTitle>Text Long Field</CardTitle>
+                            <CardText>
+                                Una alternativa a los text field cuando
+                                necesitas mas cantidad de texto
+                            </CardText>
+                            <CardContent>
+                                <TextLongField />
+                            </CardContent>
+                        </Card>
                     </DivRow>
 
                     <SnackBar open={abrir} setOpen={setAbrir}>
