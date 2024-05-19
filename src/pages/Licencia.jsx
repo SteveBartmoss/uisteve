@@ -161,10 +161,12 @@ export function Licencia() {
                                 "recipients" may be individuals or organizations.
                             </p>
 
-                            To "modify" a work means to copy from or adapt all or part of the work
-                            in a fashion requiring copyright permission, other than the making of an
-                            exact copy.  The resulting work is called a "modified version" of the
-                            earlier work or a work "based on" the earlier work.
+                            <p className="text-gpl">
+                                To "modify" a work means to copy from or adapt all or part of the work
+                                in a fashion requiring copyright permission, other than the making of an
+                                exact copy.  The resulting work is called a "modified version" of the
+                                earlier work or a work "based on" the earlier work.
+                            </p>
 
                             A "covered work" means either the unmodified Program or a work based
                             on the Program.
