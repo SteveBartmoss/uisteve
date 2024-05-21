@@ -168,8 +168,11 @@ export function Licencia() {
                                 earlier work or a work "based on" the earlier work.
                             </p>
 
-                            A "covered work" means either the unmodified Program or a work based
-                            on the Program.
+                            <p className="text-gpl">
+                                A "covered work" means either the unmodified Program or a work based
+                                on the Program.
+                            </p>
+
 
                             To "propagate" a work means to do anything with it that, without
                             permission, would make you directly or secondarily liable for
