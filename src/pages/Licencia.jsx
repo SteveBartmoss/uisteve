@@ -173,11 +173,14 @@ export function Licencia() {
                                 on the Program.
                             </p>
 
+                            <p className="text-gpl">
+                                To "propagate" a work means to do anything with it that, without
+                                permission, would make you directly or secondarily liable for
+                                infringement under applicable copyright law, except executing it on a
+                                computer or modifying a private copy.
+                            </p>
 
-                            To "propagate" a work means to do anything with it that, without
-                            permission, would make you directly or secondarily liable for
-                            infringement under applicable copyright law, except executing it on a
-                            computer or modifying a private copy.  Propagation includes copying,
+                            Propagation includes copying,
                             distribution (with or without modification), making available to the
                             public, and in some countries other activities as well.
 
