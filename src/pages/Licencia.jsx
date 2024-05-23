@@ -180,9 +180,13 @@ export function Licencia() {
                                 computer or modifying a private copy.
                             </p>
 
-                            Propagation includes copying,
-                            distribution (with or without modification), making available to the
-                            public, and in some countries other activities as well.
+                            <p className="text-gpl">
+                                Propagation includes copying,
+                                distribution (with or without modification), making available to the
+                                public, and in some countries other activities as well.
+                            </p>
+
+
 
                             To "convey" a work means any kind of propagation that enables other
                             parties to make or receive copies.  Mere interaction with a user through
