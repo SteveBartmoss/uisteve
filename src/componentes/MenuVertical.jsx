@@ -106,6 +106,15 @@ export function MenuVertical() {
                     ]
                 }
                 />
+                <MenuList title={'Pages'} elements={
+                    [
+                        {
+                            title: 'Login',
+                            route: '/pages/login',
+                        },
+                    ]
+                }
+                />
             </div>
         </div>
     );
