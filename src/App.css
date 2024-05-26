@@ -52,6 +52,7 @@
 }
 
 /*#region estilos de google icons*/
+
 /* Rules for sizing the icon. */   
 .material-icons.md-18 { font-size: 18px; }
 .material-icons.md-24 { font-size: 24px; }
@@ -969,6 +970,13 @@
 
 /*#endregion*/
 
+
+/*#region estilos login*/
+.img-login{
+  width: 75%;
+  height: 50rem;
+}
+/*#endregion*/
 .App {
   text-align: center;
 }
