@@ -28,6 +28,7 @@ import { MenuBoton } from "../componentes/MenuBoton";
 import { MenuMobil } from "../componentes/MenuMobil";
 import { TablePage } from "../pages/TablePage";
 import { CarruselPage } from "../pages/CarruselPage";
+import { Login } from "../layouts/login";
 
 
 export function RuoterUi() {
@@ -67,6 +68,7 @@ export function RuoterUi() {
                     <Route path="/components/menu" element={<PageMenu />} />
                     <Route path="/components/carrusel" element={<CarruselPage />} />
                     <Route path="/tables/table" element={<TablePage />} />
+                    <Route path="/pages/login" element={<Login />} />
                 </Routes>
                 <Foter />
             </DivFull>
