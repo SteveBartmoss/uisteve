@@ -217,11 +217,13 @@ export function Licencia() {
                                 form of a work.
                             </p>
 
+                            <p className="text-gpl">
+                                A "Standard Interface" means an interface that either is an official
+                                standard defined by a recognized standards body, or, in the case of
+                                interfaces specified for a particular programming language, one that
+                                is widely used among developers working in that language.
+                            </p>
 
-                            A "Standard Interface" means an interface that either is an official
-                            standard defined by a recognized standards body, or, in the case of
-                            interfaces specified for a particular programming language, one that
-                            is widely used among developers working in that language.
 
                             The "System Libraries" of an executable work include anything, other
                             than the work as a whole, that (a) is included in the normal form of
