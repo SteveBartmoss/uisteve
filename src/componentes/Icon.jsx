@@ -1,4 +1,4 @@
-
+import './componentes.css';
 
 export function Icon({icono,color,size}){
     return(
