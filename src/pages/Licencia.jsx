@@ -237,13 +237,14 @@ export function Licencia() {
                                 produce the work, or an object code interpreter used to run it.
                             </p>
 
+                            <p className="text-gpl">
+                                The "Corresponding Source" for a work in object code form means all
+                                the source code needed to generate, install, and (for an executable
+                                work) run the object code and to modify the work, including scripts to
+                                control those activities.
+                            </p>
 
-
-
-                            The "Corresponding Source" for a work in object code form means all
-                            the source code needed to generate, install, and (for an executable
-                            work) run the object code and to modify the work, including scripts to
-                            control those activities.  However, it does not include the work's
+                            However, it does not include the work's
                             System Libraries, or general-purpose tools or generally available free
                             programs which are used unmodified in performing those activities but
                             which are not part of the work.  For example, Corresponding Source
