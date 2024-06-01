@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { DivCol, DivRow } from "./contenedores";
-
+import './componentes.css';
 
 export function Tabs({ headers, elements }) {
 
