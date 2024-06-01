@@ -70,29 +70,6 @@
 /*#endregion*/
 
 
-/*#region estilos para los colores*/
-.principal {
-  background-color: #149eca;
-}
-
-.success {
-  background-color: #00C853;
-}
-
-.info {
-  background-color: #2962FF;
-}
-
-.warning {
-  background-color: #FFAB00;
-}
-
-.error {
-  background-color: #D84315;
-}
-
-/*#endregion*/
-
 /*#region estilos de los div*/
 
 .main-frame {
