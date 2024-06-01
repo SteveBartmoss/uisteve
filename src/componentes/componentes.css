@@ -149,27 +149,53 @@
 .header-tabs {
     display: flex;
     flex-direction: row;
-  }
-  
-  .tab {
+}
+
+.tab {
     color: white;
     font-size: 1.3rem;
     font-family: "Poppins";
     cursor: pointer;
     padding: 0 1rem;
-  }
-  
-  .tab:hover{
-    background-color: rgba( 20, 158, 202,.3);
-  }
-  
-  .tab-actibe {
+}
+
+.tab:hover {
+    background-color: rgba(20, 158, 202, .3);
+}
+
+.tab-actibe {
     color: var(--azul-11);
     border-bottom: solid var(--azul-11);
-  }
-  
-  .tab-close {
+}
+
+.tab-close {
     display: none;
-  }
-  
-  /*#endregion*/
+}
+
+/*#endregion*/
+
+/*#region modal*/
+
+.overlay {
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+    background: rgba(49, 49, 49, 0.5);
+}
+
+.modal-content {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.modal-close {
+    display: none;
+}
+
+/*#endregion*/
