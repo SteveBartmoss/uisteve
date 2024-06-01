@@ -1,25 +1,64 @@
 /*#region estilos para los colores*/
 .principal {
     background-color: #149eca;
-  }
-  
-  .success {
+}
+
+.success {
     background-color: #00C853;
-  }
-  
-  .info {
+}
+
+.info {
     background-color: #2962FF;
-  }
-  
-  .warning {
+}
+
+.warning {
     background-color: #FFAB00;
-  }
-  
-  .error {
+}
+
+.error {
     background-color: #D84315;
-  }
-  
-  /*#endregion*/
+}
+
+/*#endregion*/
+
+/*#region estilos de los extend panel*/
+
+.extend-panel {
+    background-color: #15202B;
+    border-radius: .5rem;
+    margin-top: .5rem;
+}
+
+.extend-head {
+    color: white;
+    font-family: "Poppins";
+    font-size: 1.3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: .5rem;
+}
+
+.extend-content {
+    color: white;
+    font-family: "Poppins";
+    font-size: 1.2rem;
+    padding: .5rem;
+}
+
+.close-content {
+    display: none;
+}
+
+.down-icon {
+    transform: rotate(180deg);
+}
+
+.up-icon {
+    transform: rotate(360deg);
+}
+
+/*#endregion*/
 
 /*#region botones*/
 .btn-basic {
