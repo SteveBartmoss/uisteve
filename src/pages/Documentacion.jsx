@@ -41,6 +41,16 @@ export function Documentacion() {
                     para empezar a trabajar con tu nueva apliacion
                 </p>
 
+                <h1 className="main-subtitle">Usar solo los componentes</h1>
+
+                <p className="main-content">
+                    Si no quieres o no es necesario usar toda la platilla puedes usar 
+                    solo los componentes ya que ahora los estilos de los componentes 
+                    estan en un archivo css, dentro de la misma carpeta en que estan los 
+                    componentes asi que basta con copiar la carpeta componentes en tu proyecto 
+                    y podras usarlos sin problemas.
+                </p>
+
                 <hr className="divider" />
 
                 <h1 className="main-subtitle">Estructura de las carpetas</h1>
