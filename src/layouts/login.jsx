@@ -1,29 +1,25 @@
 import { Boton } from "../componentes/Boton";
 import { Card, CardContent, CardText, CardTitle } from "../componentes/Card";
 import { TextField } from "../componentes/TextField";
-import { DivRow, Panel } from "../componentes/contenedores";
+import { DivCanva, DivCode, DivCol, DivRow, Panel } from "../componentes/contenedores";
 
-export function Login(){
-    return(
+export function Login() {
+    return (
         <Panel>
             <DivRow>
                 <img className="img-login" src="/Assets/montain.jpg" />
-                <Card>
-                    <CardTitle>Bienvenido a UiSteve</CardTitle>
-                    <CardText>
-                        Inicia Sesion para ver la nueva plantilla
-                    </CardText>
-                    <CardContent>
-                        <TextField />
-                        <TextField />
+                <DivCanva>
+                    <DivCol>
+                        <h1 className="alter-subtitle">Bienvenido a UiSteve</h1>\
+                        <p className="main-content">Inicia Sesion para ver la nueva plantilla</p>
+                        <TextField label={"Usuario"} />
+                        <TextField label={"Password"} isPass={true} />
                         <Boton color={'principal'}>Login</Boton>
-                    </CardContent>
-                    <CardText>
-                        Aun no tiene una cuenta, crea una
-                    </CardText>
-                </Card>
+                        <p className="main-content">Aun no tiene una cuenta, crea una</p>
+                    </DivCol>
+                </DivCanva>
             </DivRow>
         </Panel>
-        
+
     )
 }
