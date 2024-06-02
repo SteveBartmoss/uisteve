@@ -1,4 +1,4 @@
-
+import './componentes.css';
 
 export function Chip({children, color}){
     return(
