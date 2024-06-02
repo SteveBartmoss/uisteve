@@ -351,3 +351,16 @@
     color: #D84315;
   }
   /*#endregion*/
+
+  /*#region estilos del snackbar*/
+.snackbar{
+    display: none;
+  }
+  
+  .snack-open{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+  }
+  
+  /*#endregion*/
