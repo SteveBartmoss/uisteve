@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-export function TextField({label}) {
+export function TextField({label,isPass}) {
 
     const [text,setText] = useState("")
 
@@ -11,7 +11,7 @@ export function TextField({label}) {
     return (
         <>
             <div className="form">
-                <input type="text" id="prueba" value={text} onChange={handleChange} className="text-field" placeholder='' />
+                <input type={isPass ? 'password' : 'text'} id="prueba" value={text} onChange={handleChange} className="text-field" placeholder='' />
                 <label htmlFor="field" className="text-field-label">{label}</label>
             </div>
         </>
