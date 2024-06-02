@@ -530,19 +530,6 @@
 
 /*#endregion*/
 
-/*#region estilos del snackbar*/
-.snackbar{
-  display: none;
-}
-
-.snack-open{
-  position: absolute;
-  left: 0;
-  bottom: 0;
-}
-
-/*#endregion*/
-
 /*#region estilos del componente menu*/
 .display-menu{
   width: fit-content;
