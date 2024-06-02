@@ -1,4 +1,5 @@
 import "../App.css"
+import './componentes.css';
 
 export function MainFrame({children}){
     return(
@@ -67,6 +68,14 @@ export function Ventana({children}){
 export function DivCode({children}){
     return(
         <div className="div-code">
+            {children}
+        </div>
+    )
+}
+
+export function Canvas({children}){
+    return(
+        <div className="div-canva">
             {children}
         </div>
     )
