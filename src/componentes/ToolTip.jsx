@@ -1,4 +1,5 @@
 import { useState } from "react"
+import './componentes.css';
 
 export function ToolTip({children,text}){
 
