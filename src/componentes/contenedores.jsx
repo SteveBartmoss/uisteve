@@ -73,7 +73,7 @@ export function DivCode({children}){
     )
 }
 
-export function Canvas({children}){
+export function DivCanva({children}){
     return(
         <div className="div-canva">
             {children}
