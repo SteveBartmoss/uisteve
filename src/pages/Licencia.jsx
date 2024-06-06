@@ -260,9 +260,13 @@ export function Licencia() {
                                 subprograms and other parts of the work.
                             </p>
 
-                            The Corresponding Source need not include anything that users
-                            can regenerate automatically from other parts of the Corresponding
-                            Source.
+                            <p className="text-gpl">
+                                The Corresponding Source need not include anything that users
+                                can regenerate automatically from other parts of the Corresponding
+                                Source.
+                            </p>
+
+
 
                             The Corresponding Source for a work in source code form is that
                             same work.
