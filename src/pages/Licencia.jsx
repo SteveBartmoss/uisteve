@@ -266,10 +266,10 @@ export function Licencia() {
                                 Source.
                             </p>
 
-
-
-                            The Corresponding Source for a work in source code form is that
-                            same work.
+                            <p className="text-gpl">
+                                The Corresponding Source for a work in source code form is that
+                                same work.
+                            </p>
 
                             2. Basic Permissions.
 
