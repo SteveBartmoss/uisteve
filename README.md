@@ -23,3 +23,21 @@ problemas, ademas se estara trabajando para proporcionar la informacion sobre co
 los componentes (props que reciben, si pueden ser contenedores o no, que eventos recibe)
 para que se pueda usar sin problemas.
 
+## Ui Steve 0.15.7 Gemmel
+
+La plantilla cuenta actualmente con los siguientes elementos:
+*Botones
+*Tabs 
+*Modales
+*TextField
+*TextLong
+*Panel Colapsable
+*Cards
+*Loaders
+*Switch
+*Iconos
+*Sliders
+
+Los componentes estan pensados para ser usados al copiar la plantilla
+de manera que puedan ser importados como si se tratara de una funcion
+o de algun hook de react, basta con copiar el repositorio de la plantilla.
