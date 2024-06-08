@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { DivCol, DivRow } from "./contenedores";
 import { Boton } from "./Boton";
+import './componentes.css';
 
 
 export function Carrusel({ elements }) {
