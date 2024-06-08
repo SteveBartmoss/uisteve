@@ -1,3 +1,10 @@
+# Acerca de Ui Steve
+
+Este proyecto tiene como objetivo presentar una plantilla de elementos
+ui para que los usuarios puedan usarlos o aprender como crearlos, al igual
+que si alguien requiere solamente usar una plantilla de front end disponer
+de recursos para implementar rapidamente.
+
 # Plantilla de estilos UI para implementar en react
 
 Este proyecto esta pensado para poder usarse una vez que se clono el repositorio [Create React App](https://github.com/facebook/create-react-app).
