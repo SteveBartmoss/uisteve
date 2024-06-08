@@ -1,5 +1,5 @@
 import { useState } from "react"
-
+import './componentes.css'
 
 export function Menu({elementos,titulo}){
 
