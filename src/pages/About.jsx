@@ -1,7 +1,4 @@
-import { Card, CardContent, CardTitle } from "../componentes/Card";
-import { Icon } from "../componentes/Icon";
 import { Lista } from "../componentes/Lista";
-import { Loader } from "../componentes/Loader";
 import { DivMainContent, DivRow, Panel } from "../componentes/contenedores";
 
 
@@ -80,6 +77,30 @@ export function About() {
                         al menos es lo que espero, pero se podran ver en las proximas
                         versiones las novedades de la plantilla.
                     </p>
+
+                    <hr className="divider" />
+
+                    <h1 className="main-subtitle">Colabora con el proyecto</h1>
+
+                    <p className="main-content">
+                        No solo es un proyecto que se puede usar da manera gratis si no que
+                        tambien puede colaborar con el mismo, agregando otros componentes,
+                        mejorando estilos, mejorando la estructura de los componentes o
+                        si detactas un fallo y logras corregirlo.
+                    </p>
+
+                    <p className="main-content">
+                        Basta con que clones el repositorio y creer una rama para trabajar en la
+                        mejora que pienses agregar
+                    </p>
+
+                    <p className="main-content">
+                        Puedes encontrar el repositorio en el siguien enlace
+                    </p>
+
+                    <a className="footer-link" rel="noopener noreferrer" target="_blank" href="https://github.com/MarcoAntonioGuadalupeRivasGuzman/uisteve">
+                        Keep Coding
+                    </a>
 
                 </DivMainContent>
             </DivRow>
