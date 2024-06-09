@@ -26,18 +26,35 @@ para que se pueda usar sin problemas.
 ## Ui Steve 0.15.7 Gemmel
 
 La plantilla cuenta actualmente con los siguientes elementos:
-*Botones
-*Tabs 
-*Modales
-*TextField
-*TextLong
-*Panel Colapsable
-*Cards
-*Loaders
-*Switch
-*Iconos
-*Sliders
+
+- Botones
+- Tabs 
+- Modales
+- TextField
+- TextLong
+- Panel Colapsable
+- Cards
+- Loaders
+- Switch
+- Iconos
+- Sliders
 
 Los componentes estan pensados para ser usados al copiar la plantilla
 de manera que puedan ser importados como si se tratara de una funcion
 o de algun hook de react, basta con copiar el repositorio de la plantilla.
+
+## Road Map
+
+Algunos de los elementos que me interesan integrar a la plantilla son
+los siguientes:
+
+- Plantillas (login,404,landing, etc) 
+- Alertas  
+- Listas
+- Menus 
+- Paginaciones 
+- Snackbar 
+- Tooltips 
+- Elementos de formularios 
+- Tema oscuro/claro 
+- Diseno en mobil
