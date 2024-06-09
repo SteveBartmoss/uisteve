@@ -1,3 +1,4 @@
+import './componentes.css';
 
 export function DataTable({ headers, elements }) {
     return (
