@@ -24,7 +24,7 @@ export function TextLongPage() {
                             necesitas mas cantidad de texto
                         </CardText>
                         <CardContent>
-                            <TextLongField />
+                            <TextLongField label={"Texto Largo"} />
                         </CardContent>
                     </Card>
                 </DivRow>
