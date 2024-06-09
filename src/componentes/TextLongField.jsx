@@ -1,12 +1,12 @@
 import './componentes.css';
 
-export function TextLongField(){
+export function TextLongField({label}){
 
     return(
         <>
             <div className="form-area">
                 <textarea className="text-long-field" placeholder='' />
-                <label className="text-long-label">Prueba</label>
+                <label className="text-long-label">{label}</label>
             </div>
         </>
     )
