@@ -58,3 +58,17 @@ los siguientes:
 - Elementos de formularios 
 - Tema oscuro/claro 
 - Diseno en mobil
+
+Estos elementos se agregaran progresivamente con el timepo o
+al menos es lo que espero, pero se podran ver en las proximas
+versiones las novedades de la plantilla.
+
+## Colabora con el proyecto
+
+No solo es un proyecto que se puede usar da manera gratis si no que
+tambien puede colaborar con el mismo, agregando otros componentes,
+mejorando estilos, mejorando la estructura de los componentes o
+si detactas un fallo y logras corregirlo.
+
+Basta con que clones el repositorio y creer una rama para trabajar en la
+mejora que pienses agregar
