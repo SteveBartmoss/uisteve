@@ -259,6 +259,30 @@
 
 /*#endregion*/
 
+/*#region estilos menu mobil*/
+.menu-mobil{
+  margin-left: 1rem;
+  margin-top: 1rem;
+  height: fit-content;
+  position: absolute;
+}
+
+.menu-mobil-open{
+  max-height: 30rem;
+  background-color: var(--gris-3);
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+  scrollbar-color: var(--azul-12) rgba(49, 49, 49, 0.2);
+  scrollbar-width: thin;
+  border-radius: .5rem;
+}
+
+.menu-mobil-close{
+  display: none;
+}
+/*#endregion*/
+
 /*#region estilos de las cards*/
 .card-basic {
     background-color: var(--gris-3);
