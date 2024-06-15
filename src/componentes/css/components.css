@@ -14,6 +14,61 @@
 }
 /*#endregion*/
 
+/*#region de root*/
+:root {
+  --verde-1: #2e4957;
+  --verde-2: #375261;
+  --verde-3: #415c6b;
+  --verde-4: #4a6675;
+  --verde-5: #54707f;
+  --verde-6: #688391;
+  --verde-7: #87a1ab;
+  --verde-8: #a7bfc7;
+  --verde-9: #c8dfe2;
+  --verde-10: #eaffff;
+
+  --azul-1: #000a23;
+  --azul-2: #02152b;
+  --azul-3: #021d34;
+  --azul-4: #02253d;
+  --azul-5: #012e46;
+  --azul-6: #153f59;
+  --azul-7: #365b77;
+  --azul-8: #557996;
+  --azul-9: #7498b6;
+  --azul-10: #94b8d7;
+  --azul-11: #149eca;
+  --azul-12: #61dafb;
+
+  --gris-1: #1f2124;
+  --gris-2: #171718;
+  --gris-3: #23272f;
+
+  --ever-bg-dim: #1E2326;
+  --ever-bg-0: #272E33;
+  --ever-bg-1: #2E383C;
+  --ever-bg-2: #374145;
+  --ever-bg-3: #414B50;
+  --ever-bg-4: #495156;
+  --ever-bg-5: #4F5B58;
+  --ever-bg-red: #4C3743;
+  --ever-bg-visual: #493B40;
+  --ever-bg-yellow: #45443C;
+  --ever-bg-green: #3C4841;
+  --ever-bg-blue: #384B55;
+  --ever-red: #E67E80;
+  --ever-orange: #E69875;
+  --ever-yellow: #DBBC7F;
+  --ever-green: #A7C080;
+  --ever-blue: #7FBBB3;
+  --ever-aqua: #83C092;
+  --ever-purple: #D699B6;
+  --ever-gray0: #7A8478;
+  --ever-gray1: #859289;
+  --ever-gray2: #9DA9A0;
+}
+/**#endregion/
+
 /*#region estilos para los colores*/
 .principal {
     background-color: #149eca;
