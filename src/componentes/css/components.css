@@ -162,6 +162,71 @@
 
 /*#endregion*/
 
+/*#region estilos del menu*/
+
+.div-menu-btn{
+  display: flex;
+  flex-direction: row;
+}
+
+.element-menu-btn{
+  padding-top: .2rem;
+  margin: 0 .5rem;
+}
+
+.menu-vertical-close{
+  width: 3rem;
+  height: 100vh;
+  background-color: var(--gris-3);
+}
+
+.menu-vertical {
+  width: 15rem;
+  height: 100vh;
+  background-color: var(--gris-3);
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+  scrollbar-color: var(--azul-12) rgba(49, 49, 49, 0.2);
+  scrollbar-width: thin;
+}
+
+.menu-vertical::-webkit-scrollbar{
+  width: 5px;
+}
+
+.menu-vertical::-webkit-scrollbar-track{
+  background-color: rgba(49, 49, 49, 0.2);
+}
+
+.menu-vertical::-webkit-scrollbar-thumb{
+  background-color:  var(--azul-12);
+  border-radius: 20px;
+}
+
+.menu-item {
+  text-decoration: none;
+  color: white;
+  font-size: 1.3rem;
+  font-family: "Poppins";
+  padding: .5rem 0;
+}
+
+.nav-bar-close{
+  display: none;
+}
+
+.nav-bar {
+  display: flex;
+  flex-direction: column;
+  padding-left: 1rem;
+}
+
+.item-active{
+  color: var(--azul-11);
+}
+/*#endregion*/
+
 /*#region estilos de las cards*/
 .card-basic {
     background-color: var(--gris-3);
