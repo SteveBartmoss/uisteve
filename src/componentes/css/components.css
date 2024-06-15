@@ -5,6 +5,13 @@
     font-weight: 400;
     src: url(./fonst/Poppins/Poppins-Regular.ttf), format("truetype");
 }
+
+@font-face{
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  src: url(./fonst/Poppins/Poppins-Bold.ttf), format("truetype");
+}
 /*#endregion*/
 
 /*#region estilos para los colores*/
