@@ -1,24 +1,9 @@
 /*#region de importacion de las fuentes*/
 @font-face{
     font-family: 'Poppins';
-    src: url(./fonst/Poppins/Poppins-Black.ttf), format("truetype"),
-         url(./fonst/Poppins/Poppins-BlackItalic.ttf), format("truetype"),
-         url(./fonst/Poppins/Poppins-Bold.ttf), format("truetype"),
-         url(./fonst/Poppins/Poppins-BoldItalic.ttf), format("truetype"),
-         url(./fonst/Poppins/Poppins-ExtraBold.ttf), format("truetype"),
-         url(./fonst/Poppins/Poppins-ExtraBoldItalic.ttf), format("truetype"),
-         url(./fonst/Poppins/Poppins-ExtraLight.ttf), format("truetype"),
-         url(./fonst/Poppins/Poppins-ExtraLightItalic.ttf), format("truetype"),
-         url(./fonst/Poppins/Poppins-Italic.ttf), format("truetype"),
-         url(./fonst/Poppins/Poppins-Light.ttf), format("truetype"),
-         url(./fonst/Poppins/Poppins-LightItalic.ttf), format("truetype"),
-         url(./fonst/Poppins/Poppins-Medium.ttf), format("truetype"),
-         url(./fonst/Poppins/Poppins-MediumItalic.ttf), format("truetype"),
-         url(./fonst/Poppins/Poppins-Regular.ttf), format("truetype"),
-         url(./fonst/Poppins/Poppins-SemiBold.ttf), format("truetype"),
-         url(./fonst/Poppins/Poppins-SemiBoldItalic.ttf), format("truetype"),
-         url(./fonst/Poppins/Poppins-Thin.ttf), format("truetype"),
-         url(./fonst/Poppins/Poppins-ThinItalic.ttf), format("truetype");
+    font-style: normal;
+    font-weight: 400;
+    src: url(./fonst/Poppins/Poppins-Regular.ttf), format("truetype");
 }
 /*#endregion*/
 
