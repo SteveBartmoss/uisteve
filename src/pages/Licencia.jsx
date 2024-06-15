@@ -279,11 +279,14 @@ export function Licencia() {
                                 conditions are met.
                             </p>
 
-                            This License explicitly affirms your unlimited
-                            permission to run the unmodified Program.  The output from running a
-                            covered work is covered by this License only if the output, given its
-                            content, constitutes a covered work.  This License acknowledges your
-                            rights of fair use or other equivalent, as provided by copyright law.
+                            <p className="text-gpl">
+                                This License explicitly affirms your unlimited
+                                permission to run the unmodified Program.  The output from running a
+                                covered work is covered by this License only if the output, given its
+                                content, constitutes a covered work.  This License acknowledges your
+                                rights of fair use or other equivalent, as provided by copyright law.
+                            </p>
+
 
                             You may make, run and propagate covered works that you do not
                             convey, without conditions so long as your license otherwise remains
