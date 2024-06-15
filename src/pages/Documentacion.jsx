@@ -21,7 +21,7 @@ export function Documentacion() {
                     Aunque el proyecto esta pensado para llegar a ser usado 
                     como si fuera un paquete de npm (como moment.js, nodemon.js 
                     o pdf.js) aun no esta en un estado completo y no me parece 
-                    tan util creala, se pueden usar los componentes de la planitlla 
+                    tan util creala, se pueden usar los componentes de la plantilla 
                     clonando el repositorio y modificando la misma para tus necesasidades.
                 </p>
 
@@ -84,9 +84,12 @@ export function Documentacion() {
                 <h1 className="main-subtitle">Archivo de estilos</h1>
 
                 <p className="main-content">
-                    La mayoria de los estilos estan declarados en el archivo App.css ya que 
-                    este suele venir al crear una nueva aplicacion con react y pueden ser usados 
-                    de manera global, se tiene pensado declarar los estilos dentro de los mismo 
+                    La mayoria de los estilos estan declarados en el archivo components.css que se 
+                    encuentra en la carpeta src/componentes/css/components.css ya que se mantiene 
+                    un mejor orden con los archivos y tambien hace que sea facil utilizar solo 
+                    los componentes de la libreria ya que basta con copiar la carpeta componentes, 
+                    el archivo de estilos fue importado de manera global asi que pueden ser usados 
+                    en cualquier parte de la plantilla, se tiene pensado declarar los estilos dentro de los mismo 
                     componentes pero por el momento se estan asignando clases que contiene el 
                     archivo principal de css.
                 </p>
@@ -102,6 +105,13 @@ export function Documentacion() {
                     plantilla por lo que si se desea poder usar el componente icono en otro proyecto
                     asi como usar la fuente popins, es necesario implementar la etiqueta link que te 
                     proporciona google.
+                </p>
+
+                <p>
+                    La fuente que se incorpora en la plantilla es Poppins que pertenece a google y que 
+                    esta auto hosteada en la plantilla y se encuentra en la carpeta fonts, si se 
+                    requiere se puede agregar alguna otra fuente que sea de tu preferencia colocandola 
+                    en la carpeta fonts
                 </p>
 
                 <hr className="divider" />
