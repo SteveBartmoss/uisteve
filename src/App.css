@@ -69,14 +69,3 @@
 }
 
 /*#endregion*/
-
-/*#region estilos de los divider*/
-
-.divider{
-  margin-top: 3rem;
-  margin-bottom: 3rem;
-  background-color: var(--azul-12);
-  border-color: var(--azul-12);
-}
-
-/*#endregion*/
