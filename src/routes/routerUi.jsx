@@ -37,10 +37,120 @@ export function RuoterUi() {
 
     console.log(`width: ${width}, height: ${height}`)
 
+    const menuElements=[
+        {
+            title: 'Home',
+            route: '/',
+            childs: []
+        },
+        {
+            title: 'Cards',
+            route: '',
+            childs: [
+                {
+                    title: 'Card Basic',
+                    route: '/cards/basic',
+                },
+            ]
+        },
+        {
+            title: 'Components',
+            route: '',
+            childs: [
+                {
+                    title: 'Expansion Panel',
+                    route: '/acordeon',
+                },
+                {
+                    title: 'Buttons',
+                    route: '/components/buttons',
+                },
+                {
+                    title: 'Tabs',
+                    route: '/components/tabs',
+                },
+                {
+                    title: 'Modales',
+                    route: '/components/modales',
+                },
+                {
+                    title: 'Iconos',
+                    route: '/components/icons',
+                },
+                {
+                    title: 'Loader',
+                    route: '/components/loader',
+                },
+                {
+                    title: 'Tool Tip',
+                    route: '/components/tooltip',
+                },
+                {
+                    title: 'Chip',
+                    route: '/components/chip',
+                },
+                {
+                    title: 'SnackBar',
+                    route: '/components/snackbar',
+                },
+                {
+                    title: 'Menu',
+                    route: '/components/menu',
+                },
+                {
+                    title: 'Carrusel',
+                    route: '/components/carrusel',
+                }
+            ]
+        },
+        {
+            title: 'Forms',
+            route: '',
+            childs: [
+                {
+                    title: 'Texfield',
+                    route: '/forms/texfield',
+                },
+                {
+                    title: 'Switch',
+                    route: '/forms/switch',
+                },
+                {
+                    title: 'Slider',
+                    route: '/forms/slider',
+                },
+                {
+                    title: 'Text Long',
+                    route: '/forms/textlong',
+                }
+            ]
+        },
+        {
+            title: 'Tables',
+            route: '',
+            childs: [
+                {
+                    title: 'Table',
+                    route: '/tables/table',
+                },
+            ]
+        },
+        {
+            title: 'Pages',
+            route: '',
+            childs: [
+                {
+                    title: 'Login',
+                    route: '/pages/login',
+                },
+            ]
+        }
+    ]
+
     return (
         <BrowserRouter>
         
-            { width <= 480 ? <MenuMobil /> : <MenuVertical /> }
+            { width <= 480 ? <MenuMobil /> : <MenuVertical menuItems={menuElements} /> }
             
             <DivFull>
                 <Routes>
