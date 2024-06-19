@@ -293,11 +293,15 @@ export function Licencia() {
                                 in force.
                             </p>
 
-                            You may convey covered works to others for the sole purpose
-                            of having them make modifications exclusively for you, or provide you
-                            with facilities for running those works, provided that you comply with
-                            the terms of this License in conveying all material for which you do
-                            not control copyright.  Those thus making or running the covered works
+                            <p className="text-gpl">
+                                You may convey covered works to others for the sole purpose
+                                of having them make modifications exclusively for you, or provide you
+                                with facilities for running those works, provided that you comply with
+                                the terms of this License in conveying all material for which you do
+                                not control copyright.
+                            </p>
+
+                            Those thus making or running the covered works
                             for you must do so exclusively on your behalf, under your direction
                             and control, on terms that prohibit them from making any copies of
                             your copyrighted material outside their relationship with you.
