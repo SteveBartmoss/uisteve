@@ -150,7 +150,7 @@ export function RuoterUi() {
     return (
         <BrowserRouter>
         
-            { width <= 480 ? <MenuMobil /> : <MenuVertical menuItems={menuElements} /> }
+            { width <= 480 ? <MenuMobil menuItems={menuElements} /> : <MenuVertical menuItems={menuElements} /> }
             
             <DivFull>
                 <Routes>
