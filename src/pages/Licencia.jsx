@@ -308,11 +308,13 @@ export function Licencia() {
                                 your copyrighted material outside their relationship with you.
                             </p>
 
+                            <p className="text-gpl">
+                                Conveying under any other circumstances is permitted solely under
+                                the conditions stated below.  Sublicensing is not allowed; section 10
+                                makes it unnecessary.
+                            </p>
 
 
-                            Conveying under any other circumstances is permitted solely under
-                            the conditions stated below.  Sublicensing is not allowed; section 10
-                            makes it unnecessary.
 
                             3. Protecting Users' Legal Rights From Anti-Circumvention Law.
 
