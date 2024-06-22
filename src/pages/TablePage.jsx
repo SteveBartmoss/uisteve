@@ -1,12 +1,13 @@
 import { Card, CardContent, CardText, CardTitle } from "../componentes/Card";
 import { Carrusel } from "../componentes/Carrusel";
 import { DataTable } from "../componentes/DataTable";
+import { SelectBox } from "../componentes/SelectBox";
 import { DivCol, DivMainContent, DivRow, Panel } from "../componentes/contenedores";
 
 
 export function TablePage() {
 
-    const encabezados=[
+    const encabezados = [
         {
             title: 'Nombre',
             key: 'name'
@@ -21,7 +22,7 @@ export function TablePage() {
         }
     ]
 
-    const elementos=[
+    const elementos = [
         {
             name: 'Marco',
             alias: 'Steve',
@@ -45,9 +46,9 @@ export function TablePage() {
                 <h1 className="main-subtitle">Table Simple</h1>
 
                 <p className="main-content">
-                    Los datos pueden ser dificiles de 
-                    mostrar ya que a veces pueden estar 
-                    bastante desordanados, esta tabla permite 
+                    Los datos pueden ser dificiles de
+                    mostrar ya que a veces pueden estar
+                    bastante desordanados, esta tabla permite
                     ordenarlos de una manera facil
                 </p>
 
@@ -56,17 +57,18 @@ export function TablePage() {
                         <Card>
                             <CardTitle>Tabla simple</CardTitle>
                             <CardText>
-                                Una tabla para dar orden a tus datos 
-                                y que los usuarios sepan  que es lo que 
+                                Una tabla para dar orden a tus datos
+                                y que los usuarios sepan  que es lo que
                                 estan viendo
                             </CardText>
                             <CardContent>
-                                <DataTable headers={encabezados} elements={elementos} /> 
+                                <DataTable headers={encabezados} elements={elementos} />
                             </CardContent>
                         </Card>
                     </DivCol>
 
                 </DivRow>
+
             </DivMainContent>
         </Panel>
     )
