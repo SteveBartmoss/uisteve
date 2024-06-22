@@ -1,6 +1,6 @@
 import './componentes.css';
 
-export function SelectBox() {
+export function SelectBox({label}) {
     return (
         <div className='form-select-box'>
             <select className='select-box'>
@@ -9,7 +9,7 @@ export function SelectBox() {
                 <option value="Enrique">Enrique</option>
                 <option value="Kevin">Kevin</option>
             </select>
-            <span className='select-box-label'>Opcion</span>
+            <span className='select-box-label'>{label}</span>
         </div>
     )
 }
