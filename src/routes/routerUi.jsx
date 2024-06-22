@@ -29,6 +29,7 @@ import { MenuMobil } from "../componentes/MenuMobil";
 import { TablePage } from "../pages/TablePage";
 import { CarruselPage } from "../pages/CarruselPage";
 import { Login } from "../layouts/login";
+import { SelectBoxPage } from "../pages/SelectBoxPage";
 
 
 export function RuoterUi() {
@@ -122,6 +123,10 @@ export function RuoterUi() {
                 {
                     title: 'Text Long',
                     route: '/forms/textlong',
+                },
+                {
+                    title: 'Select Box',
+                    route: '/forms/selectbox',
                 }
             ]
         },
@@ -164,6 +169,7 @@ export function RuoterUi() {
                     <Route path="/forms/switch" element={<TooglePage />} />
                     <Route path="/forms/slider" element={<SliderPage />} />
                     <Route path="/forms/textlong" element={<TextLongPage />} />
+                    <Route path="/forms/selectbox" element={<SelectBoxPage />} />
                     <Route path="/cards/basic" element={<BasicCards />} />
                     <Route path="/acordeon" element={<Acordeones />} />
                     <Route path="/components/buttons" element={<Buttons />} />
