@@ -6,8 +6,8 @@ export function SelectBox({label,items,placeMessage}) {
             <select className='select-box' defaultValue=''>
                 <option value='' >{placeMessage}</option>
                 {
-                    items.map(item =>
-                        <option value={item.value}>{item.title}</option>
+                    items.map((item,index) =>
+                        <option key={index} value={item.value}>{item.title}</option>
                     )
                 }
             </select>
