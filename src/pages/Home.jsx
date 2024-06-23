@@ -18,6 +18,7 @@ import { Toogle } from "../componentes/Toogle";
 import { RangeSlider } from "../componentes/RangeSlider";
 import { TextLongField } from "../componentes/TextLongField";
 import { DataTable } from "../componentes/DataTable";
+import { SelectBox } from "../componentes/SelectBox";
 
 
 export function HomePage() {
@@ -130,6 +131,21 @@ export function HomePage() {
             name: 'Pedro',
             alias: 'Peter',
             telefono: '3311892077'
+        }
+    ]
+
+    const nombres=[
+        {
+            value: 'Steve',
+            title: 'Steve'
+        },
+        {
+            value: 'Enrique',
+            title: 'Enrique'
+        },
+        {
+            value: 'Kevin',
+            title: 'Kevin'
         }
     ]
 
@@ -757,6 +773,31 @@ export function HomePage() {
                                 </CardText>
                                 <CardContent>
                                     <DataTable headers={encabezados} elements={elementos} />
+                                </CardContent>
+                            </Card>
+                        </DivCol>
+                    </DivRow>
+
+                    <h1 className="main-subtitle">Select Box</h1>
+
+                    <p className="main-content">
+                        Los usuarios pueden perderse entre 
+                        los datos que tiene una aplicacion 
+                        pero con este select box puedes 
+                        darle justo las opciones que quieres
+                    </p>
+
+                    <DivRow>
+                        <DivCol>
+                            <Card>
+                                <CardTitle>Select Box</CardTitle>
+                                <CardText>
+                                    Una cajade opciones para que tus 
+                                    usuarios no se pierdan ente todas las 
+                                    opciones
+                                </CardText>
+                                <CardContent>
+                                    <SelectBox label={'Selecciona un nombre'} items={nombres} placeMessage={'selecione un nombre'} />
                                 </CardContent>
                             </Card>
                         </DivCol>
