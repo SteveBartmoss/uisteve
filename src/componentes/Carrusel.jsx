@@ -38,7 +38,7 @@ export function Carrusel({ elements }) {
                     <DivRow>
                         {
                             elements.map((element,index)=>{
-                                return <div className={index === item ? 'dot-selected':'dot-carrusel'}></div>
+                                return <div key={index} className={index === item ? 'dot-selected':'dot-carrusel'}></div>
                             })
                         }
                     </DivRow>
