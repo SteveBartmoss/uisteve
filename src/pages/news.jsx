@@ -12,6 +12,8 @@ export function News() {
 
                     <h1 className="main-subtitle">Change Log</h1>
 
+                    <h1>Nuevo Select box</h1>
+
                     <h1>Nuevo Carrusel</h1>
 
                     <h1>Nueva Tabla</h1>
