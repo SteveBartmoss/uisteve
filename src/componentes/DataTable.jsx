@@ -2,20 +2,20 @@ import './componentes.css';
 
 export function DataTable({ headers, elements }) {
     return (
-        <div>
+        <table>
             <thead>
                 <tr>
                     {
                         headers.map(head =>
-                            <th className="table-titles">{head.title}</th>
+                            <th key={head.title} className="table-titles">{head.title}</th>
                         )
                     }
                 </tr>
             </thead>
             <tbody>
                 {
-                    elements.map(item=>
-                        <tr>
+                    elements.map((item,index)=>
+                        <tr key={index}>
                             {
                                 headers.map(head =>
                                     <td className="table-content">{item[head.key]}</td>
@@ -25,6 +25,6 @@ export function DataTable({ headers, elements }) {
                     )
                 }
             </tbody>
-        </div>
+        </table>
     )
 }
