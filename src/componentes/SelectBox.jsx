@@ -7,7 +7,7 @@ export function SelectBox({label,items,placeMessage}) {
             <select className='select-box' defaultValue=''>
                 <option value='' >{placeMessage}</option>
                 {
-                    items.map((item,index) =>
+                    items.map(item =>
                         <option key={uuidv4()} value={item.value}>{item.title}</option>
                     )
                 }
