@@ -20,7 +20,7 @@ export function Licencia() {
 
                     <p className="main-content">
                         Ui Steve
-                        Copyright (C) 2024 DevFarming
+                        Copyright (C) 2024 Makeer Studios
                     </p>
 
                     <p className="main-content">
