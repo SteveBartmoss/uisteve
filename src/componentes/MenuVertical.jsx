@@ -18,7 +18,7 @@ export function MenuVertical({menuItems}) {
             <div className={abrir ? 'nav-bar' : 'nav-bar-close'}>
                 {
                     menuItems.map(item =>
-                        item.route != '' ? <NavLink className="menu-item" to={item.route}>{item.title}</NavLink> : item.childs.length >0 ? <MenuList title={item.title} elements={item.childs} /> : <></>
+                        item.route != '' ? <NavLink key={item.title} className="menu-item" to={item.route}>{item.title}</NavLink> : item.childs.length >0 ? <MenuList key={item.title} title={item.title} elements={item.childs} /> : <></>
                     )
                 }
             </div>
