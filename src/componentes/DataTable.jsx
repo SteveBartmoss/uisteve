@@ -1,4 +1,5 @@
 import './componentes.css';
+import { generateUniqueId } from './helpers/uid';
 
 export function DataTable({ headers, elements }) {
     return (
@@ -7,7 +8,7 @@ export function DataTable({ headers, elements }) {
                 <tr>
                     {
                         headers.map(head =>
-                            <th key={head.title} className="table-titles">{head.title}</th>
+                            <th key={generateUniqueId} className="table-titles">{head.title}</th>
                         )
                     }
                 </tr>
@@ -15,7 +16,7 @@ export function DataTable({ headers, elements }) {
             <tbody>
                 {
                     elements.map((item,index)=>
-                        <tr key={index}>
+                        <tr key={generateUniqueId}>
                             {
                                 headers.map(head =>
                                     <td className="table-content">{item[head.key]}</td>
