@@ -1,4 +1,5 @@
 import './componentes.css';
+import { v4 as uuidv4 } from 'uuid';
 
 export function SelectBox({label,items,placeMessage}) {
     return (
@@ -7,7 +8,7 @@ export function SelectBox({label,items,placeMessage}) {
                 <option value='' >{placeMessage}</option>
                 {
                     items.map((item,index) =>
-                        <option key={index} value={item.value}>{item.title}</option>
+                        <option key={uuidv4()} value={item.value}>{item.title}</option>
                     )
                 }
             </select>
