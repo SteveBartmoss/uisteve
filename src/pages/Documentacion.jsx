@@ -107,7 +107,7 @@ export function Documentacion() {
                     proporciona google.
                 </p>
 
-                <p>
+                <p className="main-content">
                     La fuente que se incorpora en la plantilla es Poppins que pertenece a google y que 
                     esta auto hosteada en la plantilla y se encuentra en la carpeta fonts, si se 
                     requiere se puede agregar alguna otra fuente que sea de tu preferencia colocandola 
