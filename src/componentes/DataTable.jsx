@@ -8,7 +8,7 @@ export function DataTable({ headers, elements }) {
                 <tr>
                     {
                         headers.map(head =>
-                            <th key={generateUniqueId} className="table-titles">{head.title}</th>
+                            <th key={generateUniqueIdV2()} className="table-titles">{head.title}</th>
                         )
                     }
                 </tr>
@@ -16,10 +16,10 @@ export function DataTable({ headers, elements }) {
             <tbody>
                 {
                     elements.map(item=>
-                        <tr key={generateUniqueIdV2}>
+                        <tr key={generateUniqueIdV2()}>
                             {
                                 headers.map(head =>
-                                    <td key={generateUniqueIdV3} className="table-content">{item[head.key]}</td>
+                                    <td key={generateUniqueIdV2()} className="table-content">{item[head.key]}</td>
                                 )
                             }
                         </tr>
