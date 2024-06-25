@@ -318,11 +318,15 @@ export function Licencia() {
 
                             3. Protecting Users' Legal Rights From Anti-Circumvention Law.
 
-                            No covered work shall be deemed part of an effective technological
-                            measure under any applicable law fulfilling obligations under article
-                            11 of the WIPO copyright treaty adopted on 20 December 1996, or
-                            similar laws prohibiting or restricting circumvention of such
-                            measures.
+                            <p className="text-gpl">
+                                No covered work shall be deemed part of an effective technological
+                                measure under any applicable law fulfilling obligations under article
+                                11 of the WIPO copyright treaty adopted on 20 December 1996, or
+                                similar laws prohibiting or restricting circumvention of such
+                                measures.
+                            </p>
+
+
 
                             When you convey a covered work, you waive any legal power to forbid
                             circumvention of technological measures to the extent such circumvention
