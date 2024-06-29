@@ -1,7 +1,7 @@
 import { useState } from "react";
-import { Boton } from "../componentes/Boton";
 import { Card, CardAccions, CardText, CardTitle } from "../componentes/Card";
 import { DivCol, DivMainContent, DivRow, Panel } from "../componentes/contenedores";
+import { Btn } from "../componentes/Btn";
 
 export function Buttons() {
 
@@ -37,7 +37,7 @@ export function Buttons() {
                                 Un buen elemento para tus aplicaciones {prueba}
                             </CardText>
                             <CardAccions>
-                                <Boton evento={() => onHadlePrueba()} variant='' color={'principal'}>Try me</Boton>
+                                <Btn evento={() => onHadlePrueba()} variant='' color={'principal'}>Try me</Btn>
                             </CardAccions>
                         </Card>
                     </DivCol>
@@ -52,10 +52,10 @@ export function Buttons() {
                                 Se presiono un boton tipo {evento}
                             </CardText>
                             <CardAccions>
-                                <Boton evento={() => onHandleClick('succes')} variant='' color={'success'}>success</Boton>
-                                <Boton evento={() => onHandleClick('info')} variant='' color={'info'}>info</Boton>
-                                <Boton evento={() => onHandleClick('warning')} variant='' color={'warning'}>warning</Boton>
-                                <Boton evento={() => onHandleClick('error')} variant='' color={'error'}>error</Boton>
+                                <Btn evento={() => onHandleClick('succes')} variant='' color={'success'}>success</Btn>
+                                <Btn evento={() => onHandleClick('info')} variant='' color={'info'}>info</Btn>
+                                <Btn evento={() => onHandleClick('warning')} variant='' color={'warning'}>warning</Btn>
+                                <Btn evento={() => onHandleClick('error')} variant='' color={'error'}>error</Btn>
                             </CardAccions>
                         </Card>
                     </DivCol>
