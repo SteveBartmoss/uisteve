@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Card, CardAccions, CardText, CardTitle } from "../componentes/Card";
 import { SnackBar } from "../componentes/SnackBar";
 import { DivMainContent, DivRow, Panel } from "../componentes/contenedores";
-import { Boton } from "../componentes/Boton";
+import { Btn } from "../componentes/Btn";
 
 
 export function SnackBarPage() {
@@ -33,7 +33,7 @@ export function SnackBarPage() {
                             el siguiente boton
                         </CardText>
                         <CardAccions>
-                            <Boton evento={handleShow} color={"principal"}>Try me</Boton>
+                            <Btn evento={handleShow} color={"principal"}>Try me</Btn>
                         </CardAccions>
                     </Card>
                 </DivRow>
