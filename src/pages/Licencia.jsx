@@ -334,19 +334,21 @@ export function Licencia() {
                                 modification of the work as a means of enforcing, against the work's
                                 users, your or third parties' legal rights to forbid circumvention of
                                 technological measures.
-                            </p>
-
-                            
+                            </p>                            
 
                             4. Conveying Verbatim Copies.
 
-                            You may convey verbatim copies of the Program's source code as you
-                            receive it, in any medium, provided that you conspicuously and
-                            appropriately publish on each copy an appropriate copyright notice;
-                            keep intact all notices stating that this License and any
-                            non-permissive terms added in accord with section 7 apply to the code;
-                            keep intact all notices of the absence of any warranty; and give all
-                            recipients a copy of this License along with the Program.
+                            <p className="text-gpl">
+                                You may convey verbatim copies of the Program's source code as you
+                                receive it, in any medium, provided that you conspicuously and
+                                appropriately publish on each copy an appropriate copyright notice;
+                                keep intact all notices stating that this License and any
+                                non-permissive terms added in accord with section 7 apply to the code;
+                                keep intact all notices of the absence of any warranty; and give all
+                                recipients a copy of this License along with the Program.
+                            </p>
+
+                            
 
                             You may charge any price or no price for each copy that you convey,
                             and you may offer support or warranty protection for a fee.
