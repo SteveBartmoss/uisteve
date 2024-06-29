@@ -1,4 +1,4 @@
-import { Boton } from "../componentes/Boton";
+import { Btn } from "../componentes/Btn";
 import { Card, CardAccions, CardContent, CardText, CardTitle } from "../componentes/Card";
 import { DataTable } from "../componentes/DataTable";
 import { ExtendPanel } from "../componentes/ExtendPanel";
@@ -31,7 +31,7 @@ export function ToolTipPage() {
 
                             <CardAccions>
                                 <ToolTip text={"Presiona para seguir leyendo"}>
-                                    <Boton color={"principal"}>saber mas</Boton>
+                                    <Btn color={"principal"}>saber mas</Btn>
                                 </ToolTip>
                             </CardAccions>
                         </Card>
