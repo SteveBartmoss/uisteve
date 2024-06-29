@@ -1,5 +1,4 @@
 import { useState } from "react";
-import { Boton } from "../componentes/Boton";
 import { Card, CardAccions, CardContent, CardLink, CardText, CardTitle } from "../componentes/Card";
 import { ExtendPanel } from "../componentes/ExtendPanel";
 import { TextField } from "../componentes/TextField";
@@ -19,6 +18,7 @@ import { RangeSlider } from "../componentes/RangeSlider";
 import { TextLongField } from "../componentes/TextLongField";
 import { DataTable } from "../componentes/DataTable";
 import { SelectBox } from "../componentes/SelectBox";
+import { Btn } from "../componentes/Btn";
 
 
 export function HomePage() {
@@ -326,7 +326,7 @@ export function HomePage() {
                                     Este es un simple evento de click {hola}
                                 </CardText>
                                 <CardAccions>
-                                    <Boton evento={onHandleHello} variant='' color={'principal'}>try me</Boton>
+                                    <Btn evento={onHandleHello} variant='' color={'principal'}>try me</Btn>
                                 </CardAccions>
                             </Card>
                         </DivCol>
@@ -338,10 +338,10 @@ export function HomePage() {
                                     Se presion boton de tipo {evento}
                                 </CardText>
                                 <CardAccions>
-                                    <Boton evento={() => onHandleClick('success')} variant='' color={'success'}>success</Boton>
-                                    <Boton evento={() => onHandleClick('info')} variant='' color={'info'}>info</Boton>
-                                    <Boton evento={() => onHandleClick('warning')} variant='' color={'warning'}>warning</Boton>
-                                    <Boton evento={() => onHandleClick('error')} variant='' color={'error'}>error</Boton>
+                                    <Btn evento={() => onHandleClick('success')} variant='' color={'success'}>success</Btn>
+                                    <Btn evento={() => onHandleClick('info')} variant='' color={'info'}>info</Btn>
+                                    <Btn evento={() => onHandleClick('warning')} variant='' color={'warning'}>warning</Btn>
+                                    <Btn evento={() => onHandleClick('error')} variant='' color={'error'}>error</Btn>
                                 </CardAccions>
                             </Card>
                         </DivCol>
@@ -367,7 +367,7 @@ export function HomePage() {
                                     Un forma de ahorrar en redirecciones
                                 </CardText>
                                 <CardAccions>
-                                    <Boton evento={openModal} variant={''} color={'principal'}>Abrir</Boton>
+                                    <Btn evento={openModal} variant={''} color={'principal'}>Abrir</Btn>
                                 </CardAccions>
                             </Card>
                         </DivCol>
@@ -379,7 +379,7 @@ export function HomePage() {
                                     Mejora tus formulario con este modal
                                 </CardText>
                                 <CardAccions>
-                                    <Boton evento={onOpenForm} variant={''} color={'principal'}>Abrir</Boton>
+                                    <Btn evento={onOpenForm} variant={''} color={'principal'}>Abrir</Btn>
                                 </CardAccions>
                             </Card>
                         </DivCol>
@@ -580,7 +580,7 @@ export function HomePage() {
                                 </CardText>
                                 <CardAccions>
                                     <ToolTip text={"presiona para continuar"}>
-                                        <Boton evento={onHandleTryme} color={"principal"}>Try me</Boton>
+                                        <Btn evento={onHandleTryme} color={"principal"}>Try me</Btn>
                                     </ToolTip>
                                 </CardAccions>
                             </Card>
@@ -652,7 +652,7 @@ export function HomePage() {
                                     simple
                                 </CardText>
                                 <CardAccions>
-                                    <Boton evento={handleShow} color={"principal"}>Try me</Boton>
+                                    <Btn evento={handleShow} color={"principal"}>Try me</Btn>
                                 </CardAccions>
                             </Card>
                         </DivCol>
@@ -819,7 +819,7 @@ export function HomePage() {
                                 eaque aliquid impedit voluptates!
                             </CardText>
                             <CardAccions>
-                                <Boton evento={closeModal} variant={''} color={'error'}>Cerrar</Boton>
+                                <Btn evento={closeModal} variant={''} color={'error'}>Cerrar</Btn>
                             </CardAccions>
                         </Card>
                     </Modal>
@@ -834,7 +834,7 @@ export function HomePage() {
                                 ullam rerum asperiores accusamus.
                             </CardText>
                             <CardAccions>
-                                <Boton evento={onCloseForm} variant={''} color={'error'}>Cerrar</Boton>
+                                <Btn evento={onCloseForm} variant={''} color={'error'}>Cerrar</Btn>
                             </CardAccions>
                         </Card>
                     </Modal>
