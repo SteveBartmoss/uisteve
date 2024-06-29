@@ -1,9 +1,9 @@
 import { useState } from "react";
-import { Boton } from "../componentes/Boton";
 import { Card, CardAccions, CardContent, CardText, CardTitle } from "../componentes/Card";
 import { Tabs } from "../componentes/Tabs";
 import { TextField } from "../componentes/TextField";
 import { DivCol, DivMainContent, DivRow, Panel, Ventana, VentanaContent } from "../componentes/contenedores";
+import { Btn } from "../componentes/Btn";
 
 export function TabsMenu() {
 
@@ -92,7 +92,7 @@ export function TabsMenu() {
                             />
                         </CardContent>
                         <CardAccions>
-                            <Boton evento={onPressBoton} variant='' color={'principal'}>try me</Boton>
+                            <Btn evento={onPressBoton} variant='' color={'principal'}>try me</Btn>
                         </CardAccions>
                     </Card>
                 </DivRow>
