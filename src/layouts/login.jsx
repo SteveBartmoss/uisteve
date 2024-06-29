@@ -1,4 +1,4 @@
-import { Boton } from "../componentes/Boton";
+import { Btn } from "../componentes/Btn";
 import { Card, CardContent, CardText, CardTitle } from "../componentes/Card";
 import { TextField } from "../componentes/TextField";
 import { DivCanva, DivCode, DivCol, DivRow, Panel } from "../componentes/contenedores";
@@ -14,7 +14,7 @@ export function Login() {
                         <p className="main-content">Inicia Sesion para ver la nueva plantilla</p>
                         <TextField label={"Usuario"} />
                         <TextField label={"Password"} isPass={true} />
-                        <Boton color={'principal'}>Login</Boton>
+                        <Btn color={'principal'}>Login</Btn>
                         <p className="main-content">Aun no tiene una cuenta, crea una</p>
                     </DivCol>
                 </DivCanva>
