@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Card, CardAccions, CardText, CardTitle } from "../componentes/Card";
 import { Modal } from "../componentes/Modal";
 import { DivMainContent, DivRow, Panel } from "../componentes/contenedores";
-import { Boton } from "../componentes/Boton";
+import { Btn } from "../componentes/Btn";
 
 
 export function Modales() {
@@ -35,7 +35,7 @@ export function Modales() {
                             para el usuario
                         </CardText>
                         <CardAccions>
-                            <Boton evento={() => openModal()} variant='' color={'success'}>Abrir modal</Boton>
+                            <Btn evento={() => openModal()} variant='' color={'success'}>Abrir modal</Btn>
                         </CardAccions>
                     </Card>
                 </DivRow>
@@ -50,7 +50,7 @@ export function Modales() {
                         repellat optio accusamus placeat sint tenetur cumque.
                     </CardText>
                     <CardAccions>
-                        <Boton evento={() => closeModal()} variant='' color={'error'}>Cerrar</Boton>
+                        <Btn evento={() => closeModal()} variant='' color={'error'}>Cerrar</Btn>
                     </CardAccions>
                 </Card>
             </Modal>
