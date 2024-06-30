@@ -338,6 +338,12 @@
   text-align: justify;
 }
 
+.key-word{
+  color: var(--azul-12);
+  font-family: "Poppins";
+  font-size: 1.5rem;
+}
+
 /*#endregion*/
 
 /*#region estilos de los divider*/
