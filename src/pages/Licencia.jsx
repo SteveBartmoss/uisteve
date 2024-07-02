@@ -326,7 +326,7 @@ export function Licencia() {
                                 measures.
                             </p>
 
-                            <p className="text-gpl"> 
+                            <p className="text-gpl">
                                 When you convey a covered work, you waive any legal power to forbid
                                 circumvention of technological measures to the extent such circumvention
                                 is effected by exercising rights under this License with respect to
@@ -334,7 +334,7 @@ export function Licencia() {
                                 modification of the work as a means of enforcing, against the work's
                                 users, your or third parties' legal rights to forbid circumvention of
                                 technological measures.
-                            </p>                            
+                            </p>
 
                             4. Conveying Verbatim Copies.
 
@@ -348,10 +348,10 @@ export function Licencia() {
                                 recipients a copy of this License along with the Program.
                             </p>
 
-                            
-
-                            You may charge any price or no price for each copy that you convey,
-                            and you may offer support or warranty protection for a fee.
+                            <p className="text-gpl">
+                                You may charge any price or no price for each copy that you convey,
+                                and you may offer support or warranty protection for a fee.
+                            </p>
 
                             5. Conveying Modified Source Versions.
 
