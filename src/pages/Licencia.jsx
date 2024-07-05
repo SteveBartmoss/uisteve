@@ -361,8 +361,12 @@ export function Licencia() {
                                 terms of section 4, provided that you also meet all of these conditions:
                             </p>
 
-                            a) The work must carry prominent notices stating that you modified
-                            it, and giving a relevant date.
+                            <p className="text-gpl">
+                                a) The work must carry prominent notices stating that you modified
+                                it, and giving a relevant date.
+                            </p>
+
+                            
 
                             b) The work must carry prominent notices stating that it is
                             released under this License and any conditions added under section
