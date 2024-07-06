@@ -43,7 +43,14 @@ function tokenDecorator(token){
         }
         return decoredToken
     }
-    
+
+    if(codeDividers.includes(token)){
+        decoredToken={
+            rawToken: token,
+            typeToken: 'divider'
+        }
+    }
+
     if(reservedWords.includes(token)){
         decoredToken={
             rawToken: token,
