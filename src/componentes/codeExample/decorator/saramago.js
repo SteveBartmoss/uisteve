@@ -36,6 +36,14 @@ function tokenDecorator(token){
         return decoredToken
     }
 
+    if(operators.includes(token)){
+        decoredToken={
+            rawToken: token,
+            typeToken: 'operator'
+        }
+        return decoredToken
+    }
+    
     if(reservedWords.includes(token)){
         decoredToken={
             rawToken: token,
