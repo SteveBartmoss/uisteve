@@ -64,6 +64,7 @@ export function tokenDecorator(token){
             rawToken: token,
             typeToken: 'text'
         }
+        return decoredToken
     }
 
 }
