@@ -1,15 +1,11 @@
 
 
 export function tokenDecorator(token){
-    let labelClose= /<\/[a-zA-Z][a-zA-Z0-9\-]*>/
-
-    let labelOpen= /<[a-zA-Z][a-zA-Z0-9\-]*/
-
-    let reservedWords=['className','id','onClick','children'];
-
-    let operators=['+','-','=','*','&','%']
-
-    let codeDividers=['[',']','{','}','(',')']
+    const labelClose= /<\/[a-zA-Z][a-zA-Z0-9\-]*>/
+    const labelOpen= /<[a-zA-Z][a-zA-Z0-9\-]*/
+    const reservedWords=['className','id','onClick','children'];
+    const operators=['+','-','=','*','&','%']
+    const codeDividers=['[',']','{','}','(',')']
 
     let decoredToken
 
