@@ -7,8 +7,10 @@ function tokenDecorator(token){
 
     let reservedWords=['className','id','onClick'];
 
+    let decoredToken
+
     if(labelClose.test(token)){
-        let decoredToken={
+        decoredToken={
             rawToken: token,
             typeToken: 'label'
         }
@@ -16,7 +18,7 @@ function tokenDecorator(token){
     }
 
     if(labelOpen.test(token)){
-        let decoredToken={
+        decoredToken={
             rawToken: token,
             typeToken: 'label'
         }
@@ -24,11 +26,16 @@ function tokenDecorator(token){
     }
 
     if(reservedWords.includes(token)){
-        let decoredToken={
+        decoredToken={
             rawToken: token,
             typeToken: 'reservedWord'
         }
         return decoredToken
+    }else{
+        decoredToken={
+            rawToken: token,
+            typeToken: 'text'
+        }
     }
 
 }
