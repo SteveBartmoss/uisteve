@@ -7,6 +7,8 @@ function tokenDecorator(token){
 
     let reservedWords=['className','id','onClick'];
 
+    let operators=['+','-','=','*','&','%']
+
     let decoredToken
 
     if(token==='>'){
