@@ -8,6 +8,7 @@ export function tokenDecorator(token){
     const codeDividers=['[',']','{','}','(',')']
 
     let decoredToken
+    let tokenType
 
     if(token === '>'){
         decoredToken={
@@ -61,6 +62,11 @@ export function tokenDecorator(token){
             typeToken: 'text'
         }
         return decoredToken
+    }
+
+    return{
+        rawToken: token,
+        typeToken: 
     }
 
 }
