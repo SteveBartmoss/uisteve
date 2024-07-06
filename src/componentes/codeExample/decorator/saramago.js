@@ -9,6 +9,13 @@ function tokenDecorator(token){
 
     let decoredToken
 
+    if(token==='>'){
+        decoredToken={
+            rawToken: token,
+            typeToken: 'label'
+        }
+    }
+
     if(labelClose.test(token)){
         decoredToken={
             rawToken: token,
