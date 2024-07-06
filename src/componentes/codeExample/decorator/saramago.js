@@ -11,64 +11,37 @@ export function tokenDecorator(token){
     let tokenType
 
     if(token === '>'){
-        decoredToken={
-            rawToken: token,
-            typeToken: 'label'
-        }
-        return decoredToken
+        tokenType = 'label'
     }
 
     else if(labelClose.test(token)){
-        decoredToken={
-            rawToken: token,
-            typeToken: 'label'
-        }
-        return decoredToken
+        tokenType = 'label'
     }
 
     else if(labelOpen.test(token)){
-        decoredToken={
-            rawToken: token,
-            typeToken: 'label'
-        }
-        return decoredToken
+        tokenType = 'label'
     }
 
     else if(operators.includes(token)){
-        decoredToken={
-            rawToken: token,
-            typeToken: 'operator'
-        }
         return decoredToken
+        tokenType = 'operator'
     }
 
     else if(codeDividers.includes(token)){
-        decoredToken={
-            rawToken: token,
-            typeToken: 'divider'
-        }
-        return decoredToken
+        tokenType = 'divider'
     }
 
     else if(reservedWords.includes(token)){
-        decoredToken={
-            rawToken: token,
-            typeToken: 'reservedWord'
-        }
-        return decoredToken
+        tokenType = 'reservedWord'
     }
-    
+
     else{
-        decoredToken={
-            rawToken: token,
-            typeToken: 'text'
-        }
-        return decoredToken
+        tokenType = 'text'
     }
 
     return{
         rawToken: token,
-        typeToken: 
+        typeToken: tokenType
     }
 
 }
