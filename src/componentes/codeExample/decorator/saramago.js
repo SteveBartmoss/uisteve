@@ -1,9 +1,9 @@
 
 
-function tokenDecorator(token){
+export function tokenDecorator(token){
     let labelClose= /<\/[a-zA-Z][a-zA-Z0-9\-]*>/
 
-    let labelOpen= / <[a-zA-Z][a-zA-Z0-9\-]*/
+    let labelOpen= /<[a-zA-Z][a-zA-Z0-9\-]*/
 
     let reservedWords=['className','id','onClick'];
 
@@ -13,7 +13,7 @@ function tokenDecorator(token){
 
     let decoredToken
 
-    if(token==='>'){
+    if(token === '>'){
         decoredToken={
             rawToken: token,
             typeToken: 'label'
