@@ -18,7 +18,7 @@ export function tokenDecorator(token){
         return decoredToken
     }
 
-    if(labelClose.test(token)){
+    else if(labelClose.test(token)){
         decoredToken={
             rawToken: token,
             typeToken: 'label'
@@ -26,7 +26,7 @@ export function tokenDecorator(token){
         return decoredToken
     }
 
-    if(labelOpen.test(token)){
+    else if(labelOpen.test(token)){
         decoredToken={
             rawToken: token,
             typeToken: 'label'
@@ -34,7 +34,7 @@ export function tokenDecorator(token){
         return decoredToken
     }
 
-    if(operators.includes(token)){
+    else if(operators.includes(token)){
         decoredToken={
             rawToken: token,
             typeToken: 'operator'
@@ -42,7 +42,7 @@ export function tokenDecorator(token){
         return decoredToken
     }
 
-    if(codeDividers.includes(token)){
+    else if(codeDividers.includes(token)){
         decoredToken={
             rawToken: token,
             typeToken: 'divider'
@@ -50,13 +50,15 @@ export function tokenDecorator(token){
         return decoredToken
     }
 
-    if(reservedWords.includes(token)){
+    else if(reservedWords.includes(token)){
         decoredToken={
             rawToken: token,
             typeToken: 'reservedWord'
         }
         return decoredToken
-    }else{
+    }
+    
+    else{
         decoredToken={
             rawToken: token,
             typeToken: 'text'
