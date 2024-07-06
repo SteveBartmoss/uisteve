@@ -9,6 +9,8 @@ function tokenDecorator(token){
 
     let operators=['+','-','=','*','&','%']
 
+    let codeDividers=['[',']','{','}','(',')']
+
     let decoredToken
 
     if(token==='>'){
