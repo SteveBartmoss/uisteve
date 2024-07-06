@@ -30,7 +30,13 @@ export function News() {
 
                     <h1>Nuevo slider</h1>
 
-                    <h1>Nuevo Swtich</h1>
+                    <h1 className="alter-subtitle">Nuevo Swtich</h1>
+
+                    <p className="main-content">
+                        Ahora se puede usar un switch para que tus usuarios cambien 
+                        el estado de un input de manera cencilla logrando hacer que 
+                        tu aplicacion sea interactiva
+                    </p>
 
                     <h1 className="alter-subtitle">Nuevos loader</h1>
 
