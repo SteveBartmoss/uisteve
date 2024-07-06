@@ -366,12 +366,12 @@ export function Licencia() {
                                 it, and giving a relevant date.
                             </p>
 
-                            
-
-                            b) The work must carry prominent notices stating that it is
-                            released under this License and any conditions added under section
-                            7.  This requirement modifies the requirement in section 4 to
-                            "keep intact all notices".
+                            <p className="text-gpl">
+                                b) The work must carry prominent notices stating that it is
+                                released under this License and any conditions added under section
+                                7.  This requirement modifies the requirement in section 4 to
+                                "keep intact all notices".
+                            </p>
 
                             c) You must license the entire work, as a whole, under this
                             License to anyone who comes into possession of a copy.  This
