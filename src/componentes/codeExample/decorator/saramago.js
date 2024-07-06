@@ -18,6 +18,7 @@ function tokenDecorator(token){
             rawToken: token,
             typeToken: 'label'
         }
+        return decoredToken
     }
 
     if(labelClose.test(token)){
@@ -49,6 +50,7 @@ function tokenDecorator(token){
             rawToken: token,
             typeToken: 'divider'
         }
+        return decoredToken
     }
 
     if(reservedWords.includes(token)){
