@@ -5,7 +5,7 @@ export function tokenDecorator(token){
 
     let labelOpen= /<[a-zA-Z][a-zA-Z0-9\-]*/
 
-    let reservedWords=['className','id','onClick'];
+    let reservedWords=['className','id','onClick','children'];
 
     let operators=['+','-','=','*','&','%']
 
