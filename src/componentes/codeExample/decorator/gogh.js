@@ -7,7 +7,7 @@ function tokenDivider(sourdeCode){
 
 }
 
-function generateCodeObjects(sourceCode){
+export function generateCodeObjects(sourceCode){
 
     let codeObjects=[]
     let tokens=tokenDivider(sourceCode)
@@ -26,6 +26,20 @@ function generateCodeObjects(sourceCode){
 let codeExample= '<button onClick = { evento } className = { `btn-basic ${variant} ${color} ` } > { children } </button>'
 
 
-console.log(tokenDivider(codeExample))
+//console.log(tokenDivider(codeExample))
 
-console.log(generateCodeObjects(codeExample))
+//console.log(generateCodeObjects(codeExample))
+
+/*
+    {
+                    codeElements.map(element =>
+                        <span>{element.rawToken}</span>
+                    )
+                }
+
+{
+                    codeElements.map( item =>
+                        <p>{item.rawToken}</p>
+                    )
+                }
+*/
