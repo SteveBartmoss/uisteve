@@ -1,9 +1,25 @@
 import React from "react";
+import { generateCodeObjects } from "./decorator/gogh.js";
+import { Btn } from "../Btn.jsx";
 
-export function codeExample(){
+export function CodeExample({codigo}){
+
+    let codeElements=generateCodeObjects(codigo)
+
+    const showCodeElement=()=>{
+        console.log(codeElements)
+    }
+
     return(
         <>
-            <h1>Code Example</h1>
+            <div>
+                {
+                    codeElements.map(item =>
+                        <p>{item.rawToken}</p>
+                    )
+                }
+                <Btn evento={showCodeElement} >Prueba</Btn>
+            </div>
         </>
         
     )
