@@ -7,7 +7,7 @@ export function tokenDecorator(token){
     const operators=['+','-','=','*','&','%']
     const codeDividers=['[',']','{','}','(',')']
 
-    let decoredToken
+    
     let tokenType
 
     if(token === '>'){
@@ -23,7 +23,6 @@ export function tokenDecorator(token){
     }
 
     else if(operators.includes(token)){
-        return decoredToken
         tokenType = 'operator'
     }
 
