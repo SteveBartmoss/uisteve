@@ -28,7 +28,13 @@ export function News() {
 
                     <h1>Nuevo tool tip</h1>
 
-                    <h1>Nuevo slider</h1>
+                    <h1 className="alter-subtitle">Nuevo slider</h1>
+
+                    <p className="main-content">
+                        Ahora se puede dar al usuario una barra de volumen 
+                        o alguna otra aplicacion que le quieras dar a este menu deslizante 
+                        para que tus usuarios tengan algo entretenido para usar
+                    </p>
 
                     <h1 className="alter-subtitle">Nuevo Swtich</h1>
 
