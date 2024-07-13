@@ -24,7 +24,13 @@ export function News() {
 
                     <h1>Nuevo Chips</h1>
                     
-                    <h1>Nuevos TextArea</h1>
+                    <h1 className="alter-subtitle">Nuevos TextArea</h1>
+
+                    <p className="main-content">
+                        Ahora dispones de un text area que te permite 
+                        usar todas las palabras que quieras sin tener que 
+                        cortar lo que quieres decir
+                    </p>
 
                     <h1 className="alter-subtitle">Nuevo tool tip</h1>
 
