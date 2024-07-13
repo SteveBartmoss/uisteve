@@ -2,6 +2,7 @@ import { Card, CardContent, CardText, CardTitle } from "../componentes/Card";
 import { Carrusel } from "../componentes/Carrusel";
 import { DataTable } from "../componentes/DataTable";
 import { SelectBox } from "../componentes/SelectBox";
+import { CodeExample } from "../componentes/codeExample/codeExample";
 import { DivCol, DivMainContent, DivRow, Panel } from "../componentes/contenedores";
 
 
@@ -63,6 +64,15 @@ export function TablePage() {
                             </CardText>
                             <CardContent>
                                 <DataTable headers={encabezados} elements={elementos} />
+                            </CardContent>
+                        </Card>
+                    </DivCol>
+
+                    <DivCol>
+                        <Card>
+                            <CardTitle>Example</CardTitle>
+                            <CardContent>
+                                <CodeExample codigo={'<button onClick = { evento } className = { `btn-basic ${variant} ${color} ` } > { children } </button>'} />
                             </CardContent>
                         </Card>
                     </DivCol>
