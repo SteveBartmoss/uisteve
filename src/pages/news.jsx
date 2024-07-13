@@ -26,7 +26,14 @@ export function News() {
                     
                     <h1>Nuevos TextArea</h1>
 
-                    <h1>Nuevo tool tip</h1>
+                    <h1 className="alter-subtitle">Nuevo tool tip</h1>
+
+                    <p className="main-content">
+                        Ahora puedes darle una ayuda a tus usuarios para que 
+                        no se pierdan a la hora de usar tu aplicacion o si 
+                        alguna de las opciones no es precisamente amigable con 
+                        los nuevos usuarios
+                    </p>
 
                     <h1 className="alter-subtitle">Nuevo slider</h1>
 
