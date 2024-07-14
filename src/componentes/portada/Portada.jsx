@@ -1,8 +1,16 @@
 import React from "react";
 import { DivCol, DivRow } from "../contenedores";
 
-export function Portada() {
+export function Portada({backgroundImage,perfil}) {
     return (
+        <>
+        <style>
+            {
+                `.img-portada{
+                    background: url(${backgroundImage}) no-repeat center center/cover;
+                }`
+            }
+        </style>
         <section>
             <DivRow>
                 <div>
@@ -14,5 +22,7 @@ export function Portada() {
                 </DivCol>
             </DivRow>
         </section>
+        </>
+        
     )
 }
