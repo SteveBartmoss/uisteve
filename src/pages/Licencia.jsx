@@ -373,11 +373,15 @@ export function Licencia() {
                                 "keep intact all notices".
                             </p>
 
-                            c) You must license the entire work, as a whole, under this
-                            License to anyone who comes into possession of a copy.  This
-                            License will therefore apply, along with any applicable section 7
-                            additional terms, to the whole of the work, and all its parts,
-                            regardless of how they are packaged.  This License gives no
+                            <p className="text-gpl">
+                                c) You must license the entire work, as a whole, under this
+                                License to anyone who comes into possession of a copy.  This
+                                License will therefore apply, along with any applicable section 7
+                                additional terms, to the whole of the work, and all its parts,
+                                regardless of how they are packaged.
+                            </p>
+
+                            This License gives no
                             permission to license the work in any other way, but it does not
                             invalidate such permission if you have separately received it.
 
