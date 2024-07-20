@@ -381,9 +381,13 @@ export function Licencia() {
                                 regardless of how they are packaged.
                             </p>
 
-                            This License gives no
-                            permission to license the work in any other way, but it does not
-                            invalidate such permission if you have separately received it.
+                            <p className="text-gpl">
+                                This License gives no
+                                permission to license the work in any other way, but it does not
+                                invalidate such permission if you have separately received it.
+                            </p>
+
+
 
                             d) If the work has interactive user interfaces, each must display
                             Appropriate Legal Notices; however, if the Program has interactive
