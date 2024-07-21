@@ -1,7 +1,7 @@
 import React from "react";
 import { DivCol, DivRow } from "../contenedores";
 
-export function Portada({backgroundImage,perfil}) {
+export function Portada({backgroundImage, imgPerfil, title, text}) {
     return (
         <>
         <style>
@@ -14,11 +14,11 @@ export function Portada({backgroundImage,perfil}) {
         <section>
             <DivRow>
                 <div>
-                    <img />
+                    <img alt="imgPerfil" className="img-portada" src={imgPerfil} />
                 </div>
                 <DivCol>
-                    <h1 >Steve</h1>
-                    <p >Estudiante, programador, amante de los videjuegos</p>
+                    <h1 className="title-portada">{title}</h1>
+                    <p className="text-portada">{text}</p>
                 </DivCol>
             </DivRow>
         </section>
