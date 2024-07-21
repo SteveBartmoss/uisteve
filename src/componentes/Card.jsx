@@ -22,10 +22,12 @@ export function CardText({ children }) {
     );
 }
 
-export function CardLink({ url, text }) {
-    return (
-        <a className="card-link" rel="noopener noreferrer" target="_blank" href={url}>{text}</a>
-    );
+export function CardLink({ url, text, isBlank=false }) {
+    return isBlank ? (
+        <a className="card-link" rel="noopener noreferrer" target="_blank" href={url}>{text}</a> 
+    ) : (
+        <NavLink className="card-link" to={url}>{text}</NavLink>
+    )
 }
 
 export function CardAccions({ children }) {
