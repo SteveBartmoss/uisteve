@@ -1,8 +1,8 @@
 import './componentes.css';
 
-export function Card({ children }) {
+export function Card({ children,variant="card-basic"}) {
     return (
-        <div className="card-basic">{children}</div>
+        <div className={variant}>{children}</div>
     );
 }
 
