@@ -387,12 +387,14 @@ export function Licencia() {
                                 invalidate such permission if you have separately received it.
                             </p>
 
+                            <p>
+                                d) If the work has interactive user interfaces, each must display
+                                Appropriate Legal Notices; however, if the Program has interactive
+                                interfaces that do not display Appropriate Legal Notices, your
+                                work need not make them do so.
+                            </p>
 
 
-                            d) If the work has interactive user interfaces, each must display
-                            Appropriate Legal Notices; however, if the Program has interactive
-                            interfaces that do not display Appropriate Legal Notices, your
-                            work need not make them do so.
 
 
                             A compilation of a covered work with other separate and independent
