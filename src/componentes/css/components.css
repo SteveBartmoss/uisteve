@@ -503,11 +503,15 @@
 
 /*#endregion*/
 
-/*#region tabs*/
+/*#region tab*/
 
 .container-head{
   display: flex;
   flex-direction: row;
+}
+
+.container-content{
+  margin: auto;
 }
 
 .position-center{
