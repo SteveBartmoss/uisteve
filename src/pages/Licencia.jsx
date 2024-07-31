@@ -404,10 +404,12 @@ export function Licencia() {
                                 beyond what the individual works permit.
                             </p>
 
+                            <p>
+                                Inclusion of a covered work
+                                in an aggregate does not cause this License to apply to the other
+                                parts of the aggregate.
+                            </p>
 
-                            Inclusion of a covered work
-                            in an aggregate does not cause this License to apply to the other
-                            parts of the aggregate.
 
                             6. Conveying Non-Source Forms.
 
