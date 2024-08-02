@@ -419,11 +419,12 @@ export function Licencia() {
                                 in one of these ways:
                             </p>
 
-
-                            a) Convey the object code in, or embodied in, a physical product
-                            (including a physical distribution medium), accompanied by the
-                            Corresponding Source fixed on a durable physical medium
-                            customarily used for software interchange.
+                            <p>
+                                a) Convey the object code in, or embodied in, a physical product
+                                (including a physical distribution medium), accompanied by the
+                                Corresponding Source fixed on a durable physical medium
+                                customarily used for software interchange.
+                            </p>
 
                             b) Convey the object code in, or embodied in, a physical product
                             (including a physical distribution medium), accompanied by a
