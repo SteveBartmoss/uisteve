@@ -1,3 +1,4 @@
+import { NavLink } from 'react-router-dom';
 import './componentes.css';
 
 export function Card({ children,variant="card-basic"}) {
