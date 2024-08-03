@@ -9,8 +9,8 @@ export function BasicCards() {
                 <h1 className="main-subtitle">Basic Cards</h1>
 
                 <p className="main-content">
-                    Un elemento que esta presente en muchas librerias de ui y que 
-                    aportan un estilo llamativo a una aplicacion web, estas simples 
+                    Un elemento que esta presente en muchas librerias de ui y que
+                    aportan un estilo llamativo a una aplicacion web, estas simples
                     cards pueden organizar el contenido de una forma rapida.
                 </p>
 
@@ -18,12 +18,12 @@ export function BasicCards() {
 
                     <DivCol>
                         <Card>
-                            <CardTitle>Esta es una card de prueba</CardTitle>
-                            <CardText>
+                            <h1>Esta es una card de prueba</h1>
+                            <p>
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                                 Facere pariatur molestiae amet, cupiditate inventore maiores reprehenderit,
                                 ex earum neque ab libero eum quo fuga corporis tempora atque, praesentium ullam nisi.
-                            </CardText>
+                            </p>
                         </Card>
                     </DivCol>
 
