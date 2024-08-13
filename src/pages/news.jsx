@@ -18,7 +18,13 @@ export function News() {
 
                     <h1>Nueva Tabla</h1>
 
-                    <h1>Nuevo Menu</h1>
+                    <h1 className="alter-subtitle">Nuevo Menu</h1>
+
+                    <p className="main-content">
+                        Este menu depslegable hara que 
+                        tus usuarios puedan tener opciones 
+                        para elegir en tu aplicacion
+                    </p>
 
                     <h1 className="alter-subtitle">Nuevo SnackBar</h1>
 
