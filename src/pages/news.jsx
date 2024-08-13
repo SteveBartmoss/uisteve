@@ -16,7 +16,13 @@ export function News() {
 
                     <h1>Nuevo Carrusel</h1>
 
-                    <h1>Nueva Tabla</h1>
+                    <h1 className="alter-subtitle">Nueva Tabla</h1>
+
+                    <p className="main-content">
+                        Se agrego una tabla para poder 
+                        organizar los datos de los usuarios 
+                        de una forma eficiente
+                    </p>
 
                     <h1 className="alter-subtitle">Nuevo Menu</h1>
 
