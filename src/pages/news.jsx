@@ -20,7 +20,14 @@ export function News() {
 
                     <h1>Nuevo Menu</h1>
 
-                    <h1>Nuevo SnackBar</h1>
+                    <h1 className="alter-subtitle">Nuevo SnackBar</h1>
+
+                    <p className="main-content">
+                        Puedes dejarle algun mensaje a 
+                        tus usuarios sin tener que mostrar 
+                        todo un modal que ocupa la pantalla 
+                        con el nuevo snackBar
+                    </p>
 
                     <h1 className="alter-subtitle">Nuevo Chips</h1>
 
