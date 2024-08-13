@@ -14,6 +14,12 @@ export function News() {
 
                     <h1 className="alter-subtitle">Nuevo Select box</h1>
 
+                    <p className="main-content">
+                        Los nuevos select box permiten a los usuarios 
+                        tener diferentes opciones para elegir en tu 
+                        aplicacion
+                    </p>
+
                     <h1 className="alter-subtitle">Nuevo Carrusel</h1>
 
                     <p className="main-content">
