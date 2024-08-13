@@ -22,7 +22,13 @@ export function News() {
 
                     <h1>Nuevo SnackBar</h1>
 
-                    <h1>Nuevo Chips</h1>
+                    <h1 className="alter-subtitle">Nuevo Chips</h1>
+
+                    <p className="main-content">
+                        Ya dispones de una forma llamativa 
+                        de decorar el texto de alguna palabra 
+                        especial o algo que quieras resaltar
+                    </p>
                     
                     <h1 className="alter-subtitle">Nuevos TextArea</h1>
 
