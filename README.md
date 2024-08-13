@@ -23,7 +23,7 @@ problemas, ademas se estara trabajando para proporcionar la informacion sobre co
 los componentes (props que reciben, si pueden ser contenedores o no, que eventos recibe)
 para que se pueda usar sin problemas.
 
-## Ui Steve 0.15.7 Gemmel
+## Ui Steve 0.17.20 Gemmel (Alfa)
 
 La plantilla cuenta actualmente con los siguientes elementos:
 
