@@ -12,9 +12,15 @@ export function News() {
 
                     <h1 className="main-subtitle">Change Log</h1>
 
-                    <h1>Nuevo Select box</h1>
+                    <h1 className="alter-subtitle">Nuevo Select box</h1>
 
-                    <h1>Nuevo Carrusel</h1>
+                    <h1 className="alter-subtitle">Nuevo Carrusel</h1>
+
+                    <p className="main-content">
+                        Una manera divertida de mostrar 
+                        el contenido para tus usuarios, 
+                        este carrusel nunca llega al final
+                    </p>
 
                     <h1 className="alter-subtitle">Nueva Tabla</h1>
 
