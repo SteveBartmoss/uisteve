@@ -7,13 +7,13 @@ import { Card, CardAccions, CardText, CardTitle } from "../componentes/card/Card
 export function Buttons() {
 
     const [evento, setEvento] = useState('');
-    const [prueba,setPrueba] = useState('');
+    const [prueba, setPrueba] = useState('');
 
     const onHandleClick = (tipo) => {
         setEvento(tipo)
     }
 
-    const onHadlePrueba=()=>{
+    const onHadlePrueba = () => {
         setPrueba('Hi stalker')
     }
 
@@ -33,10 +33,10 @@ export function Buttons() {
 
                     <DivCol>
                         <Card>
-                            <CardTitle>Un simple boton</CardTitle>
-                            <CardText>
+                            <h1>Un simple boton</h1>
+                            <p>
                                 Un buen elemento para tus aplicaciones {prueba}
-                            </CardText>
+                            </p>
                             <CardAccions>
                                 <Btn evento={() => onHadlePrueba()} variant='' color={'principal'}>Try me</Btn>
                             </CardAccions>
@@ -45,13 +45,13 @@ export function Buttons() {
 
                     <DivCol>
                         <Card>
-                            <CardTitle>Basico</CardTitle>
-                            <CardText>
+                            <h1>Basico</h1>
+                            <p>
                                 Un Boton que tiene un diseno simple pero funcional
-                            </CardText>
-                            <CardText>
+                            </p>
+                            <p>
                                 Se presiono un boton tipo {evento}
-                            </CardText>
+                            </p>
                             <CardAccions>
                                 <Btn evento={() => onHandleClick('succes')} variant='' color={'success'}>success</Btn>
                                 <Btn evento={() => onHandleClick('info')} variant='' color={'info'}>info</Btn>
