@@ -1,5 +1,5 @@
 import { NavLink } from 'react-router-dom';
-import './componentes.css';
+import './Card.css';
 
 export function Card({ children,variant="card-basic"}) {
     return (
