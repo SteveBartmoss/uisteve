@@ -1,8 +1,7 @@
-import { Children } from "react"
-import './Btn.consistent'
+import './Btn.css'
 
 
-export function Btn({Children,variant,color='principal',evento}){
+export function Btn({children,variant,color='principal',evento}){
     return(
         <button onClick={evento} className={`btn-basic ${variant} ${color}`} >{children}</button>
     )
