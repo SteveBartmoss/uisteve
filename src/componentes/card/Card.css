@@ -7,6 +7,18 @@
     box-shadow: 0px 1px 10px rgba(116, 152, 182, 0.2);
 }
 
+.card-basic h1{
+    color: white;
+    font-family: "Poppins";
+    font-size: 1.4rem;
+}
+
+.card-basic p {
+    color: white;
+    font-family: "Poppins";
+    font-size: 1.2;
+}
+
 .card-outlined {
   min-width: 30rem;
   border-radius: 1rem;
