@@ -12,6 +12,8 @@ export function News() {
 
                     <h1 className="main-subtitle">Change Log</h1>
 
+                    <h1>Nueva estructura de carpetas</h1>
+
                     <h1 className="alter-subtitle">Nuevo Select box</h1>
 
                     <p className="main-content">
