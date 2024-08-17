@@ -3,12 +3,12 @@ import { DivMainContent, Panel } from "../componentes/contenedores";
 
 
 export function Documentacion() {
-    
+
     const listaSrc = ["componentes", "pages", "routes"];
 
-    const propsBtn = ["children","color","evento"];
+    const propsBtn = ["children", "color", "evento"];
 
-    return(
+    return (
         <Panel>
             <DivMainContent>
                 <h1 className="main-subtitle">Hola a todos</h1>
@@ -20,10 +20,10 @@ export function Documentacion() {
                 <h1 className="main-subtitle">Primeros pasos</h1>
 
                 <p className="main-content">
-                    Aunque el proyecto esta pensado para llegar a ser usado 
-                    como si fuera un paquete de npm (como moment.js, nodemon.js 
-                    o pdf.js) aun no esta en un estado completo y no me parece 
-                    tan util creala, se pueden usar los componentes de la plantilla 
+                    Aunque el proyecto esta pensado para llegar a ser usado
+                    como si fuera un paquete de npm (como moment.js, nodemon.js
+                    o pdf.js) aun no esta en un estado completo y no me parece
+                    tan util creala, se pueden usar los componentes de la plantilla
                     clonando el repositorio y modificando la misma para tus necesasidades.
                 </p>
 
@@ -31,26 +31,27 @@ export function Documentacion() {
                     Puedes clonar el repositorio en el siguiente enlace
                 </p>
 
-                <a className="footer-link" rel="noopener noreferrer" target="_blank"  href="https://github.com/MarcoAntonioGuadalupeRivasGuzman/uisteve">
+                <a className="footer-link" rel="noopener noreferrer" target="_blank" href="https://github.com/MarcoAntonioGuadalupeRivasGuzman/uisteve">
                     Keep Coding
                 </a>
 
                 <p className="main-content">
-                    La plantilla por el momento esta desarrollada en react por lo 
-                    que esta pensada para ser usada en un proyecto de este mismo 
-                    framework, pero puedes replicar los componentes en tu propio 
-                    proyecto si asi lo deseas o modificar este mismo proyecto 
+                    La plantilla por el momento esta desarrollada en react por lo
+                    que esta pensada para ser usada en un proyecto de este mismo
+                    framework, pero puedes replicar los componentes en tu propio
+                    proyecto si asi lo deseas o modificar este mismo proyecto
                     para empezar a trabajar con tu nueva apliacion
                 </p>
 
                 <h1 className="main-subtitle">Usar solo los componentes</h1>
 
                 <p className="main-content">
-                    Si no quieres o no es necesario usar toda la platilla puedes usar 
-                    solo los componentes ya que ahora los estilos de los componentes 
-                    estan en un archivo css, dentro de la misma carpeta en que estan los 
-                    componentes asi que basta con copiar la carpeta componentes en tu proyecto 
-                    y podras usarlos sin problemas.
+                    Si no quieres o no es necesario usar toda la platilla puedes usar
+                    solo los componentes ya que ahora la estructura del proyecto se cambio 
+                    para facilitar el uso de componentes de manera independiente, ahora cada 
+                    uno de los componentes estan en su propia carpeta junto con sus propios estilos 
+                    asi que basta con copiar la carpeta del componente en tu proyecto y podras 
+                    usarlo sin problemas.
                 </p>
 
                 <hr className="divider" />
@@ -58,26 +59,30 @@ export function Documentacion() {
                 <h1 className="main-subtitle">Estructura de las carpetas</h1>
 
                 <p className="main-content">
-                    La caperta principal en la que se encuentran los elementos 
-                    de la plantilla es src, la estructura de las carpetas dentro 
-                    de la misma es la siguiente
+                    La caperta principal en la que se encuentran los elementos
+                    de la plantilla es src, la estructura de las carpetas dentro
+                    de la misma es la siguiente:
                 </p>
 
                 <Lista elementos={listaSrc} />
 
+                <h1 className="main-subtitle">Carpeta componentes</h1>
+
                 <p className="main-content">
-                    La carpeta componentes contiene los elementos ui como los botones, 
-                    los paneles collapsables, las cards o los tabs. 
+                    La carpeta componentes contiene la estructura de carpetas 
+                    de los componentes que se implemento, ahora cada uno de los 
+                    componentes se encuentra en sus propias carpetas en donde 
+                    estan los archivos del mismo componente y los estilos.
                 </p>
 
                 <p className="main-content">
-                    La carpeta pages contiene las paginas que son mostradas al hacer click 
-                    en los elementos del menu lateral como la pagina de las cards, de los 
+                    La carpeta pages contiene las paginas que son mostradas al hacer click
+                    en los elementos del menu lateral como la pagina de las cards, de los
                     paneles colapsables o la pagina home.
                 </p>
 
                 <p className="main-content">
-                    La carpeta routes contiene el router de la plantilla y es donde se pueden 
+                    La carpeta routes contiene el router de la plantilla y es donde se pueden
                     incorporar nuevas rutas si es que son necesarias.
                 </p>
 
@@ -86,33 +91,33 @@ export function Documentacion() {
                 <h1 className="main-subtitle">Archivo de estilos</h1>
 
                 <p className="main-content">
-                    La mayoria de los estilos estan declarados en el archivo components.css que se 
-                    encuentra en la carpeta src/componentes/css/components.css ya que se mantiene 
-                    un mejor orden con los archivos y tambien hace que sea facil utilizar solo 
-                    los componentes de la libreria ya que basta con copiar la carpeta componentes, 
-                    el archivo de estilos fue importado de manera global asi que pueden ser usados 
-                    en cualquier parte de la plantilla, se tiene pensado declarar los estilos dentro de los mismo 
-                    componentes pero por el momento se estan asignando clases que contiene el 
+                    La mayoria de los estilos estan declarados en el archivo components.css que se
+                    encuentra en la carpeta src/componentes/css/components.css ya que se mantiene
+                    un mejor orden con los archivos y tambien hace que sea facil utilizar solo
+                    los componentes de la libreria ya que basta con copiar la carpeta componentes,
+                    el archivo de estilos fue importado de manera global asi que pueden ser usados
+                    en cualquier parte de la plantilla, se tiene pensado declarar los estilos dentro de los mismo
+                    componentes pero por el momento se estan asignando clases que contiene el
                     archivo principal de css.
                 </p>
 
                 <p className="main-content">
-                    El archivo esta sepadado por regiones para facilitar la busqueda de la clase 
-                    que tiene cierto componente y si se desea se pueden modificar para mejorar 
+                    El archivo esta sepadado por regiones para facilitar la busqueda de la clase
+                    que tiene cierto componente y si se desea se pueden modificar para mejorar
                     o personalizar el componente.
                 </p>
 
                 <p className="main-content">
-                    La integracion de google fonts y de google icons ya esta implementada en la 
+                    La integracion de google fonts y de google icons ya esta implementada en la
                     plantilla por lo que si se desea poder usar el componente icono en otro proyecto
-                    asi como usar la fuente popins, es necesario implementar la etiqueta link que te 
+                    asi como usar la fuente popins, es necesario implementar la etiqueta link que te
                     proporciona google.
                 </p>
 
                 <p className="main-content">
-                    La fuente que se incorpora en la plantilla es Poppins que pertenece a google y que 
-                    esta auto hosteada en la plantilla y se encuentra en la carpeta fonts, si se 
-                    requiere se puede agregar alguna otra fuente que sea de tu preferencia colocandola 
+                    La fuente que se incorpora en la plantilla es Poppins que pertenece a google y que
+                    esta auto hosteada en la plantilla y se encuentra en la carpeta fonts, si se
+                    requiere se puede agregar alguna otra fuente que sea de tu preferencia colocandola
                     en la carpeta fonts
                 </p>
 
@@ -121,16 +126,16 @@ export function Documentacion() {
                 <h1 className="main-subtitle">Enfoque de la plantilla</h1>
 
                 <p className="main-content">
-                    Siguiendo la filosofia de react (todo es reutilizable) se crearon los componente 
-                    con la idea de que pudieran ser facilmente usados una y otra vez, por este motivo 
-                    se agregan props y se busca manejar el estado de una que sea simple y practica para 
-                    los usuarios (o al menos eso es lo que busco logar unu ) por este motivo se tendran 
+                    Siguiendo la filosofia de react (todo es reutilizable) se crearon los componente
+                    con la idea de que pudieran ser facilmente usados una y otra vez, por este motivo
+                    se agregan props y se busca manejar el estado de una que sea simple y practica para
+                    los usuarios (o al menos eso es lo que busco logar unu ) por este motivo se tendran
                     que mandar diferentes propiedades a un componente para poder trabajar con el.
                 </p>
 
                 <p className="main-content">
-                    La meta es lograr completar la plantilla y posteriormente convertilar en una libreria 
-                    funcional que facilite el trabajo de los desarrolladores a la hora enfrentar la 
+                    La meta es lograr completar la plantilla y posteriormente convertilar en una libreria
+                    funcional que facilite el trabajo de los desarrolladores a la hora enfrentar la
                     creacion de una aplicacion web.
                 </p>
 
@@ -147,22 +152,22 @@ export function Documentacion() {
                 <h1 className="key-word">children</h1>
 
                 <p className="main-content">
-                    La propiedad children permite que el componente sea usaso con una etiqueta 
-                    de apertura y de cierre siendo el contenido de la etiqueta lo que se muestra 
+                    La propiedad children permite que el componente sea usaso con una etiqueta
+                    de apertura y de cierre siendo el contenido de la etiqueta lo que se muestra
                     en el boton.
                 </p>
 
                 <h1 className="key-word">Color</h1>
 
                 <p className="main-content">
-                    Color define que color usara el boton siendo 5 colores posibles (primary, success, 
+                    Color define que color usara el boton siendo 5 colores posibles (primary, success,
                     info, warning, error) esto son los colores posibles que se le pueden asignar.
                 </p>
 
                 <h1 className="key-word">Evento</h1>
 
                 <p className="main-content">
-                    Evento es la funcion que se ejecutara al momento de hacer click en el boton 
+                    Evento es la funcion que se ejecutara al momento de hacer click en el boton
                     puediendo manejar de esta manera todo tipo de acciones.
                 </p>
 
