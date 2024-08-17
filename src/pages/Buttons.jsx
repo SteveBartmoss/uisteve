@@ -1,7 +1,5 @@
 import { useState } from "react";
-//import { Card, CardAccions, CardText, CardTitle } from "../componentes/Card";
 import { DivCol, DivMainContent, DivRow, Panel } from "../componentes/contenedores";
-//import { Btn } from "../componentes/Btn";
 import { Card, CardAccions, CardText, CardTitle } from "../componentes/card/Card";
 import { Btn } from "../componentes/btn/Btn";
 
