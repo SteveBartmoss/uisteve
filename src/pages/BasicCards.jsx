@@ -1,4 +1,4 @@
-import { Card, CardAccions, CardImg, CardImgContent, CardLink, CardText, CardTitle } from "../componentes/Card";
+import { Card, CardAccions, CardImg, CardImgContent, CardLink, CardText, CardTitle } from "../componentes/card/Card";
 import { DivCol, DivMainContent, DivRow, Panel } from "../componentes/contenedores";
 
 export function BasicCards() {
