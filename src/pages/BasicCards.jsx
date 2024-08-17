@@ -29,13 +29,13 @@ export function BasicCards() {
 
                     <DivCol>
                         <Card>
-                            <CardTitle>Card con link</CardTitle>
-                            <CardText>
+                            <h1>Card con link</h1>
+                            <p>
                                 Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                                 Inventore commodi numquam nihil ad molestias similique voluptatem
                                 blanditiis ex tempora, accusantium atque. Natus aliquam tempora
                                 dolor cumque architecto dignissimos nesciunt debitis.
-                            </CardText>
+                            </p>
                             <CardAccions>
                                 <CardLink url={'https://stevechambitas.netlify.app/home'} text={'Saber mas'} />
                             </CardAccions>
