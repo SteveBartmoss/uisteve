@@ -10,7 +10,7 @@ export function Login() {
                 <img className="img-login" src="/Assets/montain.jpg" />
                 <DivCanva>
                     <DivCol>
-                        <h1 className="alter-subtitle">Bienvenido a UiSteve</h1>\
+                        <h1 className="alter-subtitle">Bienvenido a UiSteve</h1>
                         <p className="main-content">Inicia Sesion para ver la nueva plantilla</p>
                         <TextField label={"Usuario"} />
                         <TextField label={"Password"} isPass={true} />
