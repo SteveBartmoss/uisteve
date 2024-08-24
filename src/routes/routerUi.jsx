@@ -34,11 +34,11 @@ import { SelectBoxPage } from "../pages/SelectBoxPage";
 
 export function RuoterUi() {
 
-    const {width, height} = useScreen()
+    const { width, height } = useScreen()
 
     console.log(`width: ${width}, height: ${height}`)
 
-    const menuElements=[
+    const menuElements = [
         {
             title: 'Home',
             route: '/',
@@ -146,17 +146,16 @@ export function RuoterUi() {
             childs: [
                 {
                     title: 'Login',
-                    route: '/pages/login',
+                    route: '/login',
                 },
             ]
         }
     ]
 
     return (
-        <BrowserRouter>
-        
-            { width <= 480 ? <MenuMobil menuItems={menuElements} /> : <MenuVertical menuItems={menuElements} /> }
-            
+        <>
+            {width <= 480 ? <MenuMobil menuItems={menuElements} /> : <MenuVertical menuItems={menuElements} />}
+
             <DivFull>
                 <Routes>
                     <Route path="/" element={<HomePage />} />
@@ -164,7 +163,7 @@ export function RuoterUi() {
                     <Route path="/documentation" element={<Documentacion />} />
                     <Route path="/news" element={<News />} />
                     <Route path="/licence" element={<Licencia />} />
-                    <Route path="/dash" element={<BasicCards />}/>
+                    <Route path="/dash" element={<BasicCards />} />
                     <Route path="/forms/texfield" element={<InputsPage />} />
                     <Route path="/forms/switch" element={<TooglePage />} />
                     <Route path="/forms/slider" element={<SliderPage />} />
@@ -188,6 +187,6 @@ export function RuoterUi() {
                 </Routes>
                 <Foter />
             </DivFull>
-        </BrowserRouter>
+        </>
     );
 }
