@@ -29,6 +29,27 @@ export function DocuHome() {
                     <a className="footer-link" rel="noopener noreferrer" target="_blank" href="https://github.com/MarcoAntonioGuadalupeRivasGuzman/uisteve">
                         Keep Coding
                     </a>
+
+                    <p className="main-content">
+                        La plantilla por el momento esta desarrollada en react por lo
+                        que esta pensada para ser usada en un proyecto de este mismo
+                        framework, pero puedes replicar los componentes en tu propio
+                        proyecto si asi lo deseas o modificar este mismo proyecto
+                        para empezar a trabajar con tu nueva apliacion
+                    </p>
+
+                    <h1 className="main-subtitle">Usar solo los componentes</h1>
+
+                    <p className="main-content">
+                        Si no quieres o no es necesario usar toda la platilla puedes usar
+                        solo los componentes ya que ahora la estructura del proyecto se cambio
+                        para facilitar el uso de componentes de manera independiente, ahora cada
+                        uno de los componentes estan en su propia carpeta junto con sus propios estilos
+                        asi que basta con copiar la carpeta del componente en tu proyecto y podras
+                        usarlo sin problemas.
+                    </p>
+
+                    
                 </DivMainContent>
             </Panel>
         </>
