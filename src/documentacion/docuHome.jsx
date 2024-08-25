@@ -64,6 +64,26 @@ export function DocuHome() {
                     </p>
 
                     <Lista elementos={listaSrc} />
+
+                    <h1 className="main-subtitle">Carpeta componentes</h1>
+
+                    <p className="main-content">
+                        La carpeta componentes contiene la estructura de carpetas
+                        de los componentes que se implemento, ahora cada uno de los
+                        componentes se encuentra en sus propias carpetas en donde
+                        estan los archivos del mismo componente y los estilos.
+                    </p>
+
+                    <p className="main-content">
+                        La carpeta pages contiene las paginas que son mostradas al hacer click
+                        en los elementos del menu lateral como la pagina de las cards, de los
+                        paneles colapsables o la pagina home.
+                    </p>
+
+                    <p className="main-content">
+                        La carpeta routes contiene el router de la plantilla y es donde se pueden
+                        incorporar nuevas rutas si es que son necesarias.
+                    </p>
                     
                 </DivMainContent>
             </Panel>
