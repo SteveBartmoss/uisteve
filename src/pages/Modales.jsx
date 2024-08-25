@@ -1,8 +1,11 @@
 import { useState } from "react";
-import { Card, CardAccions, CardText, CardTitle } from "../componentes/Card";
-import { Modal } from "../componentes/Modal";
+//import { Card, CardAccions, CardText, CardTitle } from "../componentes/Card";
+//import { Modal } from "../componentes/Modal";
 import { DivMainContent, DivRow, Panel } from "../componentes/contenedores";
-import { Btn } from "../componentes/Btn";
+import { Btn } from "../componentes/btn/Btn";
+import { Card, CardAccions, CardText, CardTitle } from "../componentes/card/Card";
+import { Modal } from "../componentes/modal/Modal";
+//import { Btn } from "../componentes/Btn";
 
 
 export function Modales() {
