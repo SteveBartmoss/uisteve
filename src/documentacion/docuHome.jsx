@@ -84,7 +84,42 @@ export function DocuHome() {
                         La carpeta routes contiene el router de la plantilla y es donde se pueden
                         incorporar nuevas rutas si es que son necesarias.
                     </p>
-                    
+
+                    <hr className="divider" />
+
+                    <h1 className="main-subtitle">Archivo de estilos</h1>
+
+                    <p className="main-content">
+                        La mayoria de los estilos estan declarados en el archivo components.css que se
+                        encuentra en la carpeta src/componentes/css/components.css ya que se mantiene
+                        un mejor orden con los archivos y tambien hace que sea facil utilizar solo
+                        los componentes de la libreria ya que basta con copiar la carpeta componentes,
+                        el archivo de estilos fue importado de manera global asi que pueden ser usados
+                        en cualquier parte de la plantilla, se tiene pensado declarar los estilos dentro de los mismo
+                        componentes pero por el momento se estan asignando clases que contiene el
+                        archivo principal de css.
+                    </p>
+
+                    <p className="main-content">
+                        El archivo esta sepadado por regiones para facilitar la busqueda de la clase
+                        que tiene cierto componente y si se desea se pueden modificar para mejorar
+                        o personalizar el componente.
+                    </p>
+
+                    <p className="main-content">
+                        La integracion de google fonts y de google icons ya esta implementada en la
+                        plantilla por lo que si se desea poder usar el componente icono en otro proyecto
+                        asi como usar la fuente popins, es necesario implementar la etiqueta link que te
+                        proporciona google.
+                    </p>
+
+                    <p className="main-content">
+                        La fuente que se incorpora en la plantilla es Poppins que pertenece a google y que
+                        esta auto hosteada en la plantilla y se encuentra en la carpeta fonts, si se
+                        requiere se puede agregar alguna otra fuente que sea de tu preferencia colocandola
+                        en la carpeta fonts
+                    </p>
+
                 </DivMainContent>
             </Panel>
         </>
