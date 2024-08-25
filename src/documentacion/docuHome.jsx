@@ -1,7 +1,11 @@
 import { DivMainContent, Panel } from "../componentes/contenedores";
+import { Lista } from "../componentes/Lista";
 
 
 export function DocuHome() {
+
+    const listaSrc = ["componentes", "pages", "routes"];
+
     return (
         <>
             <Panel>
@@ -49,6 +53,17 @@ export function DocuHome() {
                         usarlo sin problemas.
                     </p>
 
+                    <hr className="divider" />
+
+                    <h1 className="main-subtitle">Estructura de las carpetas</h1>
+
+                    <p className="main-content">
+                        La caperta principal en la que se encuentran los elementos
+                        de la plantilla es src, la estructura de las carpetas dentro
+                        de la misma es la siguiente:
+                    </p>
+
+                    <Lista elementos={listaSrc} />
                     
                 </DivMainContent>
             </Panel>
