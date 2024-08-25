@@ -4,6 +4,7 @@ import { DocuHome } from "../documentacion/docuHome";
 import useScreen from "../helpers/useScreen";
 import { MenuMobil } from "../componentes/MenuMobil";
 import { MenuVertical } from "../componentes/MenuVertical";
+import { BtnDocu } from "../documentacion/btndocu";
 
 
 export function RouterDocu(){
@@ -29,7 +30,7 @@ export function RouterDocu(){
             <DivFull>
                 <Routes>
                     <Route index element={<DocuHome />} />
-                    <Route path="btn" element={<h1>Boton</h1>} />
+                    <Route path="btn" element={<BtnDocu />} />
                 </Routes>
             </DivFull>
         </>
