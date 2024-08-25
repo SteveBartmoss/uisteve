@@ -120,6 +120,24 @@ export function DocuHome() {
                         en la carpeta fonts
                     </p>
 
+                    <hr className="divider" />
+
+                    <h1 className="main-subtitle">Enfoque de la plantilla</h1>
+
+                    <p className="main-content">
+                        Siguiendo la filosofia de react (todo es reutilizable) se crearon los componente
+                        con la idea de que pudieran ser facilmente usados una y otra vez, por este motivo
+                        se agregan props y se busca manejar el estado de una que sea simple y practica para
+                        los usuarios (o al menos eso es lo que busco logar unu ) por este motivo se tendran
+                        que mandar diferentes propiedades a un componente para poder trabajar con el.
+                    </p>
+
+                    <p className="main-content">
+                        La meta es lograr completar la plantilla y posteriormente convertilar en una libreria
+                        funcional que facilite el trabajo de los desarrolladores a la hora enfrentar la
+                        creacion de una aplicacion web.
+                    </p>
+
                 </DivMainContent>
             </Panel>
         </>
