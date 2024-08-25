@@ -160,7 +160,6 @@ export function RuoterUi() {
                 <Routes>
                     <Route path="/" element={<HomePage />} />
                     <Route path="/about" element={<About />} />
-                    <Route path="/documentation" element={<Documentacion />} />
                     <Route path="/news" element={<News />} />
                     <Route path="/licence" element={<Licencia />} />
                     <Route path="/dash" element={<BasicCards />} />
