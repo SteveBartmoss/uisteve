@@ -2,7 +2,9 @@
 
 export function ColapsableDocu(){
   return(
-    h1 className="main-subtitle">Componentes</h1>
+    <>
+
+      <h1 className="main-subtitle">Componentes</h1>
 
                     <h1 className="key-word">Boton</h1>
 
@@ -33,5 +35,7 @@ export function ColapsableDocu(){
                         Evento es la funcion que se ejecutara al momento de hacer click en el boton
                         puediendo manejar de esta manera todo tipo de acciones.
                     </p>
+    </>
+           
   )
 }
