@@ -1,7 +1,12 @@
 
 
-export funcion ProgresCard(){
+export funcion ProgresCard({elements}){
   return(
-      <h1>Progres card</h1>
+
+      <Card>
+          <p>
+            {elements}
+          </p>
+      </Card>
   )
 }
