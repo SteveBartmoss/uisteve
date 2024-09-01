@@ -24,7 +24,7 @@
 }
 
 .percent-progres {
-  background-color: var(--aqua-1);
+  background-color: #149eca;
   height: 10PX;
   border-radius: 5px;
 }
