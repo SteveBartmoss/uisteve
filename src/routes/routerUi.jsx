@@ -30,6 +30,7 @@ import { TablePage } from "../pages/TablePage";
 import { CarruselPage } from "../pages/CarruselPage";
 import { Login } from "../layouts/login";
 import { SelectBoxPage } from "../pages/SelectBoxPage";
+import { ProgressPage } from "../pages/ProgressPage";
 
 
 export function RuoterUi() {
@@ -101,6 +102,10 @@ export function RuoterUi() {
                 {
                     title: 'Carrusel',
                     route: '/components/carrusel',
+                },
+                {
+                    title: 'Progress Bar',
+                    route: '/components/progressbar',
                 }
             ]
         },
@@ -181,6 +186,7 @@ export function RuoterUi() {
                     <Route path="/components/snackbar" element={<SnackBarPage />} />
                     <Route path="/components/menu" element={<PageMenu />} />
                     <Route path="/components/carrusel" element={<CarruselPage />} />
+                    <Route path="/components/progressbar" element={<ProgressPage />} />
                     <Route path="/tables/table" element={<TablePage />} />
                     <Route path="/pages/login" element={<Login />} />
                 </Routes>
