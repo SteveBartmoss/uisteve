@@ -10,7 +10,7 @@ export function RouterMain() {
             <Routes>
                 <Route path="/*" element={<RuoterUi />} />
                 <Route path="login" element={<Login />} />
-                <Route path="/documentation*" element={<RouterDocu />}/>
+                <Route path="/documentation/*" element={<RouterDocu />}/>
             </Routes>
         </BrowserRouter>
     )
