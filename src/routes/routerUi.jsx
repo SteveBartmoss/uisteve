@@ -193,7 +193,6 @@ export function RuoterUi() {
                     <Route path="/components/carrusel" element={<CarruselPage />} />
                     <Route path="/components/progressbar" element={<ProgressPage />} />
                     <Route path="/tables/table" element={<TablePage />} />
-                    <Route path="/pages/login" element={<Login />} />
                 </Routes>
                 <Foter />
             </DivFull>
