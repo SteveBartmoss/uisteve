@@ -31,6 +31,7 @@ import { CarruselPage } from "../pages/CarruselPage";
 import { Login } from "../layouts/login";
 import { SelectBoxPage } from "../pages/SelectBoxPage";
 import { ProgressPage } from "../pages/ProgressPage";
+import { BadRoute } from "../layouts/badroute";
 
 
 export function RuoterUi() {
@@ -153,6 +154,10 @@ export function RuoterUi() {
                     title: 'Login',
                     route: '/login',
                 },
+                {
+                    title: 'BadRoute',
+                    route: '/badroute',
+                }
             ]
         }
     ]
