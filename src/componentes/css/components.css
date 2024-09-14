@@ -748,9 +748,7 @@
 /*#region estilos de los contenedores*/
 .div-canva{
     background-color: var(--gris-3);
-    padding: 1rem; 
-    margin: 0 1rem;
-    border-radius: .5rem;
+    padding: 1rem;
 }
 /*#endregion*/
 
