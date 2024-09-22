@@ -23,13 +23,15 @@ export function TextFieldDocu(){
                     <h1 className="key-word">label</h1>
 
                     <p className="main-content">
-                        El componente tiene las siguientes props:
+                        Este es el texto que aparece en el textfield y que se eleva 
+                        al escribir en el text field
                     </p>
 
                     <h1 className="key-word">isPass</h1>
 
                     <p className="main-content">
-                        El componente tiene las siguientes props:
+                        Esta prop indica si el texto se debe ocultar como 
+                        por ejemplo cuando es un password
                     </p>
 
                     <h1 className="key-word">text</h1>
