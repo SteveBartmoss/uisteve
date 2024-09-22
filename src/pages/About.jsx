@@ -47,7 +47,7 @@ export function About() {
 
                     <hr className="divider" />
 
-                    <h1 className="main-subtitle">Ui Steve 0.19.21 Gemmel (Alfa) </h1>
+                    <h1 className="main-subtitle">Ui Steve 0.19.22 Gemmel (Alfa) </h1>
 
                     <p className="main-content">
                         La plantilla cuenta actualmente con los siguientes elementos:
