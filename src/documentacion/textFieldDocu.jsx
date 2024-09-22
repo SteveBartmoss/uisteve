@@ -37,13 +37,16 @@ export function TextFieldDocu(){
                     <h1 className="key-word">text</h1>
 
                     <p className="main-content">
-                        El componente tiene las siguientes props:
+                        Es el valor en el que se almacena el texto del textField se 
+                        asigna al value el textField
                     </p>
 
                     <h1 className="key-word">action</h1>
 
                     <p className="main-content">
-                        El componente tiene las siguientes props:
+                        Esta funcion se pasa como parametro para que se ejecute en el 
+                        evento onChange, por lo genera deberia recibir el target del el evento y manejarlo 
+                        para asignar el valor a la variable text
                     </p>
 
                 </DivMainContent>
