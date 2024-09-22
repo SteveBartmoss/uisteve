@@ -20,7 +20,7 @@ export function MenuMobil({menuItems}) {
             <div className={abrir ? 'menu-mobil-open' : 'menu-mobil-close'} >
                 {
                     menuItems.map(item =>
-                        item.route !='' ? <NavLink className="menu-item" to={item.route}>{item.title}</NavLink> : item.childs.length >0 ? <MenuList title={item.title} elements={item.childs} /> : <></>
+                        item.route !=='' ? <NavLink className="menu-item" to={item.route}>{item.title}</NavLink> : item.childs.length >0 ? <MenuList title={item.title} elements={item.childs} /> : <></>
                     )
                 }
             </div>
