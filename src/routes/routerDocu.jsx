@@ -6,6 +6,7 @@ import { MenuMobil } from "../componentes/MenuMobil";
 import { MenuVertical } from "../componentes/MenuVertical";
 import { BtnDocu } from "../documentacion/btndocu";
 import { ColapsableDocu } from "../documentacion/colapsableDocu";
+import { TextFieldDocu } from "../documentacion/textFieldDocu";
 
 
 export function RouterDocu(){
@@ -27,6 +28,11 @@ export function RouterDocu(){
             title: 'Expansion panel',
             route: 'expand',
             childs: []
+        },
+        {
+            title: 'Text Field',
+            route: 'textField',
+            childs: []
         }
     ]
 
@@ -38,6 +44,7 @@ export function RouterDocu(){
                     <Route index element={<DocuHome />} />
                     <Route path="btn" element={<BtnDocu />} />
                     <Route path="expand" element={<ColapsableDocu />} />
+                    <Route path="textField" element={<TextFieldDocu />} />
                 </Routes>
             </DivFull>
         </>
