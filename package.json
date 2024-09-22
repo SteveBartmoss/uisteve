@@ -1,6 +1,6 @@
 {
   "name": "uisteve",
-  "version": "0.15.9",
+  "version": "0.19.22",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
