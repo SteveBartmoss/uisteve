@@ -1,5 +1,5 @@
 import './componentes.css';
-import { generateUniqueId, generateUniqueIdV2, generateUniqueIdV3 } from './helpers/uid';
+import { generateUniqueIdV2 } from './helpers/uid';
 
 export function DataTable({ headers, elements }) {
     return (
