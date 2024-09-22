@@ -1,6 +1,6 @@
 import './TextField.css';
 
-export function TextField({label,isPass,text,action}) {
+export function TextField({label,isPass=false,text,action}) {
 
     return (
         <>
