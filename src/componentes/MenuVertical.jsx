@@ -1,7 +1,6 @@
 import { NavLink } from "react-router-dom";
 import { MenuList } from "./MenuList";
 import { useState } from "react";
-import { Icon } from "./Icon";
 import { MenuBoton } from "./MenuBoton";
 
 export function MenuVertical({menuItems}) {
