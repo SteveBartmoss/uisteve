@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Card, CardAccions, CardContent, CardLink, CardText, CardTitle } from "../componentes/Card";
-import { ExtendPanel } from "../componentes/ExtendPanel";
+import { ExtendPanel } from "../componentes/extendpanel/ExtendPanel";
 import { TextField } from "../componentes/TextField";
 import { DivCol, DivMainContent, DivRow, Panel, Ventana } from "../componentes/contenedores";
 import { Modal } from "../componentes/Modal";
