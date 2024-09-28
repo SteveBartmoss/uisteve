@@ -1,4 +1,4 @@
-import { ExtendPanel } from "../componentes/ExtendPanel";
+import { ExtendPanel } from "../componentes/extendpanel/ExtendPanel";
 import { DivCode, DivMainContent, DivRow, Panel } from "../componentes/contenedores";
 
 export function Licencia() {
