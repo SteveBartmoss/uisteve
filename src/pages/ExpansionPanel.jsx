@@ -1,6 +1,6 @@
 import { Card, CardText, CardTitle } from "../componentes/Card";
-import { ExtendPanel } from "../componentes/ExtendPanel";
 import { DivCol, DivMainContent, DivRow, Panel } from "../componentes/contenedores";
+import { ExtendPanel } from "../componentes/extendpanel/ExtendPanel";
 
 
 export function Acordeones() {
