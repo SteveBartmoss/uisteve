@@ -1,9 +1,10 @@
 import { useState } from "react";
 import { Card, CardAccions, CardContent, CardText, CardTitle } from "../componentes/Card";
-import { Tabs } from "../componentes/Tabs";
+//import { Tabs } from "../componentes/Tabs";
 import { TextField } from "../componentes/TextField";
 import { DivCol, DivMainContent, DivRow, Panel, Ventana, VentanaContent } from "../componentes/contenedores";
 import { Btn } from "../componentes/Btn";
+import { Tabs } from "../componentes/tab/Tabs";
 
 export function TabsMenu() {
 
