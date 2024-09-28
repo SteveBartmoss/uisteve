@@ -18,7 +18,7 @@ import { RangeSlider } from "../componentes/RangeSlider";
 import { TextLongField } from "../componentes/TextLongField";
 import { DataTable } from "../componentes/DataTable";
 import { SelectBox } from "../componentes/SelectBox";
-import { Btn } from "../componentes/Btn";
+import { Btn } from "../componentes/btn/Btn";
 
 
 export function HomePage() {
