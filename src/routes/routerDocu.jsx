@@ -7,6 +7,7 @@ import { MenuVertical } from "../componentes/MenuVertical";
 import { BtnDocu } from "../documentacion/btndocu";
 import { ColapsableDocu } from "../documentacion/colapsableDocu";
 import { TextFieldDocu } from "../documentacion/textFieldDocu";
+import { TabsDocu } from "../documentacion/tabsDocu";
 
 
 export function RouterDocu(){
@@ -33,6 +34,11 @@ export function RouterDocu(){
             title: 'Text Field',
             route: 'textField',
             childs: []
+        },
+        {
+            title: 'Tabs',
+            route: 'tabs',
+            childs: []
         }
     ]
 
@@ -45,6 +51,7 @@ export function RouterDocu(){
                     <Route path="btn" element={<BtnDocu />} />
                     <Route path="expand" element={<ColapsableDocu />} />
                     <Route path="textField" element={<TextFieldDocu />} />
+                    <Route path="tabs" element={<TabsDocu />} />
                 </Routes>
             </DivFull>
         </>
