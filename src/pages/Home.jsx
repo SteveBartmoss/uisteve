@@ -3,7 +3,7 @@ import { Card, CardAccions, CardContent, CardLink, CardText, CardTitle } from ".
 import { ExtendPanel } from "../componentes/extendpanel/ExtendPanel";
 import { TextField } from "../componentes/TextField";
 import { DivCol, DivMainContent, DivRow, Panel, Ventana } from "../componentes/contenedores";
-import { Modal } from "../componentes/Modal";
+import { Modal } from "../componentes/modal/Modal";
 import { Tabs } from "../componentes/Tabs";
 import { Loader, LoaderBar } from "../componentes/Loader";
 import { Icon } from "../componentes/Icon";
