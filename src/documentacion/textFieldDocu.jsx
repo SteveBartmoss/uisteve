@@ -10,9 +10,9 @@ export function TextFieldDocu(){
         <>
             <Panel>
                 <DivMainContent>
-                    <h1 className="main-subtitle">Componentes</h1>
+                    <h1 className="main-subtitle">TextField</h1>
 
-                    <h1 className="key-word">TextField</h1>
+                    <h1 className="key-word">Props</h1>
 
                     <p className="main-content">
                         El componente tiene las siguientes props:
