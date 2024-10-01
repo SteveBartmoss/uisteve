@@ -10,9 +10,9 @@ export function BtnDocu() {
         <>
             <Panel>
                 <DivMainContent>
-                    <h1 className="main-subtitle">Componentes</h1>
+                    <h1 className="main-subtitle">Boton</h1>
 
-                    <h1 className="key-word">Boton</h1>
+                    <h1 className="key-word">Props</h1>
 
                     <p className="main-content">
                         El componente esta creado con las siguientes props:
