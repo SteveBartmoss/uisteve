@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Card, CardAccions, CardContent, CardLink, CardText, CardTitle } from "../componentes/Card";
 import { ExtendPanel } from "../componentes/extendpanel/ExtendPanel";
-import { TextField } from "../componentes/TextField";
+import { TextField } from "../componentes/textField/TextField";
 import { DivCol, DivMainContent, DivRow, Panel, Ventana } from "../componentes/contenedores";
 import { Modal } from "../componentes/modal/Modal";
 import { Tabs } from "../componentes/Tabs";
@@ -19,7 +19,6 @@ import { TextLongField } from "../componentes/TextLongField";
 import { DataTable } from "../componentes/DataTable";
 import { SelectBox } from "../componentes/SelectBox";
 import { Btn } from "../componentes/btn/Btn";
-
 
 export function HomePage() {
 
