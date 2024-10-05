@@ -1,7 +1,6 @@
 import { Card, CardContent, CardText, CardTitle } from "../componentes/Card";
-import { TextField } from "../componentes/TextField";
+import { TextField } from "../componentes/textField/TextField";
 import { DivCol, DivMainContent, DivRow, Panel } from "../componentes/contenedores";
-
 
 export function InputsPage() {
     return (
