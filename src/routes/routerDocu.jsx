@@ -8,6 +8,7 @@ import { BtnDocu } from "../documentacion/btndocu";
 import { ColapsableDocu } from "../documentacion/colapsableDocu";
 import { TextFieldDocu } from "../documentacion/textFieldDocu";
 import { TabsDocu } from "../documentacion/tabsDocu";
+import { ModalDocu } from "../documentacion/modalDocu";
 
 
 export function RouterDocu(){
@@ -39,6 +40,11 @@ export function RouterDocu(){
             title: 'Tabs',
             route: 'tabs',
             childs: []
+        },
+        {
+            title: 'Modales',
+            route: 'modales',
+            childs: []
         }
     ]
 
@@ -52,6 +58,7 @@ export function RouterDocu(){
                     <Route path="expand" element={<ColapsableDocu />} />
                     <Route path="textField" element={<TextFieldDocu />} />
                     <Route path="tabs" element={<TabsDocu />} />
+                    <Route path="modales" element={<ModalDocu />} />
                 </Routes>
             </DivFull>
         </>
