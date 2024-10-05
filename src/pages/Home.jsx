@@ -4,7 +4,7 @@ import { ExtendPanel } from "../componentes/extendpanel/ExtendPanel";
 import { TextField } from "../componentes/textField/TextField";
 import { DivCol, DivMainContent, DivRow, Panel, Ventana } from "../componentes/contenedores";
 import { Modal } from "../componentes/modal/Modal";
-import { Tabs } from "../componentes/Tabs";
+import { Tabs } from "../componentes/tab/Tabs";
 import { Loader, LoaderBar } from "../componentes/Loader";
 import { Icon } from "../componentes/Icon";
 import useScreen from "../helpers/useScreen";
