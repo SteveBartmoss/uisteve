@@ -1,6 +1,6 @@
 import React from "react";
 import { generateCodeObjects } from "./decorator/gogh.js";
-import { Btn } from "../Btn.jsx";
+import { Btn } from "../btn/Btn.jsx";
 
 export function CodeExample({codigo}){
 
