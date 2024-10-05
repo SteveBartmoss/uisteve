@@ -1,9 +1,10 @@
-import { Btn } from "../componentes/Btn";
+
 import { Card, CardAccions, CardContent, CardText, CardTitle } from "../componentes/Card";
 import { DataTable } from "../componentes/DataTable";
 import { ExtendPanel } from "../componentes/ExtendPanel";
 import { Menu } from "../componentes/Menu";
 import { ToolTip } from "../componentes/ToolTip";
+import { Btn } from "../componentes/btn/Btn";
 import { DivCol, DivMainContent, DivRow, Panel } from "../componentes/contenedores";
 
 export function ToolTipPage() {
