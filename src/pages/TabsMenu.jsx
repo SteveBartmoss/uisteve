@@ -3,8 +3,9 @@ import { Card, CardAccions, CardContent, CardText, CardTitle } from "../componen
 //import { Tabs } from "../componentes/Tabs";
 import { TextField } from "../componentes/TextField";
 import { DivCol, DivMainContent, DivRow, Panel, Ventana, VentanaContent } from "../componentes/contenedores";
-import { Btn } from "../componentes/Btn";
+
 import { Tabs } from "../componentes/tab/Tabs";
+import { Btn } from "../componentes/btn/Btn";
 
 export function TabsMenu() {
 
