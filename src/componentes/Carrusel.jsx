@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { DivCol, DivRow } from "./contenedores";
 import './componentes.css';
-import { Btn } from "./Btn";
+import { Btn } from "../componentes/btn/Btn";
 
 
 export function Carrusel({ elements }) {
@@ -42,7 +42,7 @@ export function Carrusel({ elements }) {
                             })
                         }
                     </DivRow>
-
+                    
                     <Btn color={'principal'} evento={siguiente}>Siguiente</Btn>
                 </div>
             </DivRow>
