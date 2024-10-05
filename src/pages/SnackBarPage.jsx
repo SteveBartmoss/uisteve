@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Card, CardAccions, CardText, CardTitle } from "../componentes/Card";
 import { SnackBar } from "../componentes/SnackBar";
 import { DivMainContent, DivRow, Panel } from "../componentes/contenedores";
-import { Btn } from "../componentes/Btn";
+import { Btn } from "../componentes/btn/Btn";
 
 
 export function SnackBarPage() {
