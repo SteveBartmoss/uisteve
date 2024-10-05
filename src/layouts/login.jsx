@@ -1,6 +1,7 @@
-import { Btn } from "../componentes/Btn";
+
 import { Card, CardContent, CardText, CardTitle } from "../componentes/Card";
 import { TextField } from "../componentes/TextField";
+import { Btn } from "../componentes/btn/Btn";
 import { DivCanva, DivCode, DivCol, DivRow, Panel } from "../componentes/contenedores";
 
 export function Login() {
