@@ -4,13 +4,13 @@ import { Lista } from "../componentes/Lista";
 
 export function TooltipDocu() {
 
-    const propsTooltip = ["label", "isPass", "text", "action"];
+    const propsTooltip = ["children","text"];
 
     return (
         <>
             <Panel>
                 <DivMainContent>
-                    <h1 className="main-subtitle">TextField</h1>
+                    <h1 className="main-subtitle">Tooltip</h1>
 
                     <h1 className="key-word">Props</h1>
 
@@ -20,34 +20,22 @@ export function TooltipDocu() {
 
                     <Lista elementos={propsTooltip} />
 
-                    <h1 className="key-word">label</h1>
+                    <h1 className="key-word">child</h1>
 
                     <p className="main-content">
-                        Este es el texto que aparece en el textfield y que se eleva
-                        al escribir en el text field
-                    </p>
-
-                    <h1 className="key-word">isPass</h1>
-
-                    <p className="main-content">
-                        Esta prop indica si el texto se debe ocultar como
-                        por ejemplo cuando es un password
+                        El componente puede actuar como una etiqueta que envuelve 
+                        a otros componentes, por esta razon puede recibir el componente child 
+                        que sera el componente que activa el tooltip
                     </p>
 
                     <h1 className="key-word">text</h1>
 
                     <p className="main-content">
-                        Es el valor en el que se almacena el texto del textField se
-                        asigna al value el textField
+                        Es el valor en el que se muestra cuando el tooltip 
+                        se activa, la forma en que se activa es cuando se pone 
+                        el cursor sobre el elemento que tiene la etiqueta tooltip
                     </p>
 
-                    <h1 className="key-word">action</h1>
-
-                    <p className="main-content">
-                        Esta funcion se pasa como parametro para que se ejecute en el
-                        evento onChange, por lo genera deberia recibir el target del el evento y manejarlo
-                        para asignar el valor a la variable text
-                    </p>
                 </DivMainContent>
             </Panel>
         </>
