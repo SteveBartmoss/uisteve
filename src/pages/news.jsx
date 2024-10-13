@@ -1,7 +1,22 @@
+import { useState } from "react";
+import { Btn } from "../componentes/btn/Btn";
 import { DivMainContent, DivRow, Panel } from "../componentes/contenedores";
+import { Modal } from "../componentes/modal/Modal";
+import { Card, CardAccions } from "../componentes/Card";
 
 
 export function News() {
+
+    const [open, setOpen] = useState(false)
+
+    const openModal = () => {
+        setOpen(true)
+    }
+
+    const closeModal = () => {
+        setOpen(false)
+    }
+
     return (
         <Panel>
             <DivRow>
@@ -14,7 +29,15 @@ export function News() {
 
                     <h1>Nueva documentacion</h1>
 
-                    <h1>Nueva estructura de carpetas</h1>
+                    <h1 className="alter-subtitle">Nueva estructura de carpetas</h1>
+
+                    <p className="main-content">
+                        La plantilla cuenta con una forma de organizarse
+                    </p>
+
+                    <Btn evento={() => openModal()} variant=''>Mas Detalles</Btn>
+
+                    <hr className="divider" />
 
                     <h1 className="alter-subtitle">Nuevo Select box</h1>
 
@@ -126,6 +149,14 @@ export function News() {
                 </DivMainContent>
             </DivRow>
 
+            <Modal estado={open} close={closeModal}>
+                <Card>
+                    <h1>Nueva Estructura de carpetas</h1>
+                    <CardAccions>
+                        <Btn evento={() => closeModal()} variant='' color={'error'}>Cerrar</Btn>
+                    </CardAccions>
+                </Card>
+            </Modal>
         </Panel>
     )
 }
