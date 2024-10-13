@@ -9,6 +9,7 @@ import { ColapsableDocu } from "../documentacion/colapsableDocu";
 import { TextFieldDocu } from "../documentacion/textFieldDocu";
 import { TabsDocu } from "../documentacion/tabsDocu";
 import { ModalDocu } from "../documentacion/modalDocu";
+import { TooltipDocu } from "../documentacion/tooltipDocu";
 
 
 export function RouterDocu(){
@@ -45,6 +46,11 @@ export function RouterDocu(){
             title: 'Modales',
             route: 'modales',
             childs: []
+        },
+        {
+            title: 'Tooltip',
+            route: 'tooltip',
+            childs: []
         }
     ]
 
@@ -59,6 +65,7 @@ export function RouterDocu(){
                     <Route path="textField" element={<TextFieldDocu />} />
                     <Route path="tabs" element={<TabsDocu />} />
                     <Route path="modales" element={<ModalDocu />} />
+                    <Route path="tooltip" element={<TooltipDocu />} />
                 </Routes>
             </DivFull>
         </>
