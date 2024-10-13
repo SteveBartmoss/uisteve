@@ -8,7 +8,6 @@ import { Tabs } from "../componentes/tab/Tabs";
 import { Loader, LoaderBar } from "../componentes/Loader";
 import { Icon } from "../componentes/Icon";
 import useScreen from "../helpers/useScreen";
-import { ToolTip } from "../componentes/ToolTip";
 import { Chip } from "../componentes/Chip";
 import { SnackBar } from "../componentes/SnackBar";
 import { Menu } from "../componentes/Menu";
@@ -19,6 +18,7 @@ import { TextLongField } from "../componentes/TextLongField";
 import { DataTable } from "../componentes/DataTable";
 import { SelectBox } from "../componentes/SelectBox";
 import { Btn } from "../componentes/btn/Btn";
+import { ToolTip } from "../componentes/toolTip/toolTip";
 
 export function HomePage() {
 
