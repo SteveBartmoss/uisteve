@@ -2,9 +2,10 @@
 import { Card, CardAccions, CardContent, CardText, CardTitle } from "../componentes/Card";
 import { DataTable } from "../componentes/DataTable";
 import { Menu } from "../componentes/Menu";
-import { ToolTip } from "../componentes/ToolTip";
+
 import { Btn } from "../componentes/btn/Btn";
 import { DivCol, DivMainContent, DivRow, Panel } from "../componentes/contenedores";
+import { ToolTip } from "../componentes/toolTip/toolTip";
 
 export function ToolTipPage() {
 
