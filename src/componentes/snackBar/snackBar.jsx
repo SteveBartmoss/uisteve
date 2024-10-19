@@ -1,5 +1,5 @@
 import { useEffect } from "react"
-
+import './snackBar.css'; 
 
 export function SnackBar({children,open,setOpen}){
 
