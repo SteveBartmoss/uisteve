@@ -10,6 +10,7 @@ import { TextFieldDocu } from "../documentacion/textFieldDocu";
 import { TabsDocu } from "../documentacion/tabsDocu";
 import { ModalDocu } from "../documentacion/modalDocu";
 import { TooltipDocu } from "../documentacion/tooltipDocu";
+import { SnapBarDocu } from "../documentacion/snapBarDocu";
 
 
 export function RouterDocu(){
@@ -51,6 +52,11 @@ export function RouterDocu(){
             title: 'Tooltip',
             route: 'tooltip',
             childs: []
+        },
+        {
+            title: 'SnackBar',
+            route: 'snackBar',
+            child: []
         }
     ]
 
@@ -66,6 +72,7 @@ export function RouterDocu(){
                     <Route path="tabs" element={<TabsDocu />} />
                     <Route path="modales" element={<ModalDocu />} />
                     <Route path="tooltip" element={<TooltipDocu />} />
+                    <Route path="snackbar" element={<SnapBarDocu />} />
                 </Routes>
             </DivFull>
         </>
