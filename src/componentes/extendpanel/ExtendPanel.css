@@ -18,7 +18,7 @@
 .extend-content {
     color: white;
     font-family: "Poppins";
-    font-size: 1.2rem;
+    font-size: 1.2rem !important;
     padding: .5rem;
 }
 
@@ -32,4 +32,11 @@
 
 .up-icon {
     transform: rotate(360deg);
+}
+
+.extend-content p {
+    color: white;
+    font-family: "Poppins";
+    font-size: 1.2rem !important;
+    padding: .5rem;
 }
