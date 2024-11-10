@@ -21,7 +21,7 @@ export function News() {
         <Panel>
             <DivRow>
                 <DivMainContent>
-                    <h1 className="main-title">Ui Steve 0.19.23 Gemmel (Alfa)</h1>
+                    <h1 className="main-title">Ui Steve 0.19.24 Gemmel (Alfa)</h1>
 
                     <hr className="divider" />
 
