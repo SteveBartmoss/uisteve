@@ -3,6 +3,7 @@ import { Btn } from "../componentes/btn/Btn";
 import { DivMainContent, DivRow, Panel } from "../componentes/contenedores";
 import { Modal } from "../componentes/modal/Modal";
 import { Card, CardAccions } from "../componentes/Card";
+import { CodeExample } from "../componentes/codeExample/codeExample";
 
 
 export function News() {
@@ -152,6 +153,14 @@ export function News() {
             <Modal estado={open} close={closeModal}>
                 <Card>
                     <h1>Nueva Estructura de carpetas</h1>
+                    
+                    <p>
+                        Ahora la plantilla esta organizada por 
+                        componentes, lo que hace que tomar un componente 
+                        independiente sea mas simple, basta con tomar la carpeta 
+                        del componente que quieres usar y agregarlo a tu proyecto
+                    </p>
+                    
                     <CardAccions>
                         <Btn evento={() => closeModal()} variant='' color={'error'}>Cerrar</Btn>
                     </CardAccions>
