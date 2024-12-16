@@ -68,15 +68,6 @@ export function TablePage() {
                         </Card>
                     </DivCol>
 
-                    <DivCol>
-                        <Card>
-                            <CardTitle>Example</CardTitle>
-                            <CardContent>
-                                <CodeExample codigo={'<button onClick = { evento } className = { `btn-basic ${variant} ${color} ` } > { children } </button>'} />
-                            </CardContent>
-                        </Card>
-                    </DivCol>
-
                 </DivRow>
 
             </DivMainContent>
