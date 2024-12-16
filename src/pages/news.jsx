@@ -4,6 +4,7 @@ import { DivMainContent, DivRow, Panel } from "../componentes/contenedores";
 import { Modal } from "../componentes/modal/Modal";
 import { Card, CardAccions } from "../componentes/Card";
 import { CodeExample } from "../componentes/codeExample/codeExample";
+import { CodeSpace } from "../componentes/codeSpace/CodeSpace";
 
 
 export function News() {
@@ -160,7 +161,10 @@ export function News() {
                         independiente sea mas simple, basta con tomar la carpeta 
                         del componente que quieres usar y agregarlo a tu proyecto
                     </p>
-                    
+
+                    <CodeSpace title={"Nueva Estructura"} rawCode={`src/componentes/btn
+                    src/componentes/modal`} />
+
                     <CardAccions>
                         <Btn evento={() => closeModal()} variant='' color={'error'}>Cerrar</Btn>
                     </CardAccions>
