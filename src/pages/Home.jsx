@@ -8,7 +8,6 @@ import { Tabs } from "../componentes/tab/Tabs";
 import { Loader, LoaderBar } from "../componentes/Loader";
 import { Icon } from "../componentes/Icon";
 import useScreen from "../helpers/useScreen";
-import { Chip } from "../componentes/Chip";
 
 import { Menu } from "../componentes/Menu";
 import { Carrusel } from "../componentes/Carrusel";
@@ -20,6 +19,7 @@ import { SelectBox } from "../componentes/SelectBox";
 import { Btn } from "../componentes/btn/Btn";
 import { ToolTip } from "../componentes/toolTip/toolTip";
 import { SnackBar } from "../componentes/snackBar/snackBar";
+import { Chip } from "../componentes/chip/Chip";
 
 export function HomePage() {
 
