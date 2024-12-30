@@ -1,5 +1,5 @@
 import { Card, CardAccions, CardText, CardTitle } from "../componentes/Card";
-import { Chip } from "../componentes/Chip";
+import { Chip } from "../componentes/chip/Chip";
 import { DivMainContent, DivRow, Panel } from "../componentes/contenedores";
 
 
