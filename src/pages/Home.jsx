@@ -10,7 +10,6 @@ import { Icon } from "../componentes/Icon";
 import useScreen from "../helpers/useScreen";
 
 import { Menu } from "../componentes/Menu";
-import { Carrusel } from "../componentes/Carrusel";
 import { Toogle } from "../componentes/Toogle";
 import { RangeSlider } from "../componentes/RangeSlider";
 import { TextLongField } from "../componentes/TextLongField";
@@ -20,6 +19,7 @@ import { Btn } from "../componentes/btn/Btn";
 import { ToolTip } from "../componentes/toolTip/toolTip";
 import { SnackBar } from "../componentes/snackBar/snackBar";
 import { Chip } from "../componentes/chip/Chip";
+import { Carrusel } from "../componentes/carrusel/Carrusel";
 
 export function HomePage() {
 
