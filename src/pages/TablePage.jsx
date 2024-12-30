@@ -1,5 +1,4 @@
 import { Card, CardContent, CardText, CardTitle } from "../componentes/Card";
-import { Carrusel } from "../componentes/Carrusel";
 import { DataTable } from "../componentes/DataTable";
 import { SelectBox } from "../componentes/SelectBox";
 import { CodeExample } from "../componentes/codeExample/codeExample";
