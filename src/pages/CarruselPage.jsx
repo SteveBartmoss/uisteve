@@ -1,5 +1,6 @@
 import { Card, CardContent, CardText, CardTitle } from "../componentes/Card";
-import { Carrusel } from "../componentes/Carrusel";
+import { Carrusel } from "../componentes/carrusel/Carrusel";
+
 import { DivCol, DivMainContent, DivRow, Panel } from "../componentes/contenedores";
 
 
