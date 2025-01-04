@@ -1,7 +1,5 @@
 
-import { Card, CardAccions, CardContent, CardText, CardTitle } from "../componentes/Card";
-import { Menu } from "../componentes/Menu";
-
+import { Card, CardAccions, CardText, CardTitle } from "../componentes/Card";
 import { Btn } from "../componentes/btn/Btn";
 import { DivCol, DivMainContent, DivRow, Panel } from "../componentes/contenedores";
 import { ToolTip } from "../componentes/toolTip/toolTip";
