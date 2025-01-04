@@ -5,7 +5,6 @@ import { TextField } from "../componentes/textField/TextField";
 import { DivCol, DivMainContent, DivRow, Panel, Ventana } from "../componentes/contenedores";
 import { Modal } from "../componentes/modal/Modal";
 import { Tabs } from "../componentes/tab/Tabs";
-import { Loader, LoaderBar } from "../componentes/Loader";
 import { Icon } from "../componentes/Icon";
 import useScreen from "../helpers/useScreen";
 
@@ -21,6 +20,7 @@ import { SnackBar } from "../componentes/snackBar/snackBar";
 import { Chip } from "../componentes/chip/Chip";
 import { Carrusel } from "../componentes/carrusel/Carrusel";
 import { DataTable } from "../componentes/datatable/DataTable";
+import { Loader, LoaderBar } from "../componentes/loader/Loader";
 
 export function HomePage() {
 
