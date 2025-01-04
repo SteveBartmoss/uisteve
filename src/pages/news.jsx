@@ -3,7 +3,6 @@ import { Btn } from "../componentes/btn/Btn";
 import { DivMainContent, DivRow, Panel } from "../componentes/contenedores";
 import { Modal } from "../componentes/modal/Modal";
 import { Card, CardAccions } from "../componentes/Card";
-import { CodeExample } from "../componentes/codeExample/codeExample";
 import { CodeSpace } from "../componentes/codeSpace/CodeSpace";
 
 
@@ -23,7 +22,7 @@ export function News() {
         <Panel>
             <DivRow>
                 <DivMainContent>
-                    <h1 className="main-title">Ui Steve 0.20.39 Gemmel (Alfa)</h1>
+                    <h1 className="main-title">Ui Steve 0.20.42 Gemmel (Alfa)</h1>
 
                     <hr className="divider" />
 
