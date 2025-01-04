@@ -1,6 +1,5 @@
 
 import { Card, CardAccions, CardContent, CardText, CardTitle } from "../componentes/Card";
-import { DataTable } from "../componentes/DataTable";
 import { Menu } from "../componentes/Menu";
 
 import { Btn } from "../componentes/btn/Btn";
