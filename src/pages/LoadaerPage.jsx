@@ -1,6 +1,6 @@
 import { Card, CardContent, CardText, CardTitle } from "../componentes/Card";
-import { Loader, LoaderBar } from "../componentes/Loader";
 import { DivCol, DivMainContent, DivRow, Panel } from "../componentes/contenedores";
+import { Loader, LoaderBar } from "../componentes/loader/Loader";
 
 
 export function LoaderPage() {
