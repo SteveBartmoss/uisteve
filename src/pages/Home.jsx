@@ -13,7 +13,6 @@ import { Toogle } from "../componentes/Toogle";
 import { RangeSlider } from "../componentes/RangeSlider";
 import { TextLongField } from "../componentes/TextLongField";
 
-import { SelectBox } from "../componentes/SelectBox";
 import { Btn } from "../componentes/btn/Btn";
 import { ToolTip } from "../componentes/toolTip/toolTip";
 import { SnackBar } from "../componentes/snackBar/snackBar";
@@ -21,6 +20,7 @@ import { Chip } from "../componentes/chip/Chip";
 import { Carrusel } from "../componentes/carrusel/Carrusel";
 import { DataTable } from "../componentes/datatable/DataTable";
 import { Loader, LoaderBar } from "../componentes/loader/Loader";
+import { SelectBox } from "../componentes/selectbox/SelectBox";
 
 export function HomePage() {
 
