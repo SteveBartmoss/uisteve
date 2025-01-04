@@ -13,13 +13,14 @@ import { Menu } from "../componentes/Menu";
 import { Toogle } from "../componentes/Toogle";
 import { RangeSlider } from "../componentes/RangeSlider";
 import { TextLongField } from "../componentes/TextLongField";
-import { DataTable } from "../componentes/DataTable";
+
 import { SelectBox } from "../componentes/SelectBox";
 import { Btn } from "../componentes/btn/Btn";
 import { ToolTip } from "../componentes/toolTip/toolTip";
 import { SnackBar } from "../componentes/snackBar/snackBar";
 import { Chip } from "../componentes/chip/Chip";
 import { Carrusel } from "../componentes/carrusel/Carrusel";
+import { DataTable } from "../componentes/datatable/DataTable";
 
 export function HomePage() {
 
