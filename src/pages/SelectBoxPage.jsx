@@ -1,6 +1,7 @@
 import { Card, CardContent, CardText, CardTitle } from "../componentes/Card";
 import { DivCol, DivMainContent, DivRow, Panel } from "../componentes/contenedores";
-import { SelectBox } from "../componentes/SelectBox";
+import { SelectBox } from "../componentes/selectbox/SelectBox";
+
 
 
 export function SelectBoxPage() {
