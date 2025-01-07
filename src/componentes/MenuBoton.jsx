@@ -1,5 +1,6 @@
 import { NavLink } from "react-router-dom";
-import { Icon } from "./Icon";
+import { Icon } from "./icon/Icon";
+
 
 export function MenuBoton({evento,isOpen}) {
     return (
