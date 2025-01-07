@@ -1,6 +1,6 @@
 import { Card, CardAccions, CardText, CardTitle } from "../componentes/Card";
-import { Icon } from "../componentes/Icon";
 import { DivCol, DivMainContent, DivRow, Panel } from "../componentes/contenedores";
+import { Icon } from "../componentes/icon/Icon";
 
 
 export function IconsPage() {
