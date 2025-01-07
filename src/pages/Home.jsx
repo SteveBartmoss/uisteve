@@ -5,7 +5,7 @@ import { TextField } from "../componentes/textField/TextField";
 import { DivCol, DivMainContent, DivRow, Panel, Ventana } from "../componentes/contenedores";
 import { Modal } from "../componentes/modal/Modal";
 import { Tabs } from "../componentes/tab/Tabs";
-import { Icon } from "../componentes/Icon";
+
 import useScreen from "../helpers/useScreen";
 
 import { Menu } from "../componentes/Menu";
@@ -21,6 +21,7 @@ import { Carrusel } from "../componentes/carrusel/Carrusel";
 import { DataTable } from "../componentes/datatable/DataTable";
 import { Loader, LoaderBar } from "../componentes/loader/Loader";
 import { SelectBox } from "../componentes/selectbox/SelectBox";
+import { Icon } from "../componentes/icon/Icon";
 
 export function HomePage() {
 
