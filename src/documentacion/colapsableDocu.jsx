@@ -1,5 +1,6 @@
 import { DivMainContent, Panel } from "../componentes/contenedores";
-import { Lista } from "../componentes/Lista";
+import { Lista } from "../componentes/lista/Lista";
+
 
 export function ColapsableDocu() {
 
@@ -9,7 +10,7 @@ export function ColapsableDocu() {
     <>
       <Panel>
         <DivMainContent>
-
+          
           <h1 className="main-subtitle">Expansion Panel</h1>
 
           <h1 className="key-word">Props</h1>
