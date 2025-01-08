@@ -1,5 +1,5 @@
-import { Lista } from "../componentes/Lista";
 import { DivMainContent, DivRow, Panel } from "../componentes/contenedores";
+import { Lista } from "../componentes/lista/Lista";
 
 
 const listaComponentes = ["Botones", "Tabs", "Modales", "TextField", "TextLong", "Panel Colapsable", "Cards", "Loaders", "Switch", "Iconos", "Sliders"];
