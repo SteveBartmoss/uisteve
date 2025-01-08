@@ -1,5 +1,5 @@
-import { Lista } from "../componentes/Lista";
 import { DivMainContent, Panel } from "../componentes/contenedores";
+import { Lista } from "../componentes/lista/Lista";
 
 
 export function Documentacion() {
