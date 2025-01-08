@@ -1,5 +1,5 @@
 import { DivMainContent, Panel } from "../componentes/contenedores";
-import { Lista } from "../componentes/Lista";
+import { Lista } from "../componentes/lista/Lista";
 
 
 export function SnackBarDocu(){
