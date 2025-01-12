@@ -1,0 +1,62 @@
+.code-container{
+    border-radius: .5rem;
+}
+
+.code-space{
+    background: #16181d;
+    border-bottom-left-radius: .5rem;
+    border-bottom-right-radius: .5rem;
+}
+
+.code-space p{
+    padding: .5rem;
+    margin: 0 1rem;
+}
+
+.code-space-title{
+    background: rgb(35, 39, 47);
+    border-top-left-radius: .5rem;
+    border-top-right-radius: .5rem;
+}
+
+.code-space-title h1{
+    font-size: 1.5rem;
+    padding: .5rem;
+    margin: 0 1rem;
+}
+
+.reserved-word{
+    color: #E57474;
+}
+
+.symbol{
+    color: #8CCF7E;
+}
+
+.comun-word{
+    color: #67B0E8;
+}
+
+.coment-word{
+    color: #67B0E8;
+}
+
+.variable-word{
+    color: #C061CB;
+}
+
+.operator-set{
+    color: #8CCF7E;
+}
+
+.operator-access{
+    color: #9DA9A0;
+}
+
+.number-word{
+    color: #E69875;
+}
+
+.object-word{
+    color: #E5C76B;
+}
