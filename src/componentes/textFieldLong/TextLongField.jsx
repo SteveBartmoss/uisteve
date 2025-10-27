@@ -1,4 +1,4 @@
-import './componentes.css';
+import './TextLongField.css'
 
 export function TextLongField({label}){
 
