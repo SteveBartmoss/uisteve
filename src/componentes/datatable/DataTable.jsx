@@ -20,7 +20,9 @@ export function DataTable({ headers, elements }) {
                         <tr key={generateUniqueIdV2()}>
                             {
                                 headers.map(head =>
-                                    <td key={generateUniqueIdV2()} className="table-content">{item[head.key]}</td>
+                                    <td key={generateUniqueIdV2()} className="table-content">
+                                        {head.render ? head.render(item) : item[head.key]}
+                                    </td>
                                 )
                             }
                         </tr>
